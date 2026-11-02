@@ -1,0 +1,22 @@
+PASS Project-subpath assets load; no horizontal overflow
+PASS Ten-file mode gated before first single
+PASS One real MP4 generated, decoded and persisted
+PASS Ten-file mode unlocked
+PASS Ten additional real MP4s generated serially
+PASS No concurrent MediaRecorder instances
+PASS Every video has a unique seed
+PASS All eleven downloads are decodable 360x640 H.264 MP4 with audio
+PASS IndexedDB survives reload; no server required
+PASS Stop discards current partial file
+PASS Retry completes only the unfinished item
+PASS 540p resets ten-file verification gate
+PASS 540p single MP4 recorded and metadata decoded (Chromium only)
+PASS 720p resets ten-file verification gate
+PASS 720p single MP4 recorded and metadata decoded (Chromium only)
+PASS 1080p resets ten-file verification gate
+PASS 1080p single MP4 recorded and metadata decoded (Chromium only)
+PASS Visibility-change handler cancels recording
+PASS No uncaught JavaScript errors
+PASS Unsupported MP4 shows error and disables recording
+PASS Storage cap preserves current MP4 for manual recovery
+{"browser": "Chromium desktop, mobile viewport 390x844", "iphone_safari": "UNTESTED", "checks": ["Project-subpath assets load; no horizontal overflow", "Ten-file mode gated before first single", "One real MP4 generated, decoded and persisted", "Ten-file mode unlocked", "Ten additional real MP4s generated serially", "No concurrent MediaRecorder instances", "Every video has a unique seed", "All eleven downloads are decodable 360x640 H.264 MP4 with audio", "IndexedDB survives reload; no server required", "Stop discards current partial file", "Retry completes only the unfinished item", "540p resets ten-file verification gate", "540p single MP4 recorded and metadata decoded (Chromium only)", "720p resets ten-file verification gate", "720p single MP4 recorded and metadata decoded (Chromium only)", "1080p resets ten-file verification gate", "1080p single MP4 recorded and metadata decoded (Chromium only)", "Visibility-change handler cancels recording", "No uncaught JavaScript errors", "Unsupported MP4 shows error and disables recording", "Storage cap preserves current MP4 for manual recovery"], "status": "PASS"}

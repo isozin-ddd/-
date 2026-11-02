@@ -1,0 +1,9 @@
+{
+  "name": "infinite-shorts-canvas",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/engine.test.js",
+    "check": "node --check docs/app.js && node --check docs/engine.js && node --check docs/storage.js"
+  }
+}
