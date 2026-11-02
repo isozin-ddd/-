@@ -1,0 +1,15 @@
+{
+  "browser": "Chromium",
+  "iphone_safari": "UNTESTED",
+  "checks": [
+    "Pending task restored after stop and full reload",
+    "Restored task records and saves; persisted queue cleared",
+    "asmr actual MP4 recorded, metadata decoded and persisted",
+    "meme actual MP4 recorded, metadata decoded and persisted",
+    "domino actual MP4 recorded, metadata decoded and persisted",
+    "All four genres available as actual stored MP4s",
+    "Share API receives real MP4 File during user activation (mock handoff only)",
+    "No uncaught script errors"
+  ],
+  "status": "PASS"
+}

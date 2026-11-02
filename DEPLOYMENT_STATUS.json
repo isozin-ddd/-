@@ -1,0 +1,14 @@
+{
+  "source_repository": "https://github.com/isozin-ddd/-",
+  "source_saved": true,
+  "hosting": "GitHub Pages only",
+  "published_url_verified": false,
+  "candidate_url_not_confirmed": "https://isozin-ddd.github.io/-/",
+  "pages_settings": "https://github.com/isozin-ddd/-/settings/pages",
+  "pages_required_source": {"branch": "main", "directory": "/docs"},
+  "repository_visibility_observed": "private",
+  "blocker": "Current connector cannot enable or inspect Pages settings, change repository visibility, or obtain a successful Pages deployment URL. Owner must configure initial Pages source; Free accounts require a public repository.",
+  "browser_verification": "Actual Chromium MP4 recordings: 1 followed by 10; serial recording; playback metadata; downloads; four genres; stop/retry; persistence; 540/720/1080 single recordings; explicit unsupported-MP4 error; storage cap recovery.",
+  "iphone_safari": "UNTESTED: physical device recording, ten-file run, Files save, 1080p performance",
+  "file_sharing_verification": "MP4 File handed to a mock Share API during user activation; actual iOS share sheet and Files save remain untested."
+}

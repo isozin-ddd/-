@@ -1,0 +1,8 @@
+PASS Pending task restored after stop and full reload
+PASS Restored task records and saves; persisted queue cleared
+PASS asmr actual MP4 recorded, metadata decoded and persisted
+PASS meme actual MP4 recorded, metadata decoded and persisted
+PASS domino actual MP4 recorded, metadata decoded and persisted
+PASS All four genres available as actual stored MP4s
+PASS Share API receives real MP4 File during user activation (mock handoff only)
+PASS No uncaught script errors

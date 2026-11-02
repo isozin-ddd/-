@@ -2,10 +2,12 @@ import {capability,pickTypes,scene,record,inspect,newSeed,LABELS,GENRES} from '.
 import * as store from './storage.js';
 const $=id=>document.getElementById(id),canvas=$('canvas');
 let genre='ball',active=false,controller=null,retryTasks=[],verified='',previewRAF=0,previewScene=scene('ball',2026),previewStart=performance.now(),lastPreview=previewStart;
-let playerURL='',playerId='',playerFile=null,recoveryURL='',recoveryFile=null,recoveryMeta=null,wakeLock=null,library=[],supported=false,storageReady=false;
+let playerRequest=0,playerURL='',playerId='',playerFile=null,recoveryURL='',recoveryFile=null,recoveryMeta=null,wakeLock=null,library=[],supported=false,storageReady=false;
 const signature=s=>JSON.stringify([s.width,s.duration,s.bgm,s.sfx,s.caption]);
 const config=()=>({genre,width:Number($('resolution').value),duration:Number($('duration').value),bgm:$('bgm').value,sfx:$('sfx').checked,caption:$('caption').checked});
 const name=meta=>`infinite-${meta.genre}-${meta.id}.mp4`;
+function saveQueue(){try{localStorage.setItem('infinite-shorts-pending-v1',JSON.stringify(retryTasks))}catch{}}
+function readQueue(){try{const tasks=JSON.parse(localStorage.getItem('infinite-shorts-pending-v1')||'[]');if(!Array.isArray(tasks)||tasks.length>10)return [];return tasks.filter(t=>t&&GENRES.includes(t.genre)&&[360,540,720,1080].includes(t.width)&&[3,6,10,15].includes(t.duration)&&Number.isInteger(t.seed)&&['calm','beat','off'].includes(t.bgm)&&typeof t.sfx==='boolean'&&typeof t.caption==='boolean'&&/^[a-z0-9-]+$/.test(t.id)&&!library.some(m=>m.id===t.id))}catch{return []}}
 function error(message){$('error').textContent=message}
 function updateButtons(){
  $('settings').disabled=active;$('single').disabled=active||!supported||!storageReady||!!recoveryFile;$('batch').disabled=active||!supported||!storageReady||!!recoveryFile||verified!==signature(config());$('stop').disabled=!active;$('retry').disabled=active||!retryTasks.length||!!recoveryFile||!supported||!storageReady;
@@ -24,7 +26,7 @@ async function start(tasks){
  // Start/resume audio in this click handler, before any IndexedDB await.
  let context=null,resume=null;const audioWanted=tasks.some(s=>s.sfx||s.bgm!=='off');
  try{if(audioWanted){const Audio=window.AudioContext||window.webkitAudioContext;if(!Audio)throw Error('音声合成に対応していません。BGMと効果音をOFFにしてください');context=new Audio();resume=context.resume()}}catch(e){error(e.message);return}
- active=true;controller=new AbortController();retryTasks=tasks.slice();updateButtons();error('');closePlayer();let done=0;const total=tasks.length;$('progress').value=0;$('counter').textContent=`0 / ${total}`;
+ active=true;controller=new AbortController();retryTasks=tasks.slice();saveQueue();updateButtons();error('');closePlayer();let done=0;const total=tasks.length;$('progress').value=0;$('counter').textContent=`0 / ${total}`;
  try{
   if(resume)await resume;
   if(navigator.wakeLock?.request)try{wakeLock=await navigator.wakeLock.request('screen')}catch{}
@@ -36,9 +38,10 @@ async function start(tasks){
    $('status').textContent=`${done+1}本目のMP4を確認・保存しています…`;
    const info=await inspect(blob);
    if(info.width!==task.width||info.height!==task.width*16/9)throw Error(`指定した解像度で録画されませんでした（${info.width}×${info.height}）。低い解像度で再試行してください。`);
+   if(controller.signal.aborted)throw controller.signal.reason;
    const meta={id:task.id,genre:task.genre,seed:task.seed,width:info.width,height:info.height,duration:task.duration,created:Date.now(),size:blob.size,title:`${LABELS[task.genre]} #${String(task.seed%10000).padStart(4,'0')}`,tags:`#Shorts #オリジナル #${{ball:'物理演算',asmr:'ASMR',meme:'シュール',domino:'連鎖反応'}[task.genre]}`};
-   try{await store.put(meta,blob)}catch(e){showRecovery(meta,blob);retryTasks.shift();throw Error(e.message+' 今回の1本は下の保存ボタンから退避できます。')}
-   retryTasks.shift();done++;verified=signature(task);$('progress').value=done/total*100;$('counter').textContent=`${done} / ${total} 完成`;await refreshLibrary();
+   try{await store.put(meta,blob)}catch(e){showRecovery(meta,blob);throw Error(e.message+' 今回の1本は下の保存ボタンから退避できます。')}
+   retryTasks.shift();saveQueue();done++;verified=signature(task);$('progress').value=done/total*100;$('counter').textContent=`${done} / ${total} 完成`;await refreshLibrary();
    if(done<total)await new Promise(resolve=>setTimeout(resolve,150));
   }
   $('status').textContent=`${done}本が完成しました。「再生・保存」からファイルに保存できます。`;
@@ -62,9 +65,9 @@ async function refreshLibrary(){
   const del=node('button','削除して容量を空ける');del.className='delete';del.type='button';del.onclick=async()=>{if(!window.confirm('この端末内の動画を削除しますか？「ファイル」に保存した動画は削除されません。'))return;try{if(playerId===meta.id)closePlayer();await store.remove(meta.id);await refreshLibrary()}catch(e){error(e.message)}};card.append(del);parent.append(card);
  }
 }
-function closePlayer(){const video=$('player');video.pause();video.removeAttribute('src');video.load();if(playerURL)URL.revokeObjectURL(playerURL);playerURL='';playerId='';playerFile=null;$('download-file').removeAttribute('href');$('player-panel').hidden=true}
+function closePlayer(){playerRequest++;const video=$('player');video.pause();video.removeAttribute('src');video.load();if(playerURL)URL.revokeObjectURL(playerURL);playerURL='';playerId='';playerFile=null;$('download-file').removeAttribute('href');$('player-panel').hidden=true}
 async function openPlayer(meta){
- closePlayer();const blob=await store.get(meta.id);playerURL=URL.createObjectURL(blob);playerId=meta.id;playerFile=new File([blob],name(meta),{type:'video/mp4'});$('player').src=playerURL;$('player-title').textContent=meta.title;$('download-file').href=playerURL;$('download-file').download=name(meta);$('player-panel').hidden=false;
+ closePlayer();const request=playerRequest;const blob=await store.get(meta.id);if(request!==playerRequest)return;playerURL=URL.createObjectURL(blob);playerId=meta.id;playerFile=new File([blob],name(meta),{type:'video/mp4'});$('player').src=playerURL;$('player-title').textContent=meta.title;$('download-file').href=playerURL;$('download-file').download=name(meta);$('player-panel').hidden=false;
  const share=!!(navigator.canShare&&navigator.share&&navigator.canShare({files:[playerFile]}));$('save-file').disabled=!share;$('save-hint').textContent=share?'「共有からファイルに保存」を押し、共有シートで「ファイルに保存」を選びます。':'ファイル共有に非対応です。「MP4をダウンロード」を押してください。';$('player-panel').scrollIntoView({behavior:'smooth',block:'start'});
 }
 function shareFile(file){if(!file)return;try{navigator.share({files:[file]}).catch(e=>{if(e.name!=='AbortError')error('共有できませんでした。「MP4をダウンロード」を使用してください。')})}catch{error('共有できませんでした。「MP4をダウンロード」を使用してください。')}}
@@ -74,10 +77,10 @@ function showRecovery(meta,blob){
 }
 $('recover-share').onclick=()=>shareFile(recoveryFile);
 // Explicit acknowledgement prevents losing the only in-memory copy after a quota error.
-const recoveryDone=node('button','保存できたので、この一時動画を破棄する');recoveryDone.type='button';recoveryDone.onclick=()=>{if(!confirm('ファイルに保存できたことを確認しましたか？'))return;if(recoveryURL)URL.revokeObjectURL(recoveryURL);recoveryURL='';recoveryFile=null;recoveryMeta=null;$('recover-download').removeAttribute('href');$('recovery').hidden=true;updateButtons()};$('recovery').append(recoveryDone);
+const recoveryDone=node('button','保存できたので、この一時動画を破棄する');recoveryDone.type='button';recoveryDone.onclick=()=>{if(!confirm('ファイルに保存できたことを確認しましたか？'))return;if(recoveryURL)URL.revokeObjectURL(recoveryURL);if(retryTasks[0]?.id===recoveryMeta?.id){retryTasks.shift();saveQueue()}recoveryURL='';recoveryFile=null;recoveryMeta=null;$('recover-download').removeAttribute('href');$('recovery').hidden=true;updateButtons()};$('recovery').append(recoveryDone);
 async function boot(){
  const reason=capability();supported=!reason;$('support').classList.toggle('bad',!!reason);$('support').textContent=reason||`MP4録画APIに対応しています。実際の録画・保存は「まず1本」で確認します。`;
- try{await store.openDB();await refreshLibrary();storageReady=true}catch(e){error(e.message)}
- $('status').textContent=supported&&storageReady?'まず低解像度で1本を生成してください。':'録画を開始できません。対応状況・エラーを確認してください。';updateButtons();resetPreview();previewRAF=requestAnimationFrame(preview);
+ try{await store.openDB();await refreshLibrary();storageReady=true;retryTasks=readQueue();saveQueue()}catch(e){error(e.message)}
+ $('status').textContent=supported&&storageReady?(retryTasks.length?`未完了 ${retryTasks.length}本が残っています。「再試行」で続けられます。`:'まず低解像度で1本を生成してください。'):'録画を開始できません。対応状況・エラーを確認してください。';updateButtons();resetPreview();previewRAF=requestAnimationFrame(preview);
 }
 boot();
