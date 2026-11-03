@@ -1,11 +1,11 @@
 import {CATALOG,templatesFor,templateFor,englishMetadata,productionAssessment} from './catalog.js';
 import {mountResearch} from './research-ui.js';
 import {mountAnalytics} from './insights.js';
-import {capability,pickTypes,createAudio,scene,record,inspect,newSeed,rng,LABELS,GENRES} from './engine.js?v=viral2';
+import {capability,pickTypes,createAudio,scene,record,inspect,newSeed,rng,LABELS,GENRES} from './engine.js?v=viral3';
 import * as store from './storage.js?v=global60';
 const $=id=>document.getElementById(id),canvas=$('canvas');
 let previewAudio=null,previewContext=null,previewTime=-.001;
-let selectedEngineVersion='viral-2';
+let selectedEngineVersion='viral-3';
 let genre='ball',active=false,controller=null,retryTasks=[],verified='',previewRAF=0,previewScene=scene('ball',2026),previewStart=performance.now(),lastPreview=previewStart;
 let playerRequest=0,playerURL='',playerId='',playerFile=null,recoveryURL='',recoveryFile=null,recoveryMeta=null,wakeLock=null,library=[],supported=false,storageReady=false;
 const signature=s=>JSON.stringify([s.width,s.duration,s.bgm,s.sfx,s.caption]);
@@ -22,7 +22,7 @@ function preview(now){
  if(!active && !document.hidden){const t=(now-previewStart)/1000;if(genre==='viral'&&t>config().duration+1){resetPreview();previewTime=-.001}else{previewScene.draw(canvas.getContext('2d'),canvas.width,canvas.height,t,Math.min((now-lastPreview)/1000,.06),$('caption').checked);if(previewAudio)for(const event of previewScene.eventsBetween?.(previewTime,t)||[])previewAudio.hit(event);previewTime=t;}}lastPreview=now;previewRAF=requestAnimationFrame(preview);
 }
 function resetPreview(){if(active)return;for(const o of $('duration').options)o.disabled=Number(o.value)>15&&genre!=='viral';if(genre!=='viral'&&Number($('duration').value)>15)$('duration').value='15';const s=config();canvas.width=s.width;canvas.height=s.width*16/9;$('format').textContent=`${canvas.width} × ${canvas.height}`;const chosen=$('template').value;const template=CATALOG.find(t=>t.id===chosen)||templatesFor(genre==='random'?'ball':genre)[0];previewScene=scene(template.genre,$('seed').value===''?newSeed():Number($('seed').value),{...s,templateId:template.id});$('template-note').textContent=chosen==='auto'?'作品ごとにテンプレート・構図・展開・結末を選び直します。':`${template.description||template.name} · loop: ${template.loop||'reset'}`;previewStart=performance.now();lastPreview=previewStart;previewTime=-.001;updateButtons()}
-document.querySelectorAll('[data-genre]').forEach(button=>button.onclick=()=>{if(active)return;genre=button.dataset.genre;selectedEngineVersion='viral-2';document.querySelectorAll('[data-genre],#random').forEach(b=>{const selected=b===button;b.classList.toggle('selected',selected);b.setAttribute('aria-pressed',String(selected))});fillTemplates();resetPreview()});
+document.querySelectorAll('[data-genre]').forEach(button=>button.onclick=()=>{if(active)return;genre=button.dataset.genre;selectedEngineVersion='viral-3';document.querySelectorAll('[data-genre],#random').forEach(b=>{const selected=b===button;b.classList.toggle('selected',selected);b.setAttribute('aria-pressed',String(selected))});fillTemplates();resetPreview()});
 $('random').onclick=()=>{if(active)return;genre='random';document.querySelectorAll('[data-genre],#random').forEach(b=>{const selected=b.id==='random';b.classList.toggle('selected',selected);b.setAttribute('aria-pressed',String(selected))});fillTemplates();resetPreview()};
 function fillTemplates(){const select=$('template'),previous=select.value;select.replaceChildren(new Option('作品ごとに自動選択','auto'));for(const t of templatesFor(genre))select.add(new Option(t.name,t.id));if([...select.options].some(o=>o.value===previous))select.value=previous}
 for(const id of ['seed','template','resolution','duration','bgm','sfx','caption'])$(id).onchange=resetPreview;
@@ -33,7 +33,7 @@ function makeTasks(count){
 async function start(tasks){
  if(active||!supported||!storageReady||recoveryFile)return;
  if($('seed').value!==''&&(!Number.isInteger(Number($('seed').value))||Number($('seed').value)<0||Number($('seed').value)>4294967295)){error('シードは0〜4294967295の整数です');return}
- const seen=new Set(library.map(m=>m.fingerprint).filter(Boolean));for(const t of tasks){t.fingerprint=JSON.stringify([t.engineVersion||'viral-2',t.genre,t.templateId,t.seed,t.width,t.duration,t.bgm,t.sfx,t.caption]);if(seen.has(t.fingerprint)){error('同じ設定・シードの動画が保存済みです。シードを変えるか、保存済み動画を確認してください。');return}seen.add(t.fingerprint)}
+ const seen=new Set(library.map(m=>m.fingerprint).filter(Boolean));for(const t of tasks){t.fingerprint=JSON.stringify([t.engineVersion||'viral-3',t.genre,t.templateId,t.seed,t.width,t.duration,t.bgm,t.sfx,t.caption]);if(seen.has(t.fingerprint)){error('同じ設定・シードの動画が保存済みです。シードを変えるか、保存済み動画を確認してください。');return}seen.add(t.fingerprint)}
  // Start/resume audio in this click handler, before any IndexedDB await.
  let context=null,resume=null;const audioWanted=tasks.some(s=>s.sfx||s.bgm!=='off');
  try{if(audioWanted){const Audio=window.AudioContext||window.webkitAudioContext;if(!Audio)throw Error('音声合成に対応していません。BGMと効果音をOFFにしてください');context=new Audio();resume=context.resume()}}catch(e){error(e.message);return}
@@ -52,7 +52,7 @@ async function start(tasks){
    if(info.width!==task.width||info.height!==task.width*16/9)throw Error(`指定した解像度で録画されませんでした（${info.width}×${info.height}）。低い解像度で再試行してください。`);
    if(controller.signal.aborted)throw controller.signal.reason||new DOMException('停止しました','AbortError');
    const template=templateFor(task.templateId,task.genre),text=englishMetadata(template,task.seed);
-   const meta={settings:{...task},fingerprint:task.fingerprint,engineVersion:task.engineVersion||'viral-2',templateId:template.id,templateName:template.name,recordingStats:blob.recordingStats||null,assessment:productionAssessment(template,blob.recordingStats),id:task.id,genre:task.genre,seed:task.seed,width:info.width,height:info.height,duration:task.duration,created:Date.now(),size:blob.size,title:text.title,tags:text.tags};
+   const meta={settings:{...task},fingerprint:task.fingerprint,engineVersion:task.engineVersion||'viral-3',templateId:template.id,templateName:template.name,recordingStats:blob.recordingStats||null,assessment:productionAssessment(template,blob.recordingStats),id:task.id,genre:task.genre,seed:task.seed,width:info.width,height:info.height,duration:task.duration,created:Date.now(),size:blob.size,title:text.title,tags:text.tags};
    try{await store.put(meta,blob)}catch(e){showRecovery(meta,blob);throw Error(e.message+' 今回の1本は下の保存ボタンから退避できます。')}
    retryTasks.shift();saveQueue();done++;verified=signature(task);$('progress').value=done/total*100;$('counter').textContent=`${done} / ${total} 完成`;await refreshLibrary();
    if(done<total)await new Promise(resolve=>setTimeout(resolve,150));

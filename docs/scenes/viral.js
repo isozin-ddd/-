@@ -1,5 +1,5 @@
 // Original seeded, fixed-step simulation. No downloaded media or music.
-export const VERSION='viral-2';
+export const VERSION='viral-3';
 const TAU=Math.PI*2, H=1/120, palette=['#62ffda','#bd86ff','#ffcf69','#ff6aa9','#6abaff'];
 const specs=[
 ['escape','Neon Ring Escape','Can It Escape?','Break three rotating rings through their openings.'],
@@ -21,7 +21,7 @@ const specs=[
 ['split','Split and Survive','One Ball. Many Chances.','Each cleared ring splits the moving ball into two.'],
 ['impossible','Impossible Center','Can It Find the Path?','Offset nested gates and orbiting bumpers guard a small target.'],
 ['transform','Final Ball Transformation','Watch the Final Ball!','The last ring transforms the marble into a larger golden sphere.'],
-['ultimate','Ultimate Ring Challenge','Can It Beat All Three?','A ring with bumpers, a pulsing ring and a timed final gate.']
+['ultimate','Ultimate Ring Challenge','Can It Beat All Three?','Bumpers, a pulsing ring, a timed gate and one bonus ring on passage.']
 ];
 export const templates=specs.map(([mode,name,caption,description])=>({id:'viral-'+mode,genre:'viral',mode,name,caption,description,hook:caption,loop:'resolved ending',ending:'Visible success or honest timeout',originality:'Original procedural stage and synthesized audio'}));
 function rng(seed){let a=seed>>>0;return()=>{a+=0x6d2b79f5;let t=Math.imul(a^a>>>15,1|a);t^=t+Math.imul(t^t>>>7,61|t);return((t^t>>>14)>>>0)/4294967296}}
@@ -29,7 +29,7 @@ const clamp=(x,a,b)=>Math.max(a,Math.min(b,x)),angle=x=>Math.atan2(Math.sin(x),M
 export class World{
  constructor(mode,seed,duration=15){this.rootMode=mode;this.mode=mode;this.seed=seed;this.duration=duration;this.random=rng(seed);this.time=0;this.tick=0;this.events=[];this.balls=[];this.particles=[];this.hits=0;this.cleared=0;this.outcome='';this.chapter=-1;this.nextId=0;this.maxBalls=32;this.setup(0);}
  spawn(x,y,r=9){const a=this.random()*TAU;const b={id:this.nextId++,x,y,px:x,py:y,vx:Math.cos(a)*180,vy:Math.sin(a)*180,r,color:palette[this.nextId%5],spin:a,trail:[],cooldown:0,escaped:false};this.balls.push(b);return b;}
- setup(chapter){this.mode=this.chapters>1?[this.rootMode,'gravity','fusion','ultimate'][chapter%4]:this.rootMode;this.chapter=chapter;this.won=false;this.balls=[];this.rings=[];this.chapterEnd=(chapter+1)*this.duration/this.chapters;this.outcome='';const inward=['center','impossible'].includes(this.mode);const n=inward?4:this.mode==='oneexit'||this.mode==='last'||this.mode==='shrink'||this.mode==='fusion'||this.mode==='timing'||this.mode==='reverse'?1:this.mode==='race'||this.mode==='spiral'?0:3;this.cascade=0;this.stageCleared=0;this.eliminated=0;this.obstacles=[];
+ setup(chapter){this.mode=this.chapters>1?[this.rootMode,'gravity','fusion','ultimate'][chapter%4]:this.rootMode;this.chapter=chapter;this.won=false;this.balls=[];this.rings=[];this.chapterEnd=(chapter+1)*this.duration/this.chapters;this.outcome='';const inward=['center','impossible'].includes(this.mode);const n=inward?4:this.mode==='oneexit'||this.mode==='last'||this.mode==='shrink'||this.mode==='fusion'||this.mode==='timing'||this.mode==='reverse'?1:this.mode==='race'||this.mode==='spiral'?0:3;this.cascade=0;this.extraRing=false;this.stageCleared=0;this.eliminated=0;this.obstacles=[];
  for(let i=0;i<n;i++)this.rings.push({r:inward?70+i*43:115+i*42,a:this.random()*TAU,speed:(i%2?-.45:.55)*(1+chapter*.2),gap:.72,broken:false});
  this.spawn(inward?475:270,inward?470:420);
  this.maxBalls=this.mode==='oneexit'?100:this.mode==='split'?16:32;
@@ -69,7 +69,7 @@ export class World{
  for(let i=0;i<this.rings.length;i++){const q=this.rings[i];if(q.broken)continue;const cx=q.cx||270,cy=q.cy||470,dx=b.x-cx,dy=b.y-cy,d=Math.hypot(dx,dy)||1,old=Math.hypot(b.px-cx,b.py-cy),inside=old<q.r,gap=(this.mode!=='color'||palette.indexOf(b.color)===q.allowed)&&Math.abs(angle(Math.atan2(dy,dx)-q.a))<q.gap/2-b.r/q.r;
  if((old-q.r)*(d-q.r)<=0&&gap){if(!['center','impossible'].includes(this.mode)||d<old){
  if(this.mode==='oneexit'||this.mode==='color'||this.mode==='reverse'){b.escaped=true;this.goal(this.mode==='color'?'MATCHING COLOR ESCAPED!':this.mode==='oneexit'?'FIRST OF 100 ESCAPED!':'TOP EXIT REACHED!',b);}
- else{q.broken=true;this.cleared++;this.stageCleared++;this.emit(b,300,i,'break');if(this.mode==='chain')this.cascade=this.time+.45;if(this.mode==='split'&&this.balls.length<this.maxBalls){const child=this.spawn(b.x,b.y,7);child.vx=-b.vx;child.vy=b.vy;}
+ else{q.broken=true;this.cleared++;this.stageCleared++;this.emit(b,300,i,'break');if(this.mode==='ultimate'&&!this.extraRing){this.extraRing=true;this.rings.push({r:235,a:this.random()*TAU,speed:-.65,gap:1.3,broken:false});}if(this.mode==='chain')this.cascade=this.time+.45;if(this.mode==='split'&&this.balls.length<this.maxBalls){const child=this.spawn(b.x,b.y,7);child.vx=-b.vx;child.vy=b.vy;}
  if(this.mode==='transform'&&this.rings.filter(r=>!r.broken).length===1){b.r=21;b.color='#ffcf69';this.emit(b,350,i,'transform');}}
  }continue;}
  if(Math.abs(d-q.r)<b.r+3&&!gap){if(this.mode==='last'&&progress>.08&&this.balls.filter(x=>!x.dead).length>1){b.dead=true;this.eliminated++;this.emit(b,200,i,'eliminate');continue;}const nx=dx/d,ny=dy/d,normal=b.vx*nx+b.vy*ny;if((inside&&normal>0)||(!inside&&normal<0)){b.x=cx+nx*(q.r+(inside?-1:1)*(b.r+3));b.y=cy+ny*(q.r+(inside?-1:1)*(b.r+3));b.vx-=1.94*normal*nx;b.vy-=1.94*normal*ny;this.hit(b,Math.abs(normal),i);if(this.mode==='destroy'){q.damage=(q.damage||0)+1;if(q.damage>=3){q.broken=true;this.stageCleared++;this.emit(b,300,i,'break');}}}}

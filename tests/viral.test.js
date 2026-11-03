@@ -15,3 +15,4 @@ test('20 templates have distinct mechanism IDs and achievable goals',()=>{
 });
 test('fusion conserves ball area; survival removes actual bodies',()=>{const f=new World('fusion',1,15),area=f.balls.reduce((s,b)=>s+b.r*b.r,0);f.advance(15);assert.equal(f.balls.length,1);assert.ok(Math.abs(f.balls[0].r**2-area)<1e-8);const w=new World('last',1,15);w.advance(15);assert.equal(w.balls.length,1);assert.equal(w.eliminated,11);});
 test('long clips introduce different mechanisms rather than repeat the opening',()=>{const w=new World('center',10,90);assert.equal(w.mode,'center');w.advance(24);assert.equal(w.mode,'gravity');w.advance(46);assert.equal(w.mode,'fusion');w.advance(69);assert.equal(w.mode,'ultimate');});
+test('ultimate passage creates exactly one bonus ring',()=>{const w=new World('ultimate',12,15);const initial=w.rings.length;w.advance(15);assert.ok(w.won);assert.equal(w.rings.length,initial+1);assert.equal(w.extraRing,true);});
