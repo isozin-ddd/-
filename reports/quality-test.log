@@ -1,0 +1,10 @@
+PASS all60 real Canvas scenes, animation changes and finite audio events
+PASS ball-before.mp4 real MP4 decoded
+PASS ball-after.mp4 real MP4 decoded
+PASS asmr-before.mp4 real MP4 decoded
+PASS asmr-after.mp4 real MP4 decoded
+PASS meme-before.mp4 real MP4 decoded
+PASS meme-after.mp4 real MP4 decoded
+PASS domino-before.mp4 real MP4 decoded
+PASS domino-after.mp4 real MP4 decoded
+PASS sample quality artifacts complete

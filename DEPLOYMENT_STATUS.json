@@ -1,14 +1,55 @@
 {
   "source_repository": "https://github.com/isozin-ddd/-",
-  "source_saved": true,
   "hosting": "GitHub Pages only",
-  "published_url_verified": false,
-  "candidate_url_not_confirmed": "https://isozin-ddd.github.io/-/",
+  "repository_visibility_observed": "public",
+  "existing_app_url": "https://isozin-ddd.github.io/-/",
+  "published_url_verified_from_environment": false,
+  "public_url_verification_limit": "Outbound environment proxy CONNECT 403 blocks this environment's access; this is not an HTTP 403 observed from the site itself.",
+  "preserve_existing_pages_settings": true,
   "pages_settings": "https://github.com/isozin-ddd/-/settings/pages",
-  "pages_required_source": {"branch": "main", "directory": "/docs"},
-  "repository_visibility_observed": "private",
-  "blocker": "Current connector cannot enable or inspect Pages settings, change repository visibility, or obtain a successful Pages deployment URL. Owner must configure initial Pages source; Free accounts require a public repository.",
-  "browser_verification": "Actual Chromium MP4 recordings: 1 followed by 10; serial recording; playback metadata; downloads; four genres; stop/retry; persistence; 540/720/1080 single recordings; explicit unsupported-MP4 error; storage cap recovery.",
-  "iphone_safari": "UNTESTED: physical device recording, ten-file run, Files save, 1080p performance",
-  "file_sharing_verification": "MP4 File handed to a mock Share API during user activation; actual iOS share sheet and Files save remain untested."
+  "supported_pages_sources": [
+    {
+      "method": "branch",
+      "branch": "main",
+      "directory": "/docs"
+    },
+    {
+      "method": "GitHub Actions",
+      "workflow": ".github/workflows/pages.yml",
+      "artifact_directory": "docs"
+    }
+  ],
+  "pages_setup_needed_only_if_not_enabled": true,
+  "latest_source_push_state": "Source committed to GitHub main for this delivery; Pages publication and live execution remain separately unverified.",
+  "browser_verification": {
+    "environment": "Desktop Chromium, mobile-sized viewport",
+    "native_mp4_batch_runs": [
+      1,
+      3,
+      5,
+      10
+    ],
+    "native_mp4_batch_recordings": 19,
+    "completed_after_stop_reload_retry": 20,
+    "max_simultaneous_recorders": 1,
+    "canvas_templates_checked": 60,
+    "preview_images": 12,
+    "comparison_mp4_files": 8,
+    "high_resolution_scope": "Four genre representatives x 540/720/1080 widths x one 3-second recording =12 passing native MP4 files; preview loop omitted to isolate recorder. H264+Opus observed, tracks ended and AudioContext closed.",
+    "not_tested": [
+      "All60 at high resolution",
+      "Ten high-resolution recordings",
+      "Long-duration stress"
+    ]
+  },
+  "sample_delivery_codecs": "Comparison sample assets normalized offline to H264/AAC; FFmpeg is not an app runtime dependency. Browser-native Chromium MP4 audio was Opus.",
+  "iphone_safari": "UNTESTED: physical-device touch, Canvas recording, audio recording, batch runs, share sheet, Files save, high-resolution and thermal/memory stability",
+  "research": {
+    "entries": 44,
+    "known_original_urls": 41,
+    "unknown_original_url_leads": 3,
+    "directly_verified_100000_likes": 0
+  },
+  "paid_render_actions": "None; Render is not used",
+  "release": "global-factory-60-2026-11-03"
 }

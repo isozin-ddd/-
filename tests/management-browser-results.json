@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "browser": "Chromium desktop, 390x844 viewport",
+  "iphone_safari": "UNTESTED",
+  "checks": [
+    "Seed reference with secondary_report provenance loads",
+    "Reference create, edit and delete",
+    "Original-only qualified count excludes snippet values",
+    "Reference JSON import and actual download/export",
+    "Unsafe imported URL rejected",
+    "Posted metrics saved and aggregated with measured denominators",
+    "Persistence after reload",
+    "No uncaught JavaScript errors"
+  ]
+}

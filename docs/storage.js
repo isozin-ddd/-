@@ -20,3 +20,9 @@ export async function put(meta,blob){
  });
 }
 export async function remove(id){const db=await openDB();return new Promise((resolve,reject)=>{const tx=db.transaction(['meta','videos'],'readwrite');tx.objectStore('meta').delete(id);tx.objectStore('videos').delete(id);tx.oncomplete=resolve;tx.onabort=()=>reject(Error('削除できませんでした'))})}
+export async function updateMetadata(id,patch){
+ const db=await openDB();return new Promise((resolve,reject)=>{
+  const tx=db.transaction('meta','readwrite'),meta=tx.objectStore('meta'),request=meta.get(id);
+  request.onsuccess=()=>{if(!request.result){tx.abort();return}meta.put({...request.result,...patch,id})};tx.oncomplete=resolve;tx.onabort=()=>reject(Error('品質メモを保存できませんでした'));
+ });
+}

@@ -1,0 +1,513 @@
+{
+  "verified_at": "2026-11-03T00:23:41.991512+00:00",
+  "environment": "Desktop Chromium headless, local static HTTP, mobile-sized viewport; application preview loop omitted to isolate recording. Other workspace tests may share CPU.",
+  "iphone_safari": "UNTESTED",
+  "scope": "Four genres × 540/720/1080 widths × one 3-second recording; sequential, not ten high-resolution files or long-duration stress.",
+  "records": [
+    {
+      "ok": true,
+      "genre": "ball",
+      "template_id": "phy-ring-escape",
+      "width": 540,
+      "metadata": {
+        "width": 540,
+        "height": 960,
+        "duration": 2.989
+      },
+      "size": 214815,
+      "type": "video/mp4",
+      "recording": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.015,
+        "p95FrameMs": 0.40000000037252903,
+        "maxFrameMs": 0.900000000372529,
+        "soundEvents": 31,
+        "mimeType": "video/mp4;codecs=avc1.420020,opus",
+        "measuredIn": "current_browser_not_iphone",
+        "observed_fps": 24.212271973466002
+      },
+      "track_states": [
+        {
+          "kind": "video",
+          "state": "ended"
+        },
+        {
+          "kind": "audio",
+          "state": "ended"
+        }
+      ],
+      "ffprobe": {
+        "video_codec": "h264",
+        "width": 540,
+        "height": 960,
+        "avg_frame_rate": "72000/2989",
+        "audio_codec": "opus",
+        "duration": 2.989
+      },
+      "passed": true
+    },
+    {
+      "ok": true,
+      "genre": "asmr",
+      "template_id": "asmr-jelly-compression",
+      "width": 540,
+      "metadata": {
+        "width": 540,
+        "height": 960,
+        "duration": 2.995833
+      },
+      "size": 193334,
+      "type": "video/mp4",
+      "recording": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.0117999999998135,
+        "p95FrameMs": 0.2999999998137355,
+        "maxFrameMs": 0.6000000005587935,
+        "soundEvents": 1,
+        "mimeType": "video/mp4;codecs=avc1.420020,opus",
+        "measuredIn": "current_browser_not_iphone",
+        "observed_fps": 24.237997210971685
+      },
+      "track_states": [
+        {
+          "kind": "video",
+          "state": "ended"
+        },
+        {
+          "kind": "audio",
+          "state": "ended"
+        }
+      ],
+      "ffprobe": {
+        "video_codec": "h264",
+        "width": 540,
+        "height": 960,
+        "avg_frame_rate": "17280/719",
+        "audio_codec": "opus",
+        "duration": 2.995833
+      },
+      "passed": true
+    },
+    {
+      "ok": true,
+      "genre": "meme",
+      "template_id": "surreal-creature-transformation",
+      "width": 540,
+      "metadata": {
+        "width": 540,
+        "height": 960,
+        "duration": 2.9886
+      },
+      "size": 217935,
+      "type": "video/mp4",
+      "recording": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.0165999999996274,
+        "p95FrameMs": 0.39999999944120646,
+        "maxFrameMs": 0.8999999994412065,
+        "soundEvents": 3,
+        "mimeType": "video/mp4;codecs=avc1.420020,opus",
+        "measuredIn": "current_browser_not_iphone",
+        "observed_fps": 24.199429821656505
+      },
+      "track_states": [
+        {
+          "kind": "video",
+          "state": "ended"
+        },
+        {
+          "kind": "audio",
+          "state": "ended"
+        }
+      ],
+      "ffprobe": {
+        "video_codec": "h264",
+        "width": 540,
+        "height": 960,
+        "avg_frame_rate": "120000/4981",
+        "audio_codec": "opus",
+        "duration": 2.9886
+      },
+      "passed": true
+    },
+    {
+      "ok": true,
+      "genre": "domino",
+      "template_id": "chain-spiral",
+      "width": 540,
+      "metadata": {
+        "width": 540,
+        "height": 960,
+        "duration": 2.989333
+      },
+      "size": 215549,
+      "type": "video/mp4",
+      "recording": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.0187999999998136,
+        "p95FrameMs": 0.7000000001862645,
+        "maxFrameMs": 1,
+        "soundEvents": 36,
+        "mimeType": "video/mp4;codecs=avc1.420020,opus",
+        "measuredIn": "current_browser_not_iphone",
+        "observed_fps": 24.181794090368527
+      },
+      "track_states": [
+        {
+          "kind": "video",
+          "state": "ended"
+        },
+        {
+          "kind": "audio",
+          "state": "ended"
+        }
+      ],
+      "ffprobe": {
+        "video_codec": "h264",
+        "width": 540,
+        "height": 960,
+        "avg_frame_rate": "27000/1121",
+        "audio_codec": "opus",
+        "duration": 2.989333
+      },
+      "passed": true
+    },
+    {
+      "ok": true,
+      "genre": "ball",
+      "template_id": "phy-ring-escape",
+      "width": 720,
+      "metadata": {
+        "width": 720,
+        "height": 1280,
+        "duration": 2.994767
+      },
+      "size": 405583,
+      "type": "video/mp4",
+      "recording": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.014199999999255,
+        "p95FrameMs": 0.39999999944120646,
+        "maxFrameMs": 0.7999999998137355,
+        "soundEvents": 31,
+        "mimeType": "video/mp4;codecs=avc1.420020,opus",
+        "measuredIn": "current_browser_not_iphone",
+        "observed_fps": 24.21869816203903
+      },
+      "track_states": [
+        {
+          "kind": "video",
+          "state": "ended"
+        },
+        {
+          "kind": "audio",
+          "state": "ended"
+        }
+      ],
+      "ffprobe": {
+        "video_codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "avg_frame_rate": "2160000/89843",
+        "audio_codec": "opus",
+        "duration": 2.994767
+      },
+      "passed": true
+    },
+    {
+      "ok": true,
+      "genre": "asmr",
+      "template_id": "asmr-jelly-compression",
+      "width": 720,
+      "metadata": {
+        "width": 720,
+        "height": 1280,
+        "duration": 2.992467
+      },
+      "size": 339641,
+      "type": "video/mp4",
+      "recording": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.0124000000003726,
+        "p95FrameMs": 0.20000000018626451,
+        "maxFrameMs": 0.6999999992549419,
+        "soundEvents": 1,
+        "mimeType": "video/mp4;codecs=avc1.420020,opus",
+        "measuredIn": "current_browser_not_iphone",
+        "observed_fps": 24.23316956579172
+      },
+      "track_states": [
+        {
+          "kind": "video",
+          "state": "ended"
+        },
+        {
+          "kind": "audio",
+          "state": "ended"
+        }
+      ],
+      "ffprobe": {
+        "video_codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "avg_frame_rate": "1080000/44887",
+        "audio_codec": "opus",
+        "duration": 2.992467
+      },
+      "passed": true
+    },
+    {
+      "ok": true,
+      "genre": "meme",
+      "template_id": "surreal-creature-transformation",
+      "width": 720,
+      "metadata": {
+        "width": 720,
+        "height": 1280,
+        "duration": 2.9872
+      },
+      "size": 409383,
+      "type": "video/mp4",
+      "recording": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.0212999999998136,
+        "p95FrameMs": 0.40000000037252903,
+        "maxFrameMs": 1.6000000005587935,
+        "soundEvents": 3,
+        "mimeType": "video/mp4;codecs=avc1.420020,opus",
+        "measuredIn": "current_browser_not_iphone",
+        "observed_fps": 24.161784662232982
+      },
+      "track_states": [
+        {
+          "kind": "video",
+          "state": "ended"
+        },
+        {
+          "kind": "audio",
+          "state": "ended"
+        }
+      ],
+      "ffprobe": {
+        "video_codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "avg_frame_rate": "45000/1867",
+        "audio_codec": "opus",
+        "duration": 2.9872
+      },
+      "passed": true
+    },
+    {
+      "ok": true,
+      "genre": "domino",
+      "template_id": "chain-spiral",
+      "width": 720,
+      "metadata": {
+        "width": 720,
+        "height": 1280,
+        "duration": 2.994467
+      },
+      "size": 403061,
+      "type": "video/mp4",
+      "recording": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.0131000000005588,
+        "p95FrameMs": 0.599999999627471,
+        "maxFrameMs": 1.7000000001862645,
+        "soundEvents": 36,
+        "mimeType": "video/mp4;codecs=avc1.420020,opus",
+        "measuredIn": "current_browser_not_iphone",
+        "observed_fps": 24.22753974311721
+      },
+      "track_states": [
+        {
+          "kind": "video",
+          "state": "ended"
+        },
+        {
+          "kind": "audio",
+          "state": "ended"
+        }
+      ],
+      "ffprobe": {
+        "video_codec": "h264",
+        "width": 720,
+        "height": 1280,
+        "avg_frame_rate": "1080000/44917",
+        "audio_codec": "opus",
+        "duration": 2.994467
+      },
+      "passed": true
+    },
+    {
+      "ok": true,
+      "genre": "ball",
+      "template_id": "phy-ring-escape",
+      "width": 1080,
+      "metadata": {
+        "width": 1080,
+        "height": 1920,
+        "duration": 2.970133
+      },
+      "size": 594415,
+      "type": "video/mp4",
+      "recording": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.036699999999255,
+        "p95FrameMs": 0.40000000037252903,
+        "maxFrameMs": 0.7000000001862645,
+        "soundEvents": 31,
+        "mimeType": "video/mp4;codecs=avc1.42002a,opus",
+        "measuredIn": "current_browser_not_iphone",
+        "observed_fps": 24.039253136634475
+      },
+      "track_states": [
+        {
+          "kind": "video",
+          "state": "ended"
+        },
+        {
+          "kind": "audio",
+          "state": "ended"
+        }
+      ],
+      "ffprobe": {
+        "video_codec": "h264",
+        "width": 1080,
+        "height": 1920,
+        "avg_frame_rate": "127500/5569",
+        "audio_codec": "opus",
+        "duration": 2.970133
+      },
+      "passed": true
+    },
+    {
+      "ok": true,
+      "genre": "asmr",
+      "template_id": "asmr-jelly-compression",
+      "width": 1080,
+      "metadata": {
+        "width": 1080,
+        "height": 1920,
+        "duration": 2.982567
+      },
+      "size": 546896,
+      "type": "video/mp4",
+      "recording": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.038299999999814,
+        "p95FrameMs": 0.2999999998137355,
+        "maxFrameMs": 0.7000000001862645,
+        "soundEvents": 1,
+        "mimeType": "video/mp4;codecs=avc1.42002a,opus",
+        "measuredIn": "current_browser_not_iphone",
+        "observed_fps": 24.026593818913362
+      },
+      "track_states": [
+        {
+          "kind": "video",
+          "state": "ended"
+        },
+        {
+          "kind": "audio",
+          "state": "ended"
+        }
+      ],
+      "ffprobe": {
+        "video_codec": "h264",
+        "width": 1080,
+        "height": 1920,
+        "avg_frame_rate": "2160000/89477",
+        "audio_codec": "opus",
+        "duration": 2.982567
+      },
+      "passed": true
+    },
+    {
+      "ok": true,
+      "genre": "meme",
+      "template_id": "surreal-creature-transformation",
+      "width": 1080,
+      "metadata": {
+        "width": 1080,
+        "height": 1920,
+        "duration": 2.986767
+      },
+      "size": 620137,
+      "type": "video/mp4",
+      "recording": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.0202999999998137,
+        "p95FrameMs": 0.30000000074505806,
+        "maxFrameMs": 0.900000000372529,
+        "soundEvents": 3,
+        "mimeType": "video/mp4;codecs=avc1.42002a,opus",
+        "measuredIn": "current_browser_not_iphone",
+        "observed_fps": 24.16978445849899
+      },
+      "track_states": [
+        {
+          "kind": "video",
+          "state": "ended"
+        },
+        {
+          "kind": "audio",
+          "state": "ended"
+        }
+      ],
+      "ffprobe": {
+        "video_codec": "h264",
+        "width": 1080,
+        "height": 1920,
+        "avg_frame_rate": "2130000/89603",
+        "audio_codec": "opus",
+        "duration": 2.986767
+      },
+      "passed": true
+    },
+    {
+      "ok": true,
+      "genre": "domino",
+      "template_id": "chain-spiral",
+      "width": 1080,
+      "metadata": {
+        "width": 1080,
+        "height": 1920,
+        "duration": 2.9812
+      },
+      "size": 618170,
+      "type": "video/mp4",
+      "recording": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.032799999999814,
+        "p95FrameMs": 0.599999999627471,
+        "maxFrameMs": 2.5,
+        "soundEvents": 36,
+        "mimeType": "video/mp4;codecs=avc1.42002a,opus",
+        "measuredIn": "current_browser_not_iphone",
+        "observed_fps": 24.070166183066632
+      },
+      "track_states": [
+        {
+          "kind": "video",
+          "state": "ended"
+        },
+        {
+          "kind": "audio",
+          "state": "ended"
+        }
+      ],
+      "ffprobe": {
+        "video_codec": "h264",
+        "width": 1080,
+        "height": 1920,
+        "avg_frame_rate": "177500/7453",
+        "audio_codec": "opus",
+        "duration": 2.9812
+      },
+      "passed": true
+    }
+  ],
+  "status": "PASS"
+}

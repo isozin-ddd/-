@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/engine.test.js",
-    "check": "node --check docs/app.js && node --check docs/engine.js && node --check docs/storage.js"
+    "test": "node --test tests/*.test.js",
+    "check": "node --check docs/app.js && node --check docs/engine.js && node --check docs/storage.js && node --check docs/catalog.js && node --check docs/research-ui.js && node --check docs/insights.js"
   }
 }

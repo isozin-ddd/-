@@ -1,0 +1,17 @@
+PASS 60 selectable rendered templates
+PASS Random genre can select all60
+PASS Mobile width has no horizontal overflow
+PASS Batches gated until actual single recording
+PASS 1-file real MP4 run completes and saves sequentially
+PASS 3-file real MP4 run completes and saves sequentially
+PASS 5-file real MP4 run completes and saves sequentially
+PASS 10-file real MP4 run completes and saves sequentially
+PASS At most one native MediaRecorder alive
+PASS English titles and actual template IDs stored
+PASS Ten-file automatic batch uses10 different scene mechanisms
+PASS Actual downloaded MP4 is H264 360x640 and has audio
+PASS Manual quality review persists separately from social results
+PASS Stop preserves all completed videos and pending retry
+PASS Pending new-template task survives reload and retries
+PASS All44 research entries load, direct verified count remains0
+PASS No uncaught JavaScript errors

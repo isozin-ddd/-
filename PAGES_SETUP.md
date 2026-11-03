@@ -1,56 +1,42 @@
-# iPhoneでのGitHub Pages公開
+# GitHub Pages運用とiPhoneでの確認
 
-## 推奨：ブランチから公開（ビルド設定不要）
+既存公開先は **https://isozin-ddd.github.io/-/** です。リポジトリ `isozin-ddd/-` がPublicであることは確認済みです。Publicへ変更する操作や有料Renderへの移行は不要です。
 
-ファイルが `isozin-ddd/-` のmainブランチへ保存されてから行います。
+既存のPages設定を維持し、mainブランチへのコード反映後に公開処理の完了を確認します。既に動いている公開方式を変更する必要はありません。生成動画は利用者のブラウザ内に保存され、Pagesの更新でGitHubへアップロードされることはありません。
 
-1. Safariで https://github.com/isozin-ddd/-/settings/pages を開き、GitHubへログインします。メニューが省略される場合だけ「デスクトップ用Webサイトを表示」を使用してください。Safariの実験的機能を変更する必要はありません。
-2. **Build and deployment → Source → Deploy from a branch** を選択。
-3. **Branch: main**、**Folder: /docs** を選択して **Save**。
-4. 発行処理を待ち、この設定画面の **Visit site** から開きます。この画面に出るHTTPS URLが実際の公開URLです。
-5. 設定を **Enforce HTTPS** にできる場合はONにしてください。
+## 既存公開処理の確認
 
-静的ファイルはすべて `docs/` にまとまっています。GitHub Pagesが使う標準の公開処理だけで動作し、独自のバックエンドは不要です。
+1. [Actions](https://github.com/isozin-ddd/-/actions)で今回のコミットに対応するPages公開が成功しているか確認します。
+2. [Pages設定](https://github.com/isozin-ddd/-/settings/pages)の **Visit site**、または既存のHTTPS URLを開きます。
+3. 新しい「Global Viral Shorts Factory」、60テンプレート、1／3／5／10本の選択が表示されることを確認します。古い画面の場合は公開処理を待ち、ページを再読み込みします。
 
-## Privateリポジトリの場合
+作業環境から公開URLへのアクセスは外向きプロキシのCONNECT 403に阻まれています。これはサイト自身が403を返したという意味ではなく、ここから公開反映を確認できないという制約です。ソース保存と公開URL上での動作確認は分けて記録します。
 
-現在のリポジトリ `isozin-ddd/-` はPrivateです。GitHub FreeではPublicリポジトリのPages、Pro等ではPrivateリポジトリのPagesが利用できます。アカウントの契約は未確認です。
+## Pagesがまだ有効でない場合だけ行う設定
 
-Pages設定画面がアップグレードを要求する場合、無料で進めるには **Settings → General → Danger Zone → Change repository visibility → Public** の所有者操作が必要です。公開されるのはソースコードです。生成動画は端末内保存なので、この操作でアップロードされることはありません。この連携ツールは公開範囲変更に対応していないため、勝手にPrivateをPublicへ変更しません。
+**既に公開できている場合は、この設定変更は不要です。**
 
-既にPro等の対象プランであれば、リポジトリをPrivateのままPagesを有効化できます。ただし通常のPagesサイト自体はインターネット上に公開されます。
+ビルド不要のブランチ方式：Pages設定で **Source: Deploy from a branch → main → /docs → Save**。静的ファイルはすべて`docs/`にあります。
 
-## GitHub Actions方式を選ぶ場合（任意）
+GitHub Actions方式を使う場合：Sourceを **GitHub Actions** にし、Actionsの **Publish Canvas app to GitHub Pages** を実行します。`.github/workflows/pages.yml`が`docs/`を公開します。既存のブランチ方式と両方へ切り替え続ける必要はありません。
 
-`.github/workflows/pages.yml` を保存できた場合、Actions方式も選べます。
+このアプリにサーバー、Docker、Render、APIキー、ログインは必要ありません。Safariの実験的機能を変更する必要もありません。
 
-1. 同じPages設定のSourceを **GitHub Actions** に変更します。
-2. https://github.com/isozin-ddd/-/actions で **Publish Canvas app to GitHub Pages** を開き、**Run workflow → main → Run workflow**。
-3. 緑の成功表示になった公開実行のEnvironment URL、またはPages設定のVisit siteから開きます。
+## iPhone実機での確認項目（未実施）
 
-ブランチ方式を選ぶ場合、この独自ワークフローの失敗はPagesの標準公開とは別です。Source未設定の状態では `configure-pages` がPages未設定エラーになります。
+1. **360×640・3秒・1本**から、テンプレート選択、Canvas、録画、音声、再生を確認。
+2. 完成動画の「再生・保存」→「共有からファイルに保存」→iPhoneの共有シートで「ファイルに保存」。共有できない場合は「MP4をダウンロード」→Safariのダウンロード一覧→ファイルアプリ。
+3. 同じ設定で3本→5本→10本。進捗、各動画の違い、停止、未完了分の再試行、保存を確認。
+4. Safariを非表示にすると録画が停止し、前面に戻すと再試行できることを確認。生成中は画面をロックせず、Safariを前面に維持します。
+5. 540→720→1080幅と段階的に、まず各1本。現在のデスクトップChromiumでは各ジャンル代表1種類×3解像度の計12本に成功していますが、iPhoneでの結果ではありません。
+6. 参考資料・投稿実績・品質メモの保存、JSON書き出し、再読み込み後の復旧を確認。
 
-## iPhone実機での最終チェック（未実施）
-
-- 360×640・3秒・1本：各ボタン、MP4録画、動画再生、共有から「ファイルに保存」。
-- 同じ設定で10本：進捗、各動画の違い、発熱、停止、再試行、10本それぞれのファイル保存。
-- Safariを一度閉じ、再度開いてライブラリが残ること。別端末には自動同期しません。
-- Safariを非表示にすると録画が停止すること。
-- 540 → 720 → 1080×1920：各段階で先に1本。1080pで失敗する場合は低い解像度へ戻すこと。
-- 共有できない場合は「MP4をダウンロード」→Safariのダウンロード一覧→ファイルアプリ。
-
-## こちらから初回設定できない理由
-
-現在のGitHub連携はファイル・コミット・Actions実行状況の取得に対応していますが、Pages作成/設定APIと公開範囲変更APIを提供していません。CLIの別認証も利用できません。公開処理の成功・URL取得を確認できるまでは、以下のURLは**想定される形式**にすぎません。
-
-`https://isozin-ddd.github.io/-/`
-
-**このURLを公開済みとは扱いません。** 所有者が上記のPages初回設定を完了した後に、Visit siteのURLで確認が必要です。
+iPhone実機の録画・共有シート・ファイル保存・1080p、長時間の発熱やメモリ、高解像度10本連続は未検証です。50／100本は有効化していません。
 
 ## 公式資料
 
-- https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-- https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
-- https://webkit.org/blog/11353/mediarecorder-api/
+- [GitHub Pagesの公開ソース](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+- [GitHub Pagesについて](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
+- [WebKit MediaRecorder API](https://webkit.org/blog/11353/mediarecorder-api/)
 
-WebKitの資料はAPIの説明であり、現在使っているiPhone実機の互換性保証ではありません。アプリは実行時のMP4判定と実録画で確認します。
+WebKitの資料はAPIの説明であり、現在使っているiPhone実機の互換性保証ではありません。アプリは実行時のMP4判定と、実際の録画・読み込みで確認します。

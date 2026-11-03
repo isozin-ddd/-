@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "browser": "Chromium, 390x844 mobile viewport",
+  "iphone_safari": "UNTESTED",
+  "checks": [
+    "60 selectable rendered templates",
+    "Random genre can select all60",
+    "Mobile width has no horizontal overflow",
+    "Batches gated until actual single recording",
+    "1-file real MP4 run completes and saves sequentially",
+    "3-file real MP4 run completes and saves sequentially",
+    "5-file real MP4 run completes and saves sequentially",
+    "10-file real MP4 run completes and saves sequentially",
+    "At most one native MediaRecorder alive",
+    "English titles and actual template IDs stored",
+    "Ten-file automatic batch uses10 different scene mechanisms",
+    "Actual downloaded MP4 is H264 360x640 and has audio",
+    "Manual quality review persists separately from social results",
+    "Stop preserves all completed videos and pending retry",
+    "Pending new-template task survives reload and retries",
+    "All44 research entries load, direct verified count remains0",
+    "No uncaught JavaScript errors"
+  ],
+  "recordings_completed": 20,
+  "templates_total": 60,
+  "social_popularity_verified": false
+}

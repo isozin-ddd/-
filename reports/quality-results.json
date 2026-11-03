@@ -1,0 +1,2193 @@
+{
+  "verified_in": "Chromium desktop at mobile viewport 390x844",
+  "iphone_safari": "UNTESTED",
+  "seed": 20261103,
+  "resolution": [
+    360,
+    640
+  ],
+  "duration_seconds": 3,
+  "reference_media_used": false,
+  "template_count": 60,
+  "featured_count": 12,
+  "sample_mp4_count": 8,
+  "evaluation_limits": [
+    "Draw timings are local browser CPU observations, not iPhone performance",
+    "Endpoint pixel difference includes background; does not prove a perceptually seamless loop",
+    "No human popularity, revenue, originality legal or aesthetic score is inferred",
+    "Audio presence and event scheduling checked; subjective sound quality/sync requires listening",
+    "Downloadable sample artifacts were normalized offline to H264/AAC; native app codec remains chosen by browser. iPhone native recording still untested."
+  ],
+  "scenes": [
+    {
+      "id": "phy-ring-escape",
+      "genre": "ball",
+      "motion": "ring",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        73106844,
+        312931106,
+        1397321985,
+        3111232907,
+        2906795646,
+        3440213821
+      ],
+      "draw_ms": [
+        5.7999999998137355,
+        0.30000000074505806,
+        0.19999999925494194,
+        0,
+        0.20000000018626451,
+        0.09999999962747097
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 7.247844328703704,
+      "sound_events": 31,
+      "stats": {
+        "bodyCount": 8,
+        "eventCount": 31,
+        "trajectoryBounds": {
+          "minX": 25,
+          "maxX": 512.705452034774,
+          "minY": 339.97353556577366,
+          "maxY": 755
+        },
+        "solver": "fixed 120Hz 2D"
+      }
+    },
+    {
+      "id": "phy-maze",
+      "genre": "ball",
+      "motion": "maze",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        906381994,
+        2290739295,
+        1628406555,
+        1415039868,
+        1638805280,
+        2414551887
+      ],
+      "draw_ms": [
+        0.7999999998137355,
+        0.20000000018626451,
+        0.20000000018626451,
+        0.09999999962747097,
+        0.10000000055879354,
+        0.09999999962747097
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 4.369126157407408,
+      "sound_events": 72,
+      "stats": {
+        "bodyCount": 8,
+        "eventCount": 72,
+        "trajectoryBounds": {
+          "minX": 25,
+          "maxX": 496.46817613885696,
+          "minY": 166.5992761854312,
+          "maxY": 479
+        },
+        "solver": "fixed 120Hz 2D"
+      }
+    },
+    {
+      "id": "phy-funnel",
+      "genre": "ball",
+      "motion": "funnel",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        2723092158,
+        4151745079,
+        1884562096,
+        2729327995,
+        1738673714,
+        4294866021
+      ],
+      "draw_ms": [
+        3.2000000001862645,
+        0.5,
+        0.10000000055879354,
+        0.09999999962747097,
+        0.20000000018626451,
+        0.10000000055879354
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 6.33429832175926,
+      "sound_events": 47,
+      "stats": {
+        "bodyCount": 8,
+        "eventCount": 47,
+        "trajectoryBounds": {
+          "minX": 32.8951917409253,
+          "maxX": 406.93353258078344,
+          "minY": 184.79485322589113,
+          "maxY": 755.0112847562834
+        },
+        "solver": "fixed 120Hz 2D"
+      }
+    },
+    {
+      "id": "phy-race",
+      "genre": "ball",
+      "motion": "race",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        3062038479,
+        1800322685,
+        594713822,
+        702958181,
+        3603941096,
+        713778486
+      ],
+      "draw_ms": [
+        1.1000000005587935,
+        0.10000000055879354,
+        0.5,
+        0.40000000037252903,
+        0.40000000037252903,
+        0.19999999925494194
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 7.57919849537037,
+      "sound_events": 39,
+      "stats": {
+        "bodyCount": 10,
+        "eventCount": 39,
+        "trajectoryBounds": {
+          "minX": 25,
+          "maxX": 446.65690531803597,
+          "minY": 154.9205967579037,
+          "maxY": 755
+        },
+        "solver": "fixed 120Hz 2D"
+      }
+    },
+    {
+      "id": "phy-multiplication",
+      "genre": "ball",
+      "motion": "multiply",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        859524324,
+        1752217071,
+        3394586176,
+        1683947575,
+        563948706,
+        1175833710
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0.09999999962747097,
+        0.09999999962747097,
+        0.10000000055879354,
+        0.20000000018626451,
+        0.20000000018626451
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 6.617897858796296,
+      "sound_events": 20,
+      "stats": {
+        "bodyCount": 18,
+        "eventCount": 20,
+        "trajectoryBounds": {
+          "minX": 25,
+          "maxX": 515,
+          "minY": 145.3626204165241,
+          "maxY": 755
+        },
+        "solver": "fixed 120Hz 2D"
+      }
+    },
+    {
+      "id": "phy-spiral",
+      "genre": "ball",
+      "motion": "spiral",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        2703415220,
+        3431686404,
+        1530556561,
+        3231429750,
+        1082896709,
+        7562802
+      ],
+      "draw_ms": [
+        1.7999999998137355,
+        1.2999999998137355,
+        2.1000000005587935,
+        1.099999999627471,
+        1.1000000005587935,
+        1.599999999627471
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 2.354837962962963,
+      "sound_events": 14,
+      "stats": {
+        "bodyCount": 8,
+        "eventCount": 14,
+        "trajectoryBounds": {
+          "minX": 75.00857466645539,
+          "maxX": 309.5637707039714,
+          "minY": 199.61714087799191,
+          "maxY": 307.06998651474714
+        },
+        "solver": "fixed 120Hz 2D"
+      }
+    },
+    {
+      "id": "phy-magnetic",
+      "genre": "ball",
+      "motion": "magnetic",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        1729315889,
+        938264287,
+        3486506898,
+        2169212223,
+        1262844922,
+        2434058444
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0.09999999962747097,
+        0.20000000018626451,
+        0.10000000055879354,
+        0,
+        0.10000000055879354
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 7.0564973958333335,
+      "sound_events": 31,
+      "stats": {
+        "bodyCount": 8,
+        "eventCount": 31,
+        "trajectoryBounds": {
+          "minX": 25,
+          "maxX": 515,
+          "minY": 159.94968492701753,
+          "maxY": 755.2760953685166
+        },
+        "solver": "fixed 120Hz 2D"
+      }
+    },
+    {
+      "id": "phy-sorting",
+      "genre": "ball",
+      "motion": "sorting",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        912295742,
+        1610452538,
+        3482620004,
+        2791272817,
+        3203528239,
+        2120107740
+      ],
+      "draw_ms": [
+        0.599999999627471,
+        1,
+        0.40000000037252903,
+        0.10000000055879354,
+        0.2999999998137355,
+        0.2999999998137355
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 2.7689207175925925,
+      "sound_events": 3,
+      "stats": {
+        "bodyCount": 15,
+        "eventCount": 3,
+        "trajectoryBounds": {
+          "minX": 75.00857466645539,
+          "maxX": 446.87381066568196,
+          "minY": 154.9205967579037,
+          "maxY": 307.06998651474714
+        },
+        "solver": "fixed 120Hz 2D"
+      }
+    },
+    {
+      "id": "phy-paddles",
+      "genre": "ball",
+      "motion": "paddles",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        1686594562,
+        1217473303,
+        3983690447,
+        2747120587,
+        1785156327,
+        2119117503
+      ],
+      "draw_ms": [
+        0.40000000037252903,
+        0.7000000001862645,
+        0.09999999962747097,
+        0.20000000018626451,
+        0.30000000074505806,
+        0.10000000055879354
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 9.165627893518518,
+      "sound_events": 59,
+      "stats": {
+        "bodyCount": 8,
+        "eventCount": 59,
+        "trajectoryBounds": {
+          "minX": 25,
+          "maxX": 515,
+          "minY": 184.79485322589113,
+          "maxY": 755
+        },
+        "solver": "fixed 120Hz 2D"
+      }
+    },
+    {
+      "id": "phy-gap",
+      "genre": "ball",
+      "motion": "gap",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        1598219487,
+        2217422681,
+        4017294737,
+        2675558915,
+        3434140864,
+        3343409011
+      ],
+      "draw_ms": [
+        0.2999999998137355,
+        0.8000000007450581,
+        0.20000000018626451,
+        0.20000000018626451,
+        0.2999999998137355,
+        0.20000000018626451
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 2.7912702546296297,
+      "sound_events": 30,
+      "stats": {
+        "bodyCount": 8,
+        "eventCount": 30,
+        "trajectoryBounds": {
+          "minX": 25,
+          "maxX": 515,
+          "minY": 160.48299749195576,
+          "maxY": 400.3962206551638
+        },
+        "solver": "fixed 120Hz 2D"
+      }
+    },
+    {
+      "id": "phy-elastic",
+      "genre": "ball",
+      "motion": "elastic",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        1886515125,
+        3493420358,
+        2764259919,
+        2623384265,
+        3845382903,
+        1901874111
+      ],
+      "draw_ms": [
+        0.19999999925494194,
+        0.20000000018626451,
+        0.10000000055879354,
+        0,
+        0.09999999962747097,
+        0.10000000055879354
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 5.334722222222222,
+      "sound_events": 9,
+      "stats": {
+        "bodyCount": 6,
+        "eventCount": 9,
+        "trajectoryBounds": {
+          "minX": 66,
+          "maxX": 514.7728318125022,
+          "minY": 168.97211760889485,
+          "maxY": 755
+        },
+        "solver": "fixed 120Hz 2D"
+      }
+    },
+    {
+      "id": "phy-orbit",
+      "genre": "ball",
+      "motion": "orbit",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        1250311897,
+        3648855721,
+        1197101205,
+        2449760274,
+        3682633170,
+        2568671898
+      ],
+      "draw_ms": [
+        0.19999999925494194,
+        0.5,
+        0.09999999962747097,
+        0.09999999962747097,
+        0.09999999962747097,
+        0
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 6.391127025462963,
+      "sound_events": 14,
+      "stats": {
+        "bodyCount": 8,
+        "eventCount": 14,
+        "trajectoryBounds": {
+          "minX": 59.45268960780045,
+          "maxX": 515,
+          "minY": 136.67369131549214,
+          "maxY": 754.460489494934
+        },
+        "solver": "fixed 120Hz 2D"
+      }
+    },
+    {
+      "id": "phy-survival",
+      "genre": "ball",
+      "motion": "survival",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        2859148624,
+        322289582,
+        2716490372,
+        2887097751,
+        1819886898,
+        4193641454
+      ],
+      "draw_ms": [
+        0.6000000005587935,
+        0.7999999998137355,
+        0.09999999962747097,
+        0,
+        0.10000000055879354,
+        0.10000000055879354
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 5.82529224537037,
+      "sound_events": 64,
+      "stats": {
+        "bodyCount": 8,
+        "eventCount": 64,
+        "trajectoryBounds": {
+          "minX": 25,
+          "maxX": 514.2163071018854,
+          "minY": 140.22147320621937,
+          "maxY": 755
+        },
+        "solver": "fixed 120Hz 2D"
+      }
+    },
+    {
+      "id": "phy-chain-bounce",
+      "genre": "ball",
+      "motion": "chainbounce",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        1794944100,
+        2382457271,
+        2349257532,
+        783811911,
+        1113768832,
+        778351442
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0.2999999998137355,
+        0,
+        0.09999999962747097,
+        0.20000000018626451,
+        0.09999999962747097
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 6.239163773148148,
+      "sound_events": 44,
+      "stats": {
+        "bodyCount": 8,
+        "eventCount": 44,
+        "trajectoryBounds": {
+          "minX": 25,
+          "maxX": 514.3259296417749,
+          "minY": 181.57245260569456,
+          "maxY": 755
+        },
+        "solver": "fixed 120Hz 2D"
+      }
+    },
+    {
+      "id": "phy-timing",
+      "genre": "ball",
+      "motion": "timing",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        1034529701,
+        3391309453,
+        2534100452,
+        910224295,
+        1699684481,
+        4127562758
+      ],
+      "draw_ms": [
+        0.19999999925494194,
+        0.40000000037252903,
+        0.2999999998137355,
+        0,
+        0,
+        0.09999999962747097
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 6.368236400462963,
+      "sound_events": 30,
+      "stats": {
+        "bodyCount": 8,
+        "eventCount": 30,
+        "trajectoryBounds": {
+          "minX": 25,
+          "maxX": 515,
+          "minY": 184.79485322589113,
+          "maxY": 755
+        },
+        "solver": "fixed 120Hz 2D"
+      }
+    },
+    {
+      "id": "asmr-jelly-compression",
+      "genre": "asmr",
+      "motion": "compression",
+      "unique_frame_hashes": 5,
+      "hashes": [
+        3674461746,
+        2662442834,
+        751494506,
+        3387640273,
+        751494506,
+        1638680159
+      ],
+      "draw_ms": [
+        7.7000000001862645,
+        0.09999999962747097,
+        0.19999999925494194,
+        0.09999999962747097,
+        0.09999999962747097,
+        0.09999999962747097
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 1.591435185185185e-05,
+      "sound_events": 1,
+      "stats": {
+        "template_id": "asmr-jelly-compression",
+        "particle_limit": 64,
+        "physics": "procedural material approximation",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "asmr-glass-cutting",
+      "genre": "asmr",
+      "motion": "cut",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        1647788825,
+        3242301443,
+        302865631,
+        639820875,
+        4140379864,
+        502852611
+      ],
+      "draw_ms": [
+        0.30000000074505806,
+        0.09999999962747097,
+        0.09999999962747097,
+        0.10000000055879354,
+        0,
+        0.09999999962747097
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 1.5583203125,
+      "sound_events": 3,
+      "stats": {
+        "template_id": "asmr-glass-cutting",
+        "particle_limit": 64,
+        "physics": "procedural material approximation",
+        "loop": "reset"
+      }
+    },
+    {
+      "id": "asmr-color-mixing",
+      "genre": "asmr",
+      "motion": "mix",
+      "unique_frame_hashes": 5,
+      "hashes": [
+        1120841071,
+        255728550,
+        3946858357,
+        134811718,
+        3946858357,
+        582092362
+      ],
+      "draw_ms": [
+        0.40000000037252903,
+        0.09999999962747097,
+        0,
+        0.10000000055879354,
+        0.09999999962747097,
+        0.09999999962747097
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.0004094328703703704,
+      "sound_events": 1,
+      "stats": {
+        "template_id": "asmr-color-mixing",
+        "particle_limit": 64,
+        "physics": "procedural material approximation",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "asmr-smooth-ripple",
+      "genre": "asmr",
+      "motion": "ripple",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        219801524,
+        744796080,
+        3390621100,
+        1649619441,
+        1527317319,
+        1795690062
+      ],
+      "draw_ms": [
+        0.09999999962747097,
+        0,
+        0.09999999962747097,
+        0,
+        0.09999999962747097,
+        0
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 0.1404123263888889,
+      "sound_events": 1,
+      "stats": {
+        "template_id": "asmr-smooth-ripple",
+        "particle_limit": 64,
+        "physics": "procedural material approximation",
+        "loop": "reset"
+      }
+    },
+    {
+      "id": "asmr-soft-deformation",
+      "genre": "asmr",
+      "motion": "deform",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        950750714,
+        1800954506,
+        1877625263,
+        2669199172,
+        2442294464,
+        3590420728
+      ],
+      "draw_ms": [
+        0.2999999998137355,
+        0.2999999998137355,
+        0.20000000018626451,
+        0.09999999962747097,
+        0.20000000018626451,
+        0.2999999998137355
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.054609375,
+      "sound_events": 2,
+      "stats": {
+        "template_id": "asmr-soft-deformation",
+        "particle_limit": 64,
+        "physics": "procedural material approximation",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "asmr-liquid-gradient",
+      "genre": "asmr",
+      "motion": "pour",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        303098688,
+        2810096961,
+        612491784,
+        3388305062,
+        1576197374,
+        3823793490
+      ],
+      "draw_ms": [
+        0.10000000055879354,
+        0.09999999962747097,
+        0,
+        0.09999999962747097,
+        0,
+        0.10000000055879354
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.0011255787037037037,
+      "sound_events": 2,
+      "stats": {
+        "template_id": "asmr-liquid-gradient",
+        "particle_limit": 64,
+        "physics": "procedural material approximation",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "asmr-bubble-popping",
+      "genre": "asmr",
+      "motion": "bubble",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        2860865950,
+        1689096951,
+        3909172823,
+        1140652475,
+        2430205564,
+        2344220603
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0.10000000055879354,
+        0.09999999962747097,
+        0.20000000018626451,
+        0,
+        0
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 3.1731640625,
+      "sound_events": 12,
+      "stats": {
+        "template_id": "asmr-bubble-popping",
+        "particle_limit": 64,
+        "physics": "procedural material approximation",
+        "loop": "reset"
+      }
+    },
+    {
+      "id": "asmr-particle-flow",
+      "genre": "asmr",
+      "motion": "flow",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        3450699785,
+        2338989706,
+        2546725238,
+        218005749,
+        2019122153,
+        4271350267
+      ],
+      "draw_ms": [
+        0.5,
+        0.2999999998137355,
+        0.2999999998137355,
+        0.39999999944120646,
+        0.19999999925494194,
+        0.20000000018626451
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 0.16267795138888888,
+      "sound_events": 2,
+      "stats": {
+        "template_id": "asmr-particle-flow",
+        "particle_limit": 64,
+        "physics": "procedural material approximation",
+        "loop": "reset"
+      }
+    },
+    {
+      "id": "asmr-perfect-slicing",
+      "genre": "asmr",
+      "motion": "slice",
+      "unique_frame_hashes": 5,
+      "hashes": [
+        356344117,
+        3223337407,
+        3463855334,
+        2852108034,
+        3463855334,
+        1873138241
+      ],
+      "draw_ms": [
+        0.2999999998137355,
+        0.20000000018626451,
+        0.10000000055879354,
+        0.10000000055879354,
+        0.19999999925494194,
+        0.19999999925494194
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.00020543981481481482,
+      "sound_events": 5,
+      "stats": {
+        "template_id": "asmr-perfect-slicing",
+        "particle_limit": 64,
+        "physics": "procedural material approximation",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "asmr-symmetry-arrangement",
+      "genre": "asmr",
+      "motion": "symmetry",
+      "unique_frame_hashes": 5,
+      "hashes": [
+        1515652823,
+        781836232,
+        1272549214,
+        1032117385,
+        1272549214,
+        1343217903
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0.09999999962747097,
+        0.09999999962747097,
+        0.20000000018626451,
+        0.10000000055879354,
+        0.10000000055879354
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.0011733217592592592,
+      "sound_events": 1,
+      "stats": {
+        "template_id": "asmr-symmetry-arrangement",
+        "particle_limit": 64,
+        "physics": "procedural material approximation",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "asmr-crystal-formation",
+      "genre": "asmr",
+      "motion": "crystal",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        827970860,
+        413455604,
+        3299778213,
+        297630812,
+        2893782022,
+        1388061339
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0.09999999962747097,
+        0,
+        0.10000000055879354,
+        0.09999999962747097,
+        0.09999999962747097
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 0.9368981481481482,
+      "sound_events": 5,
+      "stats": {
+        "template_id": "asmr-crystal-formation",
+        "particle_limit": 64,
+        "physics": "procedural material approximation",
+        "loop": "reset"
+      }
+    },
+    {
+      "id": "asmr-melting-shapes",
+      "genre": "asmr",
+      "motion": "melt",
+      "unique_frame_hashes": 5,
+      "hashes": [
+        897933893,
+        1488192090,
+        2298882921,
+        134256105,
+        2298882921,
+        2894969636
+      ],
+      "draw_ms": [
+        0,
+        0,
+        0,
+        0.10000000055879354,
+        0.09999999962747097,
+        0.10000000055879354
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 1.8807870370370372e-05,
+      "sound_events": 1,
+      "stats": {
+        "template_id": "asmr-melting-shapes",
+        "particle_limit": 64,
+        "physics": "procedural material approximation",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "asmr-satisfying-fill",
+      "genre": "asmr",
+      "motion": "fill",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        2352549728,
+        659487492,
+        2936266154,
+        2671981213,
+        3395207192,
+        304276059
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0,
+        0.20000000018626451,
+        0.09999999962747097,
+        0,
+        0.09999999962747097
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 4.252774884259259,
+      "sound_events": 2,
+      "stats": {
+        "template_id": "asmr-satisfying-fill",
+        "particle_limit": 64,
+        "physics": "procedural material approximation",
+        "loop": "reset"
+      }
+    },
+    {
+      "id": "asmr-layer-peeling",
+      "genre": "asmr",
+      "motion": "peel",
+      "unique_frame_hashes": 5,
+      "hashes": [
+        268698074,
+        3981934051,
+        3846080916,
+        1423462673,
+        3846080916,
+        2563688917
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0.20000000018626451,
+        0,
+        0.09999999962747097,
+        0.09999999962747097,
+        0.10000000055879354
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.00014033564814814814,
+      "sound_events": 3,
+      "stats": {
+        "template_id": "asmr-layer-peeling",
+        "particle_limit": 64,
+        "physics": "procedural material approximation",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "asmr-seamless-liquid",
+      "genre": "asmr",
+      "motion": "infinity",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        2644394702,
+        1652436875,
+        3948063288,
+        1991290804,
+        2135205959,
+        657971261
+      ],
+      "draw_ms": [
+        0.40000000037252903,
+        0.2999999998137355,
+        0.20000000018626451,
+        0.20000000018626451,
+        0.20000000018626451,
+        0.20000000018626451
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.12122974537037037,
+      "sound_events": 2,
+      "stats": {
+        "template_id": "asmr-seamless-liquid",
+        "particle_limit": 64,
+        "physics": "procedural material approximation",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "surreal-creature-transformation",
+      "genre": "meme",
+      "motion": "morph",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        3526785651,
+        2306721402,
+        2275416207,
+        788084900,
+        64428950,
+        3712755508
+      ],
+      "draw_ms": [
+        1.1000000005587935,
+        0.20000000018626451,
+        0.10000000055879354,
+        0.2999999998137355,
+        0.10000000055879354,
+        0.09999999962747097
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.05114438657407407,
+      "sound_events": 3,
+      "stats": {
+        "template_id": "surreal-creature-transformation",
+        "particle_limit": 48,
+        "physics": "stylized procedural dream logic",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "surreal-absurd-race",
+      "genre": "meme",
+      "motion": "race",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        3127426859,
+        708747791,
+        1993243371,
+        3294231535,
+        2280123583,
+        3609935031
+      ],
+      "draw_ms": [
+        0.40000000037252903,
+        0.10000000055879354,
+        0.20000000018626451,
+        0.2999999998137355,
+        0.20000000018626451,
+        0.19999999925494194
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 8.546443865740741,
+      "sound_events": 3,
+      "stats": {
+        "template_id": "surreal-absurd-race",
+        "particle_limit": 48,
+        "physics": "stylized procedural dream logic",
+        "loop": "reset"
+      }
+    },
+    {
+      "id": "surreal-impossible-object",
+      "genre": "meme",
+      "motion": "impossible",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        509038737,
+        3875010737,
+        31395975,
+        3436744708,
+        1117662944,
+        2720078480
+      ],
+      "draw_ms": [
+        0.09999999962747097,
+        0.20000000018626451,
+        0,
+        0,
+        0,
+        0
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.06515190972222222,
+      "sound_events": 2,
+      "stats": {
+        "template_id": "surreal-impossible-object",
+        "particle_limit": 48,
+        "physics": "stylized procedural dream logic",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "surreal-unexpected-evolution",
+      "genre": "meme",
+      "motion": "evolution",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        657480686,
+        3444959054,
+        1493276488,
+        2006292580,
+        328628259,
+        2519880494
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0.10000000055879354,
+        0,
+        0.09999999962747097,
+        0.20000000018626451,
+        0
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 8.039320023148148,
+      "sound_events": 3,
+      "stats": {
+        "template_id": "surreal-unexpected-evolution",
+        "particle_limit": 48,
+        "physics": "stylized procedural dream logic",
+        "loop": "reset"
+      }
+    },
+    {
+      "id": "surreal-surreal-dance",
+      "genre": "meme",
+      "motion": "dance",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        433065392,
+        3410391509,
+        3111046122,
+        849095963,
+        3524570896,
+        1011407968
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0.09999999962747097,
+        0.10000000055879354,
+        0.09999999962747097,
+        0,
+        0.20000000018626451
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.13387731481481482,
+      "sound_events": 4,
+      "stats": {
+        "template_id": "surreal-surreal-dance",
+        "particle_limit": 48,
+        "physics": "stylized procedural dream logic",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "surreal-infinite-character",
+      "genre": "meme",
+      "motion": "portal",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        2283147972,
+        3428242775,
+        2952900328,
+        1304718195,
+        2661676645,
+        3863052067
+      ],
+      "draw_ms": [
+        0.09999999962747097,
+        0.10000000055879354,
+        0.10000000055879354,
+        0.09999999962747097,
+        0.20000000018626451,
+        0.09999999962747097
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 0.9936328125,
+      "sound_events": 2,
+      "stats": {
+        "template_id": "surreal-infinite-character",
+        "particle_limit": 48,
+        "physics": "stylized procedural dream logic",
+        "loop": "reset"
+      }
+    },
+    {
+      "id": "surreal-facial-expressions",
+      "genre": "meme",
+      "motion": "face",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        1722451230,
+        2084950975,
+        334852273,
+        3557280832,
+        3023023153,
+        2938092400
+      ],
+      "draw_ms": [
+        0.19999999925494194,
+        0.10000000055879354,
+        0.09999999962747097,
+        0,
+        0.09999999962747097,
+        0
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.052379918981481484,
+      "sound_events": 3,
+      "stats": {
+        "template_id": "surreal-facial-expressions",
+        "particle_limit": 48,
+        "physics": "stylized procedural dream logic",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "surreal-strange-planet",
+      "genre": "meme",
+      "motion": "planet",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        3570926965,
+        1530217853,
+        1458681310,
+        3523804866,
+        4105110886,
+        486181155
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0.09999999962747097,
+        0.10000000055879354,
+        0.10000000055879354,
+        0.09999999962747097,
+        0.09999999962747097
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.15140046296296297,
+      "sound_events": 2,
+      "stats": {
+        "template_id": "surreal-strange-planet",
+        "particle_limit": 48,
+        "physics": "stylized procedural dream logic",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "surreal-bizarre-machine",
+      "genre": "meme",
+      "motion": "machine",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        3049989376,
+        3369996672,
+        3267055460,
+        3772889925,
+        3485893603,
+        3696700320
+      ],
+      "draw_ms": [
+        0.40000000037252903,
+        0.20000000018626451,
+        0,
+        0,
+        0.09999999962747097,
+        0.09999999962747097
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 0.9998625578703704,
+      "sound_events": 3,
+      "stats": {
+        "template_id": "surreal-bizarre-machine",
+        "particle_limit": 48,
+        "physics": "stylized procedural dream logic",
+        "loop": "reset"
+      }
+    },
+    {
+      "id": "surreal-scale-change",
+      "genre": "meme",
+      "motion": "scale",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        319677476,
+        3467920665,
+        72533998,
+        324182145,
+        1472860760,
+        790516954
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0.09999999962747097,
+        0.20000000018626451,
+        0.2999999998137355,
+        0,
+        0
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.08720486111111111,
+      "sound_events": 1,
+      "stats": {
+        "template_id": "surreal-scale-change",
+        "particle_limit": 48,
+        "physics": "stylized procedural dream logic",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "surreal-creature-generator",
+      "genre": "meme",
+      "motion": "assemble",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        3444916053,
+        902699177,
+        1658706540,
+        2559592447,
+        64176136,
+        1147498642
+      ],
+      "draw_ms": [
+        0.39999999944120646,
+        0.20000000018626451,
+        1.300000000745058,
+        0.20000000018626451,
+        0.19999999925494194,
+        0.10000000055879354
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.02660011574074074,
+      "sound_events": 5,
+      "stats": {
+        "template_id": "surreal-creature-generator",
+        "particle_limit": 48,
+        "physics": "stylized procedural dream logic",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "surreal-dream-logic",
+      "genre": "meme",
+      "motion": "stairs",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        4154819769,
+        15253228,
+        453774307,
+        2039609236,
+        1259830251,
+        3910007691
+      ],
+      "draw_ms": [
+        0,
+        0.10000000055879354,
+        0,
+        0.09999999962747097,
+        0,
+        0.20000000018626451
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 1.3289771412037037,
+      "sound_events": 5,
+      "stats": {
+        "template_id": "surreal-dream-logic",
+        "particle_limit": 48,
+        "physics": "stylized procedural dream logic",
+        "loop": "reset"
+      }
+    },
+    {
+      "id": "surreal-weird-interaction",
+      "genre": "meme",
+      "motion": "stars",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        1195318362,
+        2065817220,
+        3307281448,
+        3611495528,
+        1794833958,
+        588894377
+      ],
+      "draw_ms": [
+        0.2999999998137355,
+        0.20000000018626451,
+        0.10000000055879354,
+        0.10000000055879354,
+        0.20000000018626451,
+        0.09999999962747097
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.7361617476851852,
+      "sound_events": 4,
+      "stats": {
+        "template_id": "surreal-weird-interaction",
+        "particle_limit": 48,
+        "physics": "stylized procedural dream logic",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "surreal-reality-glitch",
+      "genre": "meme",
+      "motion": "glitch",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        3389932618,
+        229122755,
+        4200628530,
+        347616404,
+        487010590,
+        1762135316
+      ],
+      "draw_ms": [
+        0.39999999944120646,
+        0.20000000018626451,
+        0.20000000018626451,
+        0.2999999998137355,
+        0.20000000018626451,
+        0.30000000074505806
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 2.4455772569444445,
+      "sound_events": 3,
+      "stats": {
+        "template_id": "surreal-reality-glitch",
+        "particle_limit": 48,
+        "physics": "stylized procedural dream logic",
+        "loop": "seamless"
+      }
+    },
+    {
+      "id": "surreal-absurd-mini-story",
+      "genre": "meme",
+      "motion": "story",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        350821038,
+        1294112841,
+        852651739,
+        3410426770,
+        1097187908,
+        3673087435
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0,
+        0.09999999962747097,
+        0.20000000018626451,
+        0.09999999962747097,
+        0.09999999962747097
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 0.812578125,
+      "sound_events": 3,
+      "stats": {
+        "template_id": "surreal-absurd-mini-story",
+        "particle_limit": 48,
+        "physics": "stylized procedural dream logic",
+        "loop": "reset"
+      }
+    },
+    {
+      "id": "chain-spiral",
+      "genre": "domino",
+      "motion": "domino-spiral",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        746599508,
+        286447068,
+        1334010430,
+        2592508623,
+        2727667152,
+        3169291272
+      ],
+      "draw_ms": [
+        2.099999999627471,
+        0.40000000037252903,
+        0.2999999998137355,
+        0.19999999925494194,
+        0.2999999998137355,
+        0.2999999998137355
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 10.236015625,
+      "sound_events": 36,
+      "stats": {
+        "nodeCount": 36,
+        "particleCount": 48,
+        "solver": "bounded deterministic kinematic relay"
+      }
+    },
+    {
+      "id": "chain-machine",
+      "genre": "domino",
+      "motion": "marble-machine",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        210160151,
+        1660182300,
+        2680421531,
+        762727357,
+        3643525620,
+        1441764599
+      ],
+      "draw_ms": [
+        0.40000000037252903,
+        0.19999999925494194,
+        0.09999999962747097,
+        0.10000000055879354,
+        0.20000000018626451,
+        0.10000000055879354
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 0.9977054398148149,
+      "sound_events": 5,
+      "stats": {
+        "nodeCount": 36,
+        "particleCount": 48,
+        "solver": "bounded deterministic kinematic relay"
+      }
+    },
+    {
+      "id": "chain-gears",
+      "genre": "domino",
+      "motion": "gears",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        1011176866,
+        29373242,
+        2787794093,
+        4290141995,
+        3290746846,
+        707309722
+      ],
+      "draw_ms": [
+        0.2999999998137355,
+        0.19999999925494194,
+        0.09999999962747097,
+        0.10000000055879354,
+        0.09999999962747097,
+        0.09999999962747097
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 7.811148726851852,
+      "sound_events": 8,
+      "stats": {
+        "nodeCount": 36,
+        "particleCount": 48,
+        "solver": "bounded deterministic kinematic relay"
+      }
+    },
+    {
+      "id": "chain-blocks",
+      "genre": "domino",
+      "motion": "blocks",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        20609434,
+        90101512,
+        3385424763,
+        720471745,
+        3413150525,
+        3032890160
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0.09999999962747097,
+        0.09999999962747097,
+        0.09999999962747097,
+        0.09999999962747097,
+        0
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 19.665811631944443,
+      "sound_events": 18,
+      "stats": {
+        "nodeCount": 36,
+        "particleCount": 48,
+        "solver": "bounded deterministic kinematic relay"
+      }
+    },
+    {
+      "id": "chain-stages",
+      "genre": "domino",
+      "motion": "stages",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        2201298536,
+        171098803,
+        3629392345,
+        4132195617,
+        325728557,
+        3060854747
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0.10000000055879354,
+        0.10000000055879354,
+        0.09999999962747097,
+        0.19999999925494194,
+        0.10000000055879354
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 8.854771412037037,
+      "sound_events": 21,
+      "stats": {
+        "nodeCount": 36,
+        "particleCount": 48,
+        "solver": "bounded deterministic kinematic relay"
+      }
+    },
+    {
+      "id": "chain-endless",
+      "genre": "domino",
+      "motion": "endless",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        2749227726,
+        959275022,
+        4001997297,
+        271568267,
+        3707350835,
+        1141887912
+      ],
+      "draw_ms": [
+        0.2999999998137355,
+        0.2999999998137355,
+        0.20000000018626451,
+        0.19999999925494194,
+        0.2999999998137355,
+        0.30000000074505806
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.11627604166666666,
+      "sound_events": 36,
+      "stats": {
+        "nodeCount": 36,
+        "particleCount": 48,
+        "solver": "bounded deterministic kinematic relay"
+      }
+    },
+    {
+      "id": "chain-ball-gear",
+      "genre": "domino",
+      "motion": "ball-gear",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        569135485,
+        2976391185,
+        2218234680,
+        1149801420,
+        3454569957,
+        3064690851
+      ],
+      "draw_ms": [
+        0.10000000055879354,
+        0.09999999962747097,
+        0,
+        0.5,
+        0,
+        0.09999999962747097
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 5.014377893518518,
+      "sound_events": 10,
+      "stats": {
+        "nodeCount": 36,
+        "particleCount": 48,
+        "solver": "bounded deterministic kinematic relay"
+      }
+    },
+    {
+      "id": "chain-perfect",
+      "genre": "domino",
+      "motion": "perfect",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        419736036,
+        2441664005,
+        3942174460,
+        3710970984,
+        3619155218,
+        1063952961
+      ],
+      "draw_ms": [
+        0.40000000037252903,
+        0.20000000018626451,
+        0.20000000018626451,
+        0.20000000018626451,
+        0.20000000018626451,
+        0.2999999998137355
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 12.474447337962962,
+      "sound_events": 36,
+      "stats": {
+        "nodeCount": 36,
+        "particleCount": 48,
+        "solver": "bounded deterministic kinematic relay"
+      }
+    },
+    {
+      "id": "chain-puzzle",
+      "genre": "domino",
+      "motion": "puzzle",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        2788436414,
+        3196583269,
+        3633649061,
+        955279464,
+        2089428203,
+        2364583670
+      ],
+      "draw_ms": [
+        0.20000000018626451,
+        0.09999999962747097,
+        0.10000000055879354,
+        0.10000000055879354,
+        0.10000000055879354,
+        0
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 5.777397280092592,
+      "sound_events": 9,
+      "stats": {
+        "nodeCount": 36,
+        "particleCount": 48,
+        "solver": "bounded deterministic kinematic relay"
+      }
+    },
+    {
+      "id": "chain-gravity",
+      "genre": "domino",
+      "motion": "gravity",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        1061038782,
+        66407095,
+        2132397700,
+        2090884371,
+        3059694474,
+        2721382543
+      ],
+      "draw_ms": [
+        0.09999999962747097,
+        0.09999999962747097,
+        0.10000000055879354,
+        0.19999999925494194,
+        0.09999999962747097,
+        0.10000000055879354
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 7.673849826388889,
+      "sound_events": 3,
+      "stats": {
+        "nodeCount": 36,
+        "particleCount": 48,
+        "solver": "bounded deterministic kinematic relay"
+      }
+    },
+    {
+      "id": "chain-rube",
+      "genre": "domino",
+      "motion": "rube",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        2399836052,
+        279316660,
+        4019555353,
+        2698448396,
+        3032148141,
+        2075638271
+      ],
+      "draw_ms": [
+        0.10000000055879354,
+        0.09999999962747097,
+        0,
+        0.10000000055879354,
+        0.10000000055879354,
+        0.10000000055879354
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 5.700062210648148,
+      "sound_events": 9,
+      "stats": {
+        "nodeCount": 36,
+        "particleCount": 48,
+        "solver": "bounded deterministic kinematic relay"
+      }
+    },
+    {
+      "id": "chain-circular",
+      "genre": "domino",
+      "motion": "circular",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        4121018282,
+        2619936978,
+        3595099135,
+        2576950419,
+        2153835573,
+        2968782221
+      ],
+      "draw_ms": [
+        0.40000000037252903,
+        0.2999999998137355,
+        0.20000000018626451,
+        0.2999999998137355,
+        0.8999999994412065,
+        0.2999999998137355
+      ],
+      "loop": "seamless",
+      "endpoint_mean_absolute_rgb_difference": 0.09327690972222222,
+      "sound_events": 36,
+      "stats": {
+        "nodeCount": 36,
+        "particleCount": 48,
+        "solver": "bounded deterministic kinematic relay"
+      }
+    },
+    {
+      "id": "chain-delayed",
+      "genre": "domino",
+      "motion": "delayed",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        1668632676,
+        3696086829,
+        4212996309,
+        3849227930,
+        2716292420,
+        1982657008
+      ],
+      "draw_ms": [
+        0.2999999998137355,
+        0.20000000018626451,
+        0.19999999925494194,
+        0.19999999925494194,
+        0.2999999998137355,
+        0.2999999998137355
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 10.849735243055555,
+      "sound_events": 36,
+      "stats": {
+        "nodeCount": 36,
+        "particleCount": 48,
+        "solver": "bounded deterministic kinematic relay"
+      }
+    },
+    {
+      "id": "chain-color",
+      "genre": "domino",
+      "motion": "color",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        626021022,
+        3751368420,
+        1108741546,
+        2251554542,
+        3952023403,
+        426146322
+      ],
+      "draw_ms": [
+        0.2999999998137355,
+        0.20000000018626451,
+        0.10000000055879354,
+        0.10000000055879354,
+        0.20000000018626451,
+        0.09999999962747097
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 31.022890625,
+      "sound_events": 13,
+      "stats": {
+        "nodeCount": 36,
+        "particleCount": 48,
+        "solver": "bounded deterministic kinematic relay"
+      }
+    },
+    {
+      "id": "chain-burst",
+      "genre": "domino",
+      "motion": "burst",
+      "unique_frame_hashes": 6,
+      "hashes": [
+        3597880575,
+        3083537314,
+        2138048732,
+        4114497006,
+        208125951,
+        3013188079
+      ],
+      "draw_ms": [
+        0.2999999998137355,
+        0.2999999998137355,
+        0.19999999925494194,
+        0.20000000018626451,
+        0.20000000018626451,
+        0.5
+      ],
+      "loop": "reset",
+      "endpoint_mean_absolute_rgb_difference": 10.211844618055556,
+      "sound_events": 37,
+      "stats": {
+        "nodeCount": 36,
+        "particleCount": 48,
+        "solver": "bounded deterministic kinematic relay"
+      }
+    }
+  ],
+  "featured": [
+    {
+      "id": "phy-ring-escape",
+      "genre": "ball",
+      "name": "Rotating Ring Escape",
+      "image": "phy-ring-escape.png",
+      "loop": "reset",
+      "note": "Canvas2D stylized approximation; original procedural geometry",
+      "before_video": "ball-before.mp4",
+      "before_recording_stats": null,
+      "before_bytes": 203279,
+      "before_codec_streams": [
+        {
+          "type": "video",
+          "codec": "h264"
+        },
+        {
+          "type": "audio",
+          "codec": "aac"
+        }
+      ],
+      "after_video": "ball-after.mp4",
+      "after_recording_stats": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.010600000000559,
+        "p95FrameMs": 0.2999999998137355,
+        "maxFrameMs": 0.7999999998137355,
+        "soundEvents": 31,
+        "mimeType": "video/mp4;codecs=avc1.42001f,opus",
+        "measuredIn": "current_browser_not_iphone"
+      },
+      "after_bytes": 216186,
+      "after_codec_streams": [
+        {
+          "type": "video",
+          "codec": "h264"
+        },
+        {
+          "type": "audio",
+          "codec": "aac"
+        }
+      ],
+      "before_delivery_audio_codec": "aac",
+      "before_native_recording_note": "Chromium native MP4 used Opus audio; the downloadable sample only was converted offline to AAC with FFmpeg. The web app does not require or run FFmpeg.",
+      "after_delivery_audio_codec": "aac",
+      "after_native_recording_note": "Chromium native MP4 used Opus audio; the downloadable sample only was converted offline to AAC with FFmpeg. The web app does not require or run FFmpeg."
+    },
+    {
+      "id": "phy-maze",
+      "genre": "ball",
+      "name": "Bouncing Ball Maze",
+      "image": "phy-maze.png",
+      "loop": "reset",
+      "note": "Canvas2D stylized approximation; original procedural geometry"
+    },
+    {
+      "id": "phy-funnel",
+      "genre": "ball",
+      "name": "Gravity Funnel",
+      "image": "phy-funnel.png",
+      "loop": "reset",
+      "note": "Canvas2D stylized approximation; original procedural geometry"
+    },
+    {
+      "id": "asmr-jelly-compression",
+      "genre": "asmr",
+      "name": "Jelly Compression",
+      "image": "asmr-jelly-compression.png",
+      "loop": "seamless",
+      "note": "Canvas2D stylized approximation; original procedural geometry",
+      "before_video": "asmr-before.mp4",
+      "before_recording_stats": null,
+      "before_bytes": 208548,
+      "before_codec_streams": [
+        {
+          "type": "video",
+          "codec": "h264"
+        },
+        {
+          "type": "audio",
+          "codec": "aac"
+        }
+      ],
+      "after_video": "asmr-after.mp4",
+      "after_recording_stats": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.015,
+        "p95FrameMs": 0.20000000018626451,
+        "maxFrameMs": 0.7000000001862645,
+        "soundEvents": 1,
+        "mimeType": "video/mp4;codecs=avc1.42001f,opus",
+        "measuredIn": "current_browser_not_iphone"
+      },
+      "after_bytes": 153769,
+      "after_codec_streams": [
+        {
+          "type": "video",
+          "codec": "h264"
+        },
+        {
+          "type": "audio",
+          "codec": "aac"
+        }
+      ],
+      "before_delivery_audio_codec": "aac",
+      "before_native_recording_note": "Chromium native MP4 used Opus audio; the downloadable sample only was converted offline to AAC with FFmpeg. The web app does not require or run FFmpeg.",
+      "after_delivery_audio_codec": "aac",
+      "after_native_recording_note": "Chromium native MP4 used Opus audio; the downloadable sample only was converted offline to AAC with FFmpeg. The web app does not require or run FFmpeg."
+    },
+    {
+      "id": "asmr-glass-cutting",
+      "genre": "asmr",
+      "name": "Prism Cut",
+      "image": "asmr-glass-cutting.png",
+      "loop": "reset",
+      "note": "Canvas2D stylized approximation; original procedural geometry"
+    },
+    {
+      "id": "asmr-color-mixing",
+      "genre": "asmr",
+      "name": "Chromatic Confluence",
+      "image": "asmr-color-mixing.png",
+      "loop": "seamless",
+      "note": "Canvas2D stylized approximation; original procedural geometry"
+    },
+    {
+      "id": "surreal-creature-transformation",
+      "genre": "meme",
+      "name": "The Shape-Shifting Bean",
+      "image": "surreal-creature-transformation.png",
+      "loop": "seamless",
+      "note": "Canvas2D stylized approximation; original procedural geometry",
+      "before_video": "meme-before.mp4",
+      "before_recording_stats": null,
+      "before_bytes": 203485,
+      "before_codec_streams": [
+        {
+          "type": "video",
+          "codec": "h264"
+        },
+        {
+          "type": "audio",
+          "codec": "aac"
+        }
+      ],
+      "after_video": "meme-after.mp4",
+      "after_recording_stats": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.017100000000559,
+        "p95FrameMs": 0.2999999998137355,
+        "maxFrameMs": 0.7000000001862645,
+        "soundEvents": 3,
+        "mimeType": "video/mp4;codecs=avc1.42001f,opus",
+        "measuredIn": "current_browser_not_iphone"
+      },
+      "after_bytes": 204819,
+      "after_codec_streams": [
+        {
+          "type": "video",
+          "codec": "h264"
+        },
+        {
+          "type": "audio",
+          "codec": "aac"
+        }
+      ],
+      "before_delivery_audio_codec": "aac",
+      "before_native_recording_note": "Chromium native MP4 used Opus audio; the downloadable sample only was converted offline to AAC with FFmpeg. The web app does not require or run FFmpeg.",
+      "after_delivery_audio_codec": "aac",
+      "after_native_recording_note": "Chromium native MP4 used Opus audio; the downloadable sample only was converted offline to AAC with FFmpeg. The web app does not require or run FFmpeg."
+    },
+    {
+      "id": "surreal-absurd-race",
+      "genre": "meme",
+      "name": "The Slowest Race in Space",
+      "image": "surreal-absurd-race.png",
+      "loop": "reset",
+      "note": "Canvas2D stylized approximation; original procedural geometry"
+    },
+    {
+      "id": "surreal-impossible-object",
+      "genre": "meme",
+      "name": "Impossible Ribbon",
+      "image": "surreal-impossible-object.png",
+      "loop": "seamless",
+      "note": "Canvas2D stylized approximation; original procedural geometry"
+    },
+    {
+      "id": "chain-spiral",
+      "genre": "domino",
+      "name": "Domino Spiral",
+      "image": "chain-spiral.png",
+      "loop": "reset",
+      "note": "Canvas2D stylized approximation; original procedural geometry",
+      "before_video": "domino-before.mp4",
+      "before_recording_stats": null,
+      "before_bytes": 182468,
+      "before_codec_streams": [
+        {
+          "type": "video",
+          "codec": "h264"
+        },
+        {
+          "type": "audio",
+          "codec": "aac"
+        }
+      ],
+      "after_video": "domino-after.mp4",
+      "after_recording_stats": {
+        "renderedFrames": 73,
+        "elapsedSeconds": 3.0225,
+        "p95FrameMs": 0.40000000037252903,
+        "maxFrameMs": 0.900000000372529,
+        "soundEvents": 36,
+        "mimeType": "video/mp4;codecs=avc1.42001f,opus",
+        "measuredIn": "current_browser_not_iphone"
+      },
+      "after_bytes": 210476,
+      "after_codec_streams": [
+        {
+          "type": "video",
+          "codec": "h264"
+        },
+        {
+          "type": "audio",
+          "codec": "aac"
+        }
+      ],
+      "before_delivery_audio_codec": "aac",
+      "before_native_recording_note": "Chromium native MP4 used Opus audio; the downloadable sample only was converted offline to AAC with FFmpeg. The web app does not require or run FFmpeg.",
+      "after_delivery_audio_codec": "aac",
+      "after_native_recording_note": "Chromium native MP4 used Opus audio; the downloadable sample only was converted offline to AAC with FFmpeg. The web app does not require or run FFmpeg."
+    },
+    {
+      "id": "chain-machine",
+      "genre": "domino",
+      "name": "Marble Machine",
+      "image": "chain-machine.png",
+      "loop": "reset",
+      "note": "Canvas2D stylized approximation; original procedural geometry"
+    },
+    {
+      "id": "chain-gears",
+      "genre": "domino",
+      "name": "Gear Cascade",
+      "image": "chain-gears.png",
+      "loop": "reset",
+      "note": "Canvas2D stylized approximation; original procedural geometry"
+    }
+  ]
+}
