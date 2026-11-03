@@ -19,5 +19,6 @@ test('Seeds produce reproducible, distinct patterns',()=>{
  assert.deepEqual(aa,bb);assert.notDeepEqual(aa,cc);assert.ok(aa.every(n=>n>=0&&n<1));
 });
 test('All resolution presets preserve exact 9:16 pixels',()=>{
- assert.equal(GENRES.length,4);for(const w of WIDTHS){assert.ok(Number.isInteger(w*16/9));assert.equal(w/(w*16/9),9/16)}
+ assert.equal(GENRES.length,5);for(const w of WIDTHS){assert.ok(Number.isInteger(w*16/9));assert.equal(w/(w*16/9),9/16)}
 });
+

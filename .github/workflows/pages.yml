@@ -2,7 +2,7 @@ name: Publish Canvas app to GitHub Pages
 on:
   push:
     branches: [main]
-    paths: ['docs/**', 'tests/engine.test.js', 'package.json', '.github/workflows/pages.yml']
+    paths: ['docs/**', 'tests/**', 'package.json', '.github/workflows/pages.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -12,7 +12,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 15
     permissions:
       contents: read
       pages: write
@@ -25,8 +25,19 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: npm test
-      - run: npm run check
+      - run: npm test && npm run check
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install playwright==1.56.0
+      - run: python -m playwright install --with-deps chromium
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: python tests/test-viral-browser.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: viral-browser-qa
+          path: docs/samples/viral
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

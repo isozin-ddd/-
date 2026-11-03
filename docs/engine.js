@@ -1,6 +1,6 @@
 import {studioScene} from './catalog.js';
 export const WIDTHS=[360,540,720,1080];
-export const GENRES=['ball','asmr','meme','domino'];
+export const GENRES=['viral','ball','asmr','meme','domino'];
 export const LABELS={ball:'跳ねるたび、予想外。',asmr:'ずっと見ていたい波紋',meme:'重力を忘れた宇宙人',domino:'最後までつながる？'};
 export const MP4_TYPES=['video/mp4;codecs=avc1.424028,mp4a.40.2','video/mp4;codecs=avc1.424028','video/mp4'];
 export function pickTypes(Recorder=globalThis.MediaRecorder){
@@ -25,7 +25,7 @@ export function createAudio(context,settings,seed){
  }
  const now=context.currentTime;
  if(settings.bgm!=='off')for(let t=0;t<settings.duration;t+=.5){const envelope=Math.min(1,t*3+.1,(settings.duration-t)*3);tone((settings.bgm==='calm'?174.61:261.63)*[1,1.25,1.5,1.25][Math.floor(t*2)%4],now+t,.46,.07*envelope)}
- return {stream:destination.stream,hit(event){if(!settings.sfx)return;soundEvents++;tone(event.pitch||500+seed%240,context.currentTime+.004,.07+.12*Math.min(1,event.intensity||.5),.10+.16*Math.min(1,event.intensity||.5),'triangle')},get soundEvents(){return soundEvents},close(){for(const node of nodes){try{node.stop?.()}catch{}try{node.disconnect()}catch{}}nodes.clear();master.disconnect();limiter.disconnect();destination.stream.getTracks().forEach(t=>t.stop())}};
+ return {stream:destination.stream,monitor(){limiter.connect(context.destination)},hit(event){if(!settings.sfx)return;soundEvents++;tone(event.pitch||500+seed%240,context.currentTime+.004,.07+.12*Math.min(1,event.intensity||.5),.10+.16*Math.min(1,event.intensity||.5),['triangle','sine','triangle','sine'][Math.abs(event.ring||0)%4]);if(event.type==='goal')for(const factor of [1.25,1.5,2])tone((event.pitch||523)*factor,context.currentTime+.02,.4,.05)},get soundEvents(){return soundEvents},close(){for(const node of nodes){try{node.stop?.()}catch{}try{node.disconnect()}catch{}}nodes.clear();master.disconnect();limiter.disconnect();destination.stream.getTracks().forEach(t=>t.stop())}};
 }
 export async function record(canvas,settings,{signal,onProgress,audioContext}){
  if(signal.aborted)throw signal.reason||new DOMException('停止しました','AbortError');
@@ -33,7 +33,7 @@ export async function record(canvas,settings,{signal,onProgress,audioContext}){
  const ctx=canvas.getContext('2d',{alpha:false}),animation=scene(settings.genre,settings.seed,settings);animation.draw(ctx,canvas.width,canvas.height,0,0,settings.caption);
  let stream,audio,recorder;
  try{
-  stream=canvas.captureStream(24);
+  stream=canvas.captureStream(settings.genre==='viral'?30:24);
   if(!stream.getVideoTracks().length)throw Error('Canvasから映像トラックを取得できませんでした');
   if(settings.sfx||settings.bgm!=='off'){
    if(!audioContext||audioContext.state!=='running')throw Error('音声を開始できません。Safariでボタンを押し直すか、音声をOFFにしてください');
@@ -47,14 +47,14 @@ export async function record(canvas,settings,{signal,onProgress,audioContext}){
    const cleanup=()=>{cancelAnimationFrame(raf);clearTimeout(watchdog);signal.removeEventListener('abort',abort)};
    const stop=(reason)=>{if(stopping)return;stopping=true;failure=reason||null;cancelAnimationFrame(raf);try{if(recorder.state!=='inactive')recorder.stop();else{cleanup();reject(failure||Error('録画が開始されていません'))}}catch(e){cleanup();reject(e)}};
    const abort=()=>stop(signal.reason||new DOMException('停止しました','AbortError'));
-   recorder.ondataavailable=e=>{if(e.data?.size){chunks.push(e.data);size+=e.data.size;if(size>24*1024*1024)stop(Error('1本のメモリ上限24MiBに達しました。解像度や尺を下げてください'))}};
+   recorder.ondataavailable=e=>{if(e.data?.size){chunks.push(e.data);size+=e.data.size;if(size>64*1024*1024)stop(Error('1本のメモリ上限64MiBに達しました。解像度や尺を下げてください'))}};
    recorder.onerror=e=>stop(Error(e.error?.message||'Safariの録画処理でエラーが発生しました'));
    recorder.onstop=()=>{cleanup();if(failure){chunks=[];reject(failure);return}if(!size){reject(Error('MP4データが空です。低い解像度で再試行してください'));return}const type=recorder.mimeType||chunks[0]?.type;if(!/^video\/mp4(?:;|$)/i.test(type||'')){reject(Error('録画結果がMP4ではありません。保存を中止しました'));return}const blob=new Blob(chunks,{type:'video/mp4'});chunks=[];const sorted=frameTimes.slice().sort((a,b)=>a-b);blob.recordingStats={renderedFrames,elapsedSeconds:(performance.now()-start)/1000,p95FrameMs:sorted[Math.floor(sorted.length*.95)]||0,maxFrameMs:Math.max(0,...sorted),soundEvents:audio?.soundEvents||0,mimeType:recorder.mimeType,measuredIn:'current_browser_not_iphone'};resolve(blob)};
    function tick(now){
     if(stopping)return;
     const elapsed=(now-start)/1000;
-    if(now-lastDraw<1000/24&&elapsed<settings.duration){raf=requestAnimationFrame(tick);return}
-    const dt=(now-last)/1000;last=now;lastDraw=Math.max(lastDraw+1000/24,now-1000/24);
+    if(now-lastDraw<1000/(settings.genre==='viral'?30:24)&&elapsed<settings.duration){raf=requestAnimationFrame(tick);return}
+    const dt=(now-last)/1000;last=now;lastDraw=Math.max(lastDraw+1000/(settings.genre==='viral'?30:24),now-1000/24);
     if(dt>1.5){stop(Error('描画が長時間停止しました。解像度を下げ、Safariを前面にして再試行してください'));return}
     const before=performance.now(),t=Math.min(elapsed,settings.duration);
     animation.draw(ctx,canvas.width,canvas.height,t,dt,settings.caption);
@@ -82,3 +82,4 @@ export function inspect(blob){
   video.onerror=()=>finish(Error('録画したMP4をこのブラウザで読み込めません'));video.src=url;video.load();
  });
 }
+
