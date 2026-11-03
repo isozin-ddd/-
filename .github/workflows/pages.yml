@@ -1,7 +1,7 @@
 name: Publish Canvas app to GitHub Pages
 on:
   push:
-    branches: [main]
+    branches: [main, viral-engine]
     paths: ['docs/**', 'tests/**', 'package.json', '.github/workflows/pages.yml']
   workflow_dispatch:
 permissions:
@@ -11,6 +11,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   publish:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
     timeout-minutes: 15
     permissions:
@@ -45,3 +46,26 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
+  validate-branch:
+    if: github.ref != 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test && npm run check
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install playwright==1.56.0
+      - run: python -m playwright install --with-deps chromium
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: python tests/test-viral-browser.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: viral-browser-qa
+          path: docs/samples/viral
