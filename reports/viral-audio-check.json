@@ -1,0 +1,25 @@
+{
+  "method": "PCM resampled with packet timestamps and silence padding; energy around collision time, not human listening or iPhone verification",
+  "samples": [
+    {
+      "mode": "escape",
+      "decoded_duration": 15.0188125,
+      "events": 16,
+      "energy_matches_within_minus40_plus120ms": 16
+    },
+    {
+      "mode": "multiply",
+      "decoded_duration": 13.4990625,
+      "events": 110,
+      "energy_matches_within_minus40_plus120ms": 110
+    },
+    {
+      "mode": "center",
+      "decoded_duration": 14.939,
+      "events": 27,
+      "energy_matches_within_minus40_plus120ms": 27
+    }
+  ],
+  "source_run": 41614898608,
+  "source_engine": "viral-1"
+}
