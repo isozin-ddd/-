@@ -1,0 +1,435 @@
+[
+  {
+    "id": "asmr-jelly-compression",
+    "genre": "asmr",
+    "name": "Jelly Compression",
+    "caption": "Watch it bounce back",
+    "description": "A translucent jelly block compresses under a floating glass press.",
+    "motion": "compression",
+    "hook": {
+      "half_second": "One clear tactile focal object is visible immediately",
+      "one_second": "Watch it bounce back",
+      "three_seconds": "A translucent jelly block compresses under a floating glass press."
+    },
+    "ending": "Returns to the opening pose and phase",
+    "loop": "seamless",
+    "beats": [
+      0.5
+    ],
+    "render_family": "compression",
+    "originality_notes": "Original mathematical geometry and synthesized sound; no downloaded reference media",
+    "limitations": "Stylized Canvas 2D visual approximation, not measured fluid or material simulation",
+    "quality": {
+      "max_particles": 72,
+      "contrast": "soft object / dark outline",
+      "camera": "fixed studio with a subtle periodic push"
+    },
+    "featured": true
+  },
+  {
+    "id": "asmr-glass-cutting",
+    "genre": "asmr",
+    "name": "Prism Cut",
+    "caption": "A clean cut, a new color",
+    "description": "A luminous cutting plane separates a glass prism into offset slices.",
+    "motion": "cut",
+    "hook": {
+      "half_second": "One clear tactile focal object is visible immediately",
+      "one_second": "A clean cut, a new color",
+      "three_seconds": "A luminous cutting plane separates a glass prism into offset slices."
+    },
+    "ending": "Completes its transformation; an intentional edit restarts the next cycle",
+    "loop": "reset",
+    "beats": [
+      0.32,
+      0.5,
+      0.68
+    ],
+    "render_family": "cut",
+    "originality_notes": "Original mathematical geometry and synthesized sound; no downloaded reference media",
+    "limitations": "Stylized Canvas 2D visual approximation, not measured fluid or material simulation",
+    "quality": {
+      "max_particles": 72,
+      "contrast": "soft object / dark outline",
+      "camera": "fixed studio with a subtle periodic push"
+    },
+    "featured": true
+  },
+  {
+    "id": "asmr-color-mixing",
+    "genre": "asmr",
+    "name": "Chromatic Confluence",
+    "caption": "Two colors, one perfect blend",
+    "description": "Three liquid-like translucent lobes converge and separate on a ceramic dish.",
+    "motion": "mix",
+    "hook": {
+      "half_second": "One clear tactile focal object is visible immediately",
+      "one_second": "Two colors, one perfect blend",
+      "three_seconds": "Three liquid-like translucent lobes converge and separate on a ceramic dish."
+    },
+    "ending": "Returns to the opening pose and phase",
+    "loop": "seamless",
+    "beats": [
+      0.5
+    ],
+    "render_family": "mix",
+    "originality_notes": "Original mathematical geometry and synthesized sound; no downloaded reference media",
+    "limitations": "Stylized Canvas 2D visual approximation, not measured fluid or material simulation",
+    "quality": {
+      "max_particles": 72,
+      "contrast": "soft object / dark outline",
+      "camera": "fixed studio with a subtle periodic push"
+    },
+    "featured": true
+  },
+  {
+    "id": "asmr-smooth-ripple",
+    "genre": "asmr",
+    "name": "Porcelain Ripple",
+    "caption": "One drop. Endless circles.",
+    "description": "An isolated falling droplet opens concentric luminous rings in a shallow pool.",
+    "motion": "ripple",
+    "hook": {
+      "half_second": "One clear tactile focal object is visible immediately",
+      "one_second": "One drop. Endless circles.",
+      "three_seconds": "An isolated falling droplet opens concentric luminous rings in a shallow pool."
+    },
+    "ending": "Returns to the opening pose and phase",
+    "loop": "seamless",
+    "beats": [
+      0.16
+    ],
+    "render_family": "ripple",
+    "originality_notes": "Original mathematical geometry and synthesized sound; no downloaded reference media",
+    "limitations": "Stylized Canvas 2D visual approximation, not measured fluid or material simulation",
+    "quality": {
+      "max_particles": 72,
+      "contrast": "soft object / dark outline",
+      "camera": "fixed studio with a subtle periodic push"
+    },
+    "featured": false
+  },
+  {
+    "id": "asmr-soft-deformation",
+    "genre": "asmr",
+    "name": "Soft Sculpture",
+    "caption": "Softness in slow motion",
+    "description": "A soft torus deforms through a moving circular aperture.",
+    "motion": "deform",
+    "hook": {
+      "half_second": "One clear tactile focal object is visible immediately",
+      "one_second": "Softness in slow motion",
+      "three_seconds": "A soft torus deforms through a moving circular aperture."
+    },
+    "ending": "Returns to the opening pose and phase",
+    "loop": "seamless",
+    "beats": [
+      0.25,
+      0.75
+    ],
+    "render_family": "deform",
+    "originality_notes": "Original mathematical geometry and synthesized sound; no downloaded reference media",
+    "limitations": "Stylized Canvas 2D visual approximation, not measured fluid or material simulation",
+    "quality": {
+      "max_particles": 72,
+      "contrast": "soft object / dark outline",
+      "camera": "fixed studio with a subtle periodic push"
+    },
+    "featured": false
+  },
+  {
+    "id": "asmr-liquid-gradient",
+    "genre": "asmr",
+    "name": "Gradient Pour",
+    "caption": "Follow the color",
+    "description": "A continuous ribbon of gradient liquid curls into a sculpted vessel.",
+    "motion": "pour",
+    "hook": {
+      "half_second": "One clear tactile focal object is visible immediately",
+      "one_second": "Follow the color",
+      "three_seconds": "A continuous ribbon of gradient liquid curls into a sculpted vessel."
+    },
+    "ending": "Returns to the opening pose and phase",
+    "loop": "seamless",
+    "beats": [
+      0.25,
+      0.75
+    ],
+    "render_family": "pour",
+    "originality_notes": "Original mathematical geometry and synthesized sound; no downloaded reference media",
+    "limitations": "Stylized Canvas 2D visual approximation, not measured fluid or material simulation",
+    "quality": {
+      "max_particles": 72,
+      "contrast": "soft object / dark outline",
+      "camera": "fixed studio with a subtle periodic push"
+    },
+    "featured": false
+  },
+  {
+    "id": "asmr-bubble-popping",
+    "genre": "asmr",
+    "name": "Glass Bubble Garden",
+    "caption": "Wait for the last bubble",
+    "description": "An ordered garden of translucent bubbles pops in a diagonal traveling wave.",
+    "motion": "bubble",
+    "hook": {
+      "half_second": "One clear tactile focal object is visible immediately",
+      "one_second": "Wait for the last bubble",
+      "three_seconds": "An ordered garden of translucent bubbles pops in a diagonal traveling wave."
+    },
+    "ending": "Completes its transformation; an intentional edit restarts the next cycle",
+    "loop": "reset",
+    "beats": [
+      0.14,
+      0.205,
+      0.27,
+      0.335,
+      0.4,
+      0.465,
+      0.53,
+      0.595,
+      0.66,
+      0.725,
+      0.79,
+      0.855
+    ],
+    "render_family": "bubble",
+    "originality_notes": "Original mathematical geometry and synthesized sound; no downloaded reference media",
+    "limitations": "Stylized Canvas 2D visual approximation, not measured fluid or material simulation",
+    "quality": {
+      "max_particles": 72,
+      "contrast": "soft object / dark outline",
+      "camera": "fixed studio with a subtle periodic push"
+    },
+    "featured": false
+  },
+  {
+    "id": "asmr-particle-flow",
+    "genre": "asmr",
+    "name": "Silk Particle Flow",
+    "caption": "Everything finds its path",
+    "description": "Glowing bead-like particles flow through interwoven curved channels.",
+    "motion": "flow",
+    "hook": {
+      "half_second": "One clear tactile focal object is visible immediately",
+      "one_second": "Everything finds its path",
+      "three_seconds": "Glowing bead-like particles flow through interwoven curved channels."
+    },
+    "ending": "Returns to the opening pose and phase",
+    "loop": "seamless",
+    "beats": [
+      0.25,
+      0.75
+    ],
+    "render_family": "flow",
+    "originality_notes": "Original mathematical geometry and synthesized sound; no downloaded reference media",
+    "limitations": "Stylized Canvas 2D visual approximation, not measured fluid or material simulation",
+    "quality": {
+      "max_particles": 72,
+      "contrast": "soft object / dark outline",
+      "camera": "fixed studio with a subtle periodic push"
+    },
+    "featured": false
+  },
+  {
+    "id": "asmr-perfect-slicing",
+    "genre": "asmr",
+    "name": "Layered Slices",
+    "caption": "Every slice fits",
+    "description": "A layered rounded loaf separates into a perfectly spaced accordion stack.",
+    "motion": "slice",
+    "hook": {
+      "half_second": "One clear tactile focal object is visible immediately",
+      "one_second": "Every slice fits",
+      "three_seconds": "A layered rounded loaf separates into a perfectly spaced accordion stack."
+    },
+    "ending": "Returns to the opening pose and phase",
+    "loop": "seamless",
+    "beats": [
+      0.2,
+      0.35,
+      0.5,
+      0.65,
+      0.8
+    ],
+    "render_family": "slice",
+    "originality_notes": "Original mathematical geometry and synthesized sound; no downloaded reference media",
+    "limitations": "Stylized Canvas 2D visual approximation, not measured fluid or material simulation",
+    "quality": {
+      "max_particles": 72,
+      "contrast": "soft object / dark outline",
+      "camera": "fixed studio with a subtle periodic push"
+    },
+    "featured": false
+  },
+  {
+    "id": "asmr-symmetry-arrangement",
+    "genre": "asmr",
+    "name": "Petal Alignment",
+    "caption": "Almost aligned...",
+    "description": "Glossy petal tiles rotate into a precisely symmetric flower and disperse.",
+    "motion": "symmetry",
+    "hook": {
+      "half_second": "One clear tactile focal object is visible immediately",
+      "one_second": "Almost aligned...",
+      "three_seconds": "Glossy petal tiles rotate into a precisely symmetric flower and disperse."
+    },
+    "ending": "Returns to the opening pose and phase",
+    "loop": "seamless",
+    "beats": [
+      0.5
+    ],
+    "render_family": "symmetry",
+    "originality_notes": "Original mathematical geometry and synthesized sound; no downloaded reference media",
+    "limitations": "Stylized Canvas 2D visual approximation, not measured fluid or material simulation",
+    "quality": {
+      "max_particles": 72,
+      "contrast": "soft object / dark outline",
+      "camera": "fixed studio with a subtle periodic push"
+    },
+    "featured": false
+  },
+  {
+    "id": "asmr-crystal-formation",
+    "genre": "asmr",
+    "name": "Crystal Bloom",
+    "caption": "A tiny spark becomes a crystal",
+    "description": "A transparent faceted crystal grows radially from a single glowing nucleus.",
+    "motion": "crystal",
+    "hook": {
+      "half_second": "One clear tactile focal object is visible immediately",
+      "one_second": "A tiny spark becomes a crystal",
+      "three_seconds": "A transparent faceted crystal grows radially from a single glowing nucleus."
+    },
+    "ending": "Completes its transformation; an intentional edit restarts the next cycle",
+    "loop": "reset",
+    "beats": [
+      0.18,
+      0.34,
+      0.5,
+      0.66,
+      0.82
+    ],
+    "render_family": "crystal",
+    "originality_notes": "Original mathematical geometry and synthesized sound; no downloaded reference media",
+    "limitations": "Stylized Canvas 2D visual approximation, not measured fluid or material simulation",
+    "quality": {
+      "max_particles": 72,
+      "contrast": "soft object / dark outline",
+      "camera": "fixed studio with a subtle periodic push"
+    },
+    "featured": false
+  },
+  {
+    "id": "asmr-melting-shapes",
+    "genre": "asmr",
+    "name": "Wax to Water",
+    "caption": "Nothing stays sharp",
+    "description": "A polished cube rounds, collapses and reforms as a calm reflective pool.",
+    "motion": "melt",
+    "hook": {
+      "half_second": "One clear tactile focal object is visible immediately",
+      "one_second": "Nothing stays sharp",
+      "three_seconds": "A polished cube rounds, collapses and reforms as a calm reflective pool."
+    },
+    "ending": "Returns to the opening pose and phase",
+    "loop": "seamless",
+    "beats": [
+      0.5
+    ],
+    "render_family": "melt",
+    "originality_notes": "Original mathematical geometry and synthesized sound; no downloaded reference media",
+    "limitations": "Stylized Canvas 2D visual approximation, not measured fluid or material simulation",
+    "quality": {
+      "max_particles": 72,
+      "contrast": "soft object / dark outline",
+      "camera": "fixed studio with a subtle periodic push"
+    },
+    "featured": false
+  },
+  {
+    "id": "asmr-satisfying-fill",
+    "genre": "asmr",
+    "name": "Perfect Fill",
+    "caption": "Not a drop too much",
+    "description": "A narrow stream fills a rounded transparent chamber to an exact engraved line.",
+    "motion": "fill",
+    "hook": {
+      "half_second": "One clear tactile focal object is visible immediately",
+      "one_second": "Not a drop too much",
+      "three_seconds": "A narrow stream fills a rounded transparent chamber to an exact engraved line."
+    },
+    "ending": "Completes its transformation; an intentional edit restarts the next cycle",
+    "loop": "reset",
+    "beats": [
+      0.18,
+      0.77
+    ],
+    "render_family": "fill",
+    "originality_notes": "Original mathematical geometry and synthesized sound; no downloaded reference media",
+    "limitations": "Stylized Canvas 2D visual approximation, not measured fluid or material simulation",
+    "quality": {
+      "max_particles": 72,
+      "contrast": "soft object / dark outline",
+      "camera": "fixed studio with a subtle periodic push"
+    },
+    "featured": false
+  },
+  {
+    "id": "asmr-layer-peeling",
+    "genre": "asmr",
+    "name": "Ribbon Peel",
+    "caption": "One layer at a time",
+    "description": "A colored film peels from a curved ceramic cylinder into a floating ribbon.",
+    "motion": "peel",
+    "hook": {
+      "half_second": "One clear tactile focal object is visible immediately",
+      "one_second": "One layer at a time",
+      "three_seconds": "A colored film peels from a curved ceramic cylinder into a floating ribbon."
+    },
+    "ending": "Returns to the opening pose and phase",
+    "loop": "seamless",
+    "beats": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "render_family": "peel",
+    "originality_notes": "Original mathematical geometry and synthesized sound; no downloaded reference media",
+    "limitations": "Stylized Canvas 2D visual approximation, not measured fluid or material simulation",
+    "quality": {
+      "max_particles": 72,
+      "contrast": "soft object / dark outline",
+      "camera": "fixed studio with a subtle periodic push"
+    },
+    "featured": false
+  },
+  {
+    "id": "asmr-seamless-liquid",
+    "genre": "asmr",
+    "name": "Liquid Infinity",
+    "caption": "No beginning. No end.",
+    "description": "A seamless traveling wave circulates through an impossible-looking liquid infinity channel.",
+    "motion": "infinity",
+    "hook": {
+      "half_second": "One clear tactile focal object is visible immediately",
+      "one_second": "No beginning. No end.",
+      "three_seconds": "A seamless traveling wave circulates through an impossible-looking liquid infinity channel."
+    },
+    "ending": "Returns to the opening pose and phase",
+    "loop": "seamless",
+    "beats": [
+      0.25,
+      0.75
+    ],
+    "render_family": "infinity",
+    "originality_notes": "Original mathematical geometry and synthesized sound; no downloaded reference media",
+    "limitations": "Stylized Canvas 2D visual approximation, not measured fluid or material simulation",
+    "quality": {
+      "max_particles": 72,
+      "contrast": "soft object / dark outline",
+      "camera": "fixed studio with a subtle periodic push"
+    },
+    "featured": false
+  }
+]

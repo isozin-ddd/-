@@ -1,0 +1,257 @@
+[
+  {
+    "id": "chain-spiral",
+    "genre": "domino",
+    "name": "Domino Spiral",
+    "caption": "The center is only the beginning.",
+    "description": "A widening spiral of standing dominoes",
+    "motion": "domino-spiral",
+    "hook": "The first active trigger is already moving at the opening",
+    "ending": "last stage completes the visible route",
+    "loop": "reset",
+    "quality_principles": [
+      "clear cause and effect",
+      "trigger-synced sound",
+      "polished material shading"
+    ],
+    "originality": "Original path layout and procedural mechanism. Kinematic animation, not a full rigid-body simulation."
+  },
+  {
+    "id": "chain-machine",
+    "genre": "domino",
+    "name": "Marble Machine",
+    "caption": "One marble starts everything.",
+    "description": "Rails, ramps and catcher cups relay a polished marble",
+    "motion": "marble-machine",
+    "hook": "The first active trigger is already moving at the opening",
+    "ending": "last stage completes the visible route",
+    "loop": "reset",
+    "quality_principles": [
+      "clear cause and effect",
+      "trigger-synced sound",
+      "polished material shading"
+    ],
+    "originality": "Original path layout and procedural mechanism. Kinematic animation, not a full rigid-body simulation."
+  },
+  {
+    "id": "chain-gears",
+    "genre": "domino",
+    "name": "Gear Cascade",
+    "caption": "A little turn changes everything.",
+    "description": "Meshing highlighted gears engage in alternating directions",
+    "motion": "gears",
+    "hook": "The first active trigger is already moving at the opening",
+    "ending": "last stage completes the visible route",
+    "loop": "reset",
+    "quality_principles": [
+      "clear cause and effect",
+      "trigger-synced sound",
+      "polished material shading"
+    ],
+    "originality": "Original path layout and procedural mechanism. Kinematic animation, not a full rigid-body simulation."
+  },
+  {
+    "id": "chain-blocks",
+    "genre": "domino",
+    "name": "Falling Blocks",
+    "caption": "Watch the last block.",
+    "description": "A staircase of blocks folds into a precisely fitted stack",
+    "motion": "blocks",
+    "hook": "The first active trigger is already moving at the opening",
+    "ending": "last stage completes the visible route",
+    "loop": "reset",
+    "quality_principles": [
+      "clear cause and effect",
+      "trigger-synced sound",
+      "polished material shading"
+    ],
+    "originality": "Original path layout and procedural mechanism. Kinematic animation, not a full rigid-body simulation."
+  },
+  {
+    "id": "chain-stages",
+    "genre": "domino",
+    "name": "Multi-Stage Trigger",
+    "caption": "From one motion to another.",
+    "description": "Dominoes transfer into gears, marbles and a final fan",
+    "motion": "stages",
+    "hook": "The first active trigger is already moving at the opening",
+    "ending": "last stage completes the visible route",
+    "loop": "reset",
+    "quality_principles": [
+      "clear cause and effect",
+      "trigger-synced sound",
+      "polished material shading"
+    ],
+    "originality": "Original path layout and procedural mechanism. Kinematic animation, not a full rigid-body simulation."
+  },
+  {
+    "id": "chain-endless",
+    "genre": "domino",
+    "name": "Endless Domino",
+    "caption": "Always one step ahead.",
+    "description": "A closed figure-eight domino route transfers an endless pulse",
+    "motion": "endless",
+    "hook": "The first active trigger is already moving at the opening",
+    "ending": "last stage completes the visible route",
+    "loop": "seamless",
+    "quality_principles": [
+      "clear cause and effect",
+      "trigger-synced sound",
+      "polished material shading"
+    ],
+    "originality": "Original path layout and procedural mechanism. Kinematic animation, not a full rigid-body simulation."
+  },
+  {
+    "id": "chain-ball-gear",
+    "genre": "domino",
+    "name": "Ball to Gear Reaction",
+    "caption": "Drop. Turn. Release.",
+    "description": "A descending ball unlocks gears and releases a line of marbles",
+    "motion": "ball-gear",
+    "hook": "The first active trigger is already moving at the opening",
+    "ending": "last stage completes the visible route",
+    "loop": "reset",
+    "quality_principles": [
+      "clear cause and effect",
+      "trigger-synced sound",
+      "polished material shading"
+    ],
+    "originality": "Original path layout and procedural mechanism. Kinematic animation, not a full rigid-body simulation."
+  },
+  {
+    "id": "chain-perfect",
+    "genre": "domino",
+    "name": "Perfect Chain",
+    "caption": "Every piece has a part.",
+    "description": "An orderly serpentine relay lights each completed section",
+    "motion": "perfect",
+    "hook": "The first active trigger is already moving at the opening",
+    "ending": "last stage completes the visible route",
+    "loop": "reset",
+    "quality_principles": [
+      "clear cause and effect",
+      "trigger-synced sound",
+      "polished material shading"
+    ],
+    "originality": "Original path layout and procedural mechanism. Kinematic animation, not a full rigid-body simulation."
+  },
+  {
+    "id": "chain-puzzle",
+    "genre": "domino",
+    "name": "Mechanical Puzzle",
+    "caption": "The missing move.",
+    "description": "Sliding gates and a moving key reveal a path through a tile puzzle",
+    "motion": "puzzle",
+    "hook": "The first active trigger is already moving at the opening",
+    "ending": "last stage completes the visible route",
+    "loop": "reset",
+    "quality_principles": [
+      "clear cause and effect",
+      "trigger-synced sound",
+      "polished material shading"
+    ],
+    "originality": "Original path layout and procedural mechanism. Kinematic animation, not a full rigid-body simulation."
+  },
+  {
+    "id": "chain-gravity",
+    "genre": "domino",
+    "name": "Gravity Machine",
+    "caption": "Gravity does the work.",
+    "description": "Counterweights descend, pulling pulleys and opening a final gate",
+    "motion": "gravity",
+    "hook": "The first active trigger is already moving at the opening",
+    "ending": "last stage completes the visible route",
+    "loop": "reset",
+    "quality_principles": [
+      "clear cause and effect",
+      "trigger-synced sound",
+      "polished material shading"
+    ],
+    "originality": "Original path layout and procedural mechanism. Kinematic animation, not a full rigid-body simulation."
+  },
+  {
+    "id": "chain-rube",
+    "genre": "domino",
+    "name": "Little Big Machine",
+    "caption": "Small start. Big finish.",
+    "description": "Ramps, a lever, a wheel and hanging chimes form a miniature relay",
+    "motion": "rube",
+    "hook": "The first active trigger is already moving at the opening",
+    "ending": "last stage completes the visible route",
+    "loop": "reset",
+    "quality_principles": [
+      "clear cause and effect",
+      "trigger-synced sound",
+      "polished material shading"
+    ],
+    "originality": "Original path layout and procedural mechanism. Kinematic animation, not a full rigid-body simulation."
+  },
+  {
+    "id": "chain-circular",
+    "genre": "domino",
+    "name": "Circular Reaction",
+    "caption": "Back where it began.",
+    "description": "A radial circuit transfers its pulse around an illuminated ring",
+    "motion": "circular",
+    "hook": "The first active trigger is already moving at the opening",
+    "ending": "last stage completes the visible route",
+    "loop": "seamless",
+    "quality_principles": [
+      "clear cause and effect",
+      "trigger-synced sound",
+      "polished material shading"
+    ],
+    "originality": "Original path layout and procedural mechanism. Kinematic animation, not a full rigid-body simulation."
+  },
+  {
+    "id": "chain-delayed",
+    "genre": "domino",
+    "name": "Delayed Trigger",
+    "caption": "Wait for it.",
+    "description": "A compact domino relay pauses at a balancing pendulum then resumes",
+    "motion": "delayed",
+    "hook": "The first active trigger is already moving at the opening",
+    "ending": "pause then final relay",
+    "loop": "reset",
+    "quality_principles": [
+      "clear cause and effect",
+      "trigger-synced sound",
+      "polished material shading"
+    ],
+    "originality": "Original path layout and procedural mechanism. Kinematic animation, not a full rigid-body simulation."
+  },
+  {
+    "id": "chain-color",
+    "genre": "domino",
+    "name": "Color Chain",
+    "caption": "A wave of color.",
+    "description": "Hexagonal cells change material in a diagonal spreading wave",
+    "motion": "color",
+    "hook": "The first active trigger is already moving at the opening",
+    "ending": "last stage completes the visible route",
+    "loop": "reset",
+    "quality_principles": [
+      "clear cause and effect",
+      "trigger-synced sound",
+      "polished material shading"
+    ],
+    "originality": "Original path layout and procedural mechanism. Kinematic animation, not a full rigid-body simulation."
+  },
+  {
+    "id": "chain-burst",
+    "genre": "domino",
+    "name": "Final Bloom",
+    "caption": "One last surprise.",
+    "description": "A branching domino tree ends in a bounded sparkling flower",
+    "motion": "burst",
+    "hook": "The first active trigger is already moving at the opening",
+    "ending": "bounded particle flower",
+    "loop": "reset",
+    "quality_principles": [
+      "clear cause and effect",
+      "trigger-synced sound",
+      "polished material shading"
+    ],
+    "originality": "Original path layout and procedural mechanism. Kinematic animation, not a full rigid-body simulation."
+  }
+]

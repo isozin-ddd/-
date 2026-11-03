@@ -1,0 +1,1432 @@
+[
+  {
+    "reference_id": "AS-001",
+    "platform": "YouTube Shorts",
+    "original_url": "https://www.youtube.com/shorts/j2TVdltvJ_k",
+    "creator": "Chillin' with Rachel",
+    "country_or_region": null,
+    "language": "en",
+    "language_basis": "Public title language only; spoken language unverified.",
+    "published_at": "2025-03-08",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "asmr",
+    "title": "Stress-ball repair",
+    "visual_description": "Title-based premise only: Stress-ball repair. Video not viewed.",
+    "motion_description": "Not directly observed; title suggests repair.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+    "implementation_ideas": [
+      "soft material restoration",
+      "Use original procedural assets; do not recreate source composition."
+    ],
+    "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+    "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://www.2mv.ai/topic/satisfying"
+    ],
+    "reported_metrics": {
+      "likes": 720000,
+      "views": 50378839,
+      "comments": null,
+      "captured_at": "2026-10-13/2026-10-14",
+      "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+    },
+    "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "repair",
+      "material-change",
+      "original-procedural"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "subject_screen_fraction": [
+        0.45,
+        0.65
+      ],
+      "contact_sound_attack_ms": [
+        4,
+        12
+      ],
+      "contact_sound_decay_ms": [
+        60,
+        180
+      ],
+      "first_change_by_seconds": 0.5,
+      "process_cycles": 2,
+      "seeded_geometry": true
+    }
+  },
+  {
+    "reference_id": "AS-002",
+    "platform": "YouTube Shorts",
+    "original_url": "https://www.youtube.com/shorts/Cv19w_2-rMc",
+    "creator": "Sand Tagious",
+    "country_or_region": null,
+    "language": "en",
+    "language_basis": "Public title language only; spoken language unverified.",
+    "published_at": "2022-08-16",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "asmr",
+    "title": "Kinetic sand",
+    "visual_description": "Title-based premise only: Kinetic sand. Video not viewed.",
+    "motion_description": "Not directly observed; title suggests slicing.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+    "implementation_ideas": [
+      "granular layers and clean boundaries",
+      "Use original procedural assets; do not recreate source composition."
+    ],
+    "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+    "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://www.2mv.ai/topic/satisfying"
+    ],
+    "reported_metrics": {
+      "likes": 517000,
+      "views": 24342009,
+      "comments": null,
+      "captured_at": "2026-10-13/2026-10-14",
+      "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+    },
+    "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "slicing",
+      "material-change",
+      "original-procedural"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "subject_screen_fraction": [
+        0.45,
+        0.65
+      ],
+      "contact_sound_attack_ms": [
+        4,
+        12
+      ],
+      "contact_sound_decay_ms": [
+        60,
+        180
+      ],
+      "first_change_by_seconds": 0.5,
+      "process_cycles": 2,
+      "seeded_geometry": true
+    }
+  },
+  {
+    "reference_id": "AS-003",
+    "platform": "YouTube Shorts",
+    "original_url": "https://www.youtube.com/shorts/-lgPez-zZQU",
+    "creator": "Whats Next",
+    "country_or_region": null,
+    "language": "en",
+    "language_basis": "Public title language only; spoken language unverified.",
+    "published_at": "2026-08-24",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "asmr",
+    "title": "Butter shaping",
+    "visual_description": "Title-based premise only: Butter shaping. Video not viewed.",
+    "motion_description": "Not directly observed; title suggests shaping.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+    "implementation_ideas": [
+      "smooth ribbons and curvature",
+      "Use original procedural assets; do not recreate source composition."
+    ],
+    "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+    "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://www.2mv.ai/topic/satisfying"
+    ],
+    "reported_metrics": {
+      "likes": 52000,
+      "views": 13723214,
+      "comments": null,
+      "captured_at": "2026-10-13/2026-10-14",
+      "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+    },
+    "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "shaping",
+      "material-change",
+      "original-procedural"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "subject_screen_fraction": [
+        0.45,
+        0.65
+      ],
+      "contact_sound_attack_ms": [
+        4,
+        12
+      ],
+      "contact_sound_decay_ms": [
+        60,
+        180
+      ],
+      "first_change_by_seconds": 0.5,
+      "process_cycles": 2,
+      "seeded_geometry": true
+    }
+  },
+  {
+    "reference_id": "AS-004",
+    "platform": "YouTube Shorts",
+    "original_url": "https://www.youtube.com/shorts/zFEDCo-eyi4",
+    "creator": "Maqaroon",
+    "country_or_region": null,
+    "language": "en",
+    "language_basis": "Public title language only; spoken language unverified.",
+    "published_at": "2024-09-26",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "asmr",
+    "title": "Stress ball",
+    "visual_description": "Title-based premise only: Stress ball. Video not viewed.",
+    "motion_description": "Not directly observed; title suggests compression.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+    "implementation_ideas": [
+      "compression and elastic recovery",
+      "Use original procedural assets; do not recreate source composition."
+    ],
+    "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+    "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://www.2mv.ai/topic/satisfying"
+    ],
+    "reported_metrics": {
+      "likes": 162000,
+      "views": 11941944,
+      "comments": null,
+      "captured_at": "2026-10-13/2026-10-14",
+      "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+    },
+    "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "compression",
+      "material-change",
+      "original-procedural"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "subject_screen_fraction": [
+        0.45,
+        0.65
+      ],
+      "contact_sound_attack_ms": [
+        4,
+        12
+      ],
+      "contact_sound_decay_ms": [
+        60,
+        180
+      ],
+      "first_change_by_seconds": 0.5,
+      "process_cycles": 2,
+      "seeded_geometry": true
+    }
+  },
+  {
+    "reference_id": "AS-005",
+    "platform": "YouTube Shorts",
+    "original_url": "https://www.youtube.com/shorts/6xWawR7J2Qs",
+    "creator": "Stan 3D",
+    "country_or_region": null,
+    "language": "en",
+    "language_basis": "Public title language only; spoken language unverified.",
+    "published_at": "2026-08-16",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "asmr",
+    "title": "3D prints",
+    "visual_description": "Title-based premise only: 3D prints. Video not viewed.",
+    "motion_description": "Not directly observed; title suggests mechanical.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+    "implementation_ideas": [
+      "interlocking geometry",
+      "Use original procedural assets; do not recreate source composition."
+    ],
+    "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+    "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://www.2mv.ai/topic/satisfying"
+    ],
+    "reported_metrics": {
+      "likes": 201000,
+      "views": 11271026,
+      "comments": null,
+      "captured_at": "2026-10-13/2026-10-14",
+      "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+    },
+    "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "mechanical",
+      "material-change",
+      "original-procedural"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "subject_screen_fraction": [
+        0.45,
+        0.65
+      ],
+      "contact_sound_attack_ms": [
+        4,
+        12
+      ],
+      "contact_sound_decay_ms": [
+        60,
+        180
+      ],
+      "first_change_by_seconds": 0.5,
+      "process_cycles": 2,
+      "seeded_geometry": true
+    }
+  },
+  {
+    "reference_id": "AS-006",
+    "platform": "YouTube Shorts",
+    "original_url": "https://www.youtube.com/shorts/7gV-0be8WqE",
+    "creator": "miss foxy",
+    "country_or_region": null,
+    "language": "en",
+    "language_basis": "Public title language only; spoken language unverified.",
+    "published_at": "2026-08-27",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "asmr",
+    "title": "Mango comparison",
+    "visual_description": "Title-based premise only: Mango comparison. Video not viewed.",
+    "motion_description": "Not directly observed; title suggests cracking.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+    "implementation_ideas": [
+      "material contrast",
+      "Use original procedural assets; do not recreate source composition."
+    ],
+    "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+    "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://www.2mv.ai/topic/satisfying"
+    ],
+    "reported_metrics": {
+      "likes": 90000,
+      "views": 7517943,
+      "comments": null,
+      "captured_at": "2026-10-13/2026-10-14",
+      "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+    },
+    "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "cracking",
+      "material-change",
+      "original-procedural"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "subject_screen_fraction": [
+        0.45,
+        0.65
+      ],
+      "contact_sound_attack_ms": [
+        4,
+        12
+      ],
+      "contact_sound_decay_ms": [
+        60,
+        180
+      ],
+      "first_change_by_seconds": 0.5,
+      "process_cycles": 2,
+      "seeded_geometry": true
+    }
+  },
+  {
+    "reference_id": "AS-007",
+    "platform": "YouTube Shorts",
+    "original_url": "https://www.youtube.com/shorts/uaebwwpiDCU",
+    "creator": "Paola F. Rey",
+    "country_or_region": null,
+    "language": "en",
+    "language_basis": "Public title language only; spoken language unverified.",
+    "published_at": "2022-12-31",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "asmr",
+    "title": "Gold marker",
+    "visual_description": "Title-based premise only: Gold marker. Video not viewed.",
+    "motion_description": "Not directly observed; title suggests filling.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+    "implementation_ideas": [
+      "a visible fill frontier",
+      "Use original procedural assets; do not recreate source composition."
+    ],
+    "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+    "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://www.2mv.ai/topic/satisfying"
+    ],
+    "reported_metrics": {
+      "likes": 16000,
+      "views": 3306150,
+      "comments": null,
+      "captured_at": "2026-10-13/2026-10-14",
+      "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+    },
+    "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "filling",
+      "material-change",
+      "original-procedural"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "subject_screen_fraction": [
+        0.45,
+        0.65
+      ],
+      "contact_sound_attack_ms": [
+        4,
+        12
+      ],
+      "contact_sound_decay_ms": [
+        60,
+        180
+      ],
+      "first_change_by_seconds": 0.5,
+      "process_cycles": 2,
+      "seeded_geometry": true
+    }
+  },
+  {
+    "reference_id": "AS-008",
+    "platform": "YouTube Shorts",
+    "original_url": "https://www.youtube.com/shorts/Syd_4J6OWRk",
+    "creator": "Satisfying Shorts",
+    "country_or_region": null,
+    "language": "en",
+    "language_basis": "Public title language only; spoken language unverified.",
+    "published_at": "2025-06-23",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "asmr",
+    "title": "Powder molding",
+    "visual_description": "Title-based premise only: Powder molding. Video not viewed.",
+    "motion_description": "Not directly observed; title suggests pressing.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+    "implementation_ideas": [
+      "shape-to-mold alignment",
+      "Use original procedural assets; do not recreate source composition."
+    ],
+    "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+    "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://www.2mv.ai/topic/satisfying"
+    ],
+    "reported_metrics": {
+      "likes": 42000,
+      "views": 1951581,
+      "comments": null,
+      "captured_at": "2026-10-13/2026-10-14",
+      "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+    },
+    "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "pressing",
+      "material-change",
+      "original-procedural"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "subject_screen_fraction": [
+        0.45,
+        0.65
+      ],
+      "contact_sound_attack_ms": [
+        4,
+        12
+      ],
+      "contact_sound_decay_ms": [
+        60,
+        180
+      ],
+      "first_change_by_seconds": 0.5,
+      "process_cycles": 2,
+      "seeded_geometry": true
+    }
+  },
+  {
+    "reference_id": "AS-009",
+    "platform": "YouTube Shorts",
+    "original_url": "https://www.youtube.com/shorts/P6xWEgyI_lw",
+    "creator": "ShannyPOP",
+    "country_or_region": null,
+    "language": "en",
+    "language_basis": "Public title language only; spoken language unverified.",
+    "published_at": "2026-10-04",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "asmr",
+    "title": "Squishy mixing",
+    "visual_description": "Title-based premise only: Squishy mixing. Video not viewed.",
+    "motion_description": "Not directly observed; title suggests mixing.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+    "implementation_ideas": [
+      "bounded particles and blend progression",
+      "Use original procedural assets; do not recreate source composition."
+    ],
+    "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+    "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://www.2mv.ai/topic/satisfying"
+    ],
+    "reported_metrics": {
+      "likes": 21000,
+      "views": 1899875,
+      "comments": null,
+      "captured_at": "2026-10-13/2026-10-14",
+      "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+    },
+    "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "mixing",
+      "material-change",
+      "original-procedural"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "subject_screen_fraction": [
+        0.45,
+        0.65
+      ],
+      "contact_sound_attack_ms": [
+        4,
+        12
+      ],
+      "contact_sound_decay_ms": [
+        60,
+        180
+      ],
+      "first_change_by_seconds": 0.5,
+      "process_cycles": 2,
+      "seeded_geometry": true
+    }
+  },
+  {
+    "reference_id": "AS-010",
+    "platform": "YouTube Shorts",
+    "original_url": "https://www.youtube.com/shorts/bumb4d7NwdI",
+    "creator": "Sandy Cake Studio",
+    "country_or_region": null,
+    "language": "en",
+    "language_basis": "Public title language only; spoken language unverified.",
+    "published_at": "2026-09-28",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "asmr",
+    "title": "Sand cake",
+    "visual_description": "Title-based premise only: Sand cake. Video not viewed.",
+    "motion_description": "Not directly observed; title suggests assembly.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+    "implementation_ideas": [
+      "layered construction and completion",
+      "Use original procedural assets; do not recreate source composition."
+    ],
+    "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+    "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://www.2mv.ai/topic/satisfying"
+    ],
+    "reported_metrics": {
+      "likes": null,
+      "views": 317403,
+      "comments": null,
+      "captured_at": "2026-10-13/2026-10-14",
+      "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+    },
+    "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "assembly",
+      "material-change",
+      "original-procedural"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "subject_screen_fraction": [
+        0.45,
+        0.65
+      ],
+      "contact_sound_attack_ms": [
+        4,
+        12
+      ],
+      "contact_sound_decay_ms": [
+        60,
+        180
+      ],
+      "first_change_by_seconds": 0.5,
+      "process_cycles": 2,
+      "seeded_geometry": true
+    }
+  },
+  {
+    "reference_id": "AS-011",
+    "platform": "TikTok",
+    "original_url": "https://www.tiktok.com/@noxaasht/video/7476497064961051909",
+    "creator": "@noxaasht",
+    "country_or_region": null,
+    "language": "id",
+    "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+    "published_at": "2025-02-28",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "surreal",
+    "title": "Tung character introduction",
+    "visual_description": "A wooden anthropomorphic character is described in the secondary source.",
+    "motion_description": "Introduction and invented lore; motion not directly viewed.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+    "implementation_ideas": [
+      "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+      "Use a three-beat visual setup, transformation and benign payoff."
+    ],
+    "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+    "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://knowyourmeme.com/memes/tung-tung-tung-sahur"
+    ],
+    "reported_metrics": {
+      "likes": 2400000,
+      "views": 31000000,
+      "comments": null,
+      "captured_at": "Historical 2025 reporting; interval varies by article",
+      "precision": "Source reports rounded counts / lower bounds; not current counters."
+    },
+    "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "surreal",
+      "hybrid-silhouette",
+      "scenario-reversal"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "story_beats": [
+        0,
+        0.35,
+        0.7
+      ],
+      "transformation_fraction": [
+        0.3,
+        0.55
+      ],
+      "silhouette_min_px_at_360": 90,
+      "ending_options": [
+        "return-to-origin",
+        "benign-scale-reveal",
+        "object-swap"
+      ],
+      "use_existing_character": false
+    }
+  },
+  {
+    "reference_id": "AS-012",
+    "platform": "TikTok",
+    "original_url": "https://www.tiktok.com/@redbluzx_tiktoq/video/7480169885385903368",
+    "creator": "@redbluzx_tiktoq",
+    "country_or_region": null,
+    "language": "id",
+    "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+    "published_at": "2025-03-10",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "surreal",
+    "title": "Character burst ending",
+    "visual_description": "Secondary description of the same meme character.",
+    "motion_description": "Secondary account describes bat swing, running and a burst.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+    "ending": "Burst described by source; timing unverified.",
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+    "implementation_ideas": [
+      "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+      "Use a three-beat visual setup, transformation and benign payoff."
+    ],
+    "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+    "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://knowyourmeme.com/memes/tung-tung-tung-sahur"
+    ],
+    "reported_metrics": {
+      "likes": 300000,
+      "views": 5300000,
+      "comments": null,
+      "captured_at": "Historical 2025 reporting; interval varies by article",
+      "precision": "Source reports rounded counts / lower bounds; not current counters."
+    },
+    "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "surreal",
+      "hybrid-silhouette",
+      "scenario-reversal"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "story_beats": [
+        0,
+        0.35,
+        0.7
+      ],
+      "transformation_fraction": [
+        0.3,
+        0.55
+      ],
+      "silhouette_min_px_at_360": 90,
+      "ending_options": [
+        "return-to-origin",
+        "benign-scale-reveal",
+        "object-swap"
+      ],
+      "use_existing_character": false
+    }
+  },
+  {
+    "reference_id": "AS-013",
+    "platform": "TikTok",
+    "original_url": "https://www.tiktok.com/@ofuscabreno/video/7472552426617228599",
+    "creator": "@ofuscabreno",
+    "country_or_region": null,
+    "language": "it",
+    "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+    "published_at": "2025-02-17",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "surreal",
+    "title": "Tree-creature introduction",
+    "visual_description": "Secondary account describes a tree/animal hybrid.",
+    "motion_description": "Narrated character introduction; actual frames unviewed.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+    "implementation_ideas": [
+      "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+      "Use a three-beat visual setup, transformation and benign payoff."
+    ],
+    "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+    "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://knowyourmeme.com/memes/brr-brr-patapim"
+    ],
+    "reported_metrics": {
+      "likes": 172500,
+      "views": null,
+      "comments": null,
+      "captured_at": "Historical 2025 reporting; interval varies by article",
+      "precision": "Source reports rounded counts / lower bounds; not current counters."
+    },
+    "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "surreal",
+      "hybrid-silhouette",
+      "scenario-reversal"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "story_beats": [
+        0,
+        0.35,
+        0.7
+      ],
+      "transformation_fraction": [
+        0.3,
+        0.55
+      ],
+      "silhouette_min_px_at_360": 90,
+      "ending_options": [
+        "return-to-origin",
+        "benign-scale-reveal",
+        "object-swap"
+      ],
+      "use_existing_character": false
+    }
+  },
+  {
+    "reference_id": "AS-014",
+    "platform": "TikTok",
+    "original_url": "https://www.tiktok.com/@fishy.ai/video/7485383108724886806",
+    "creator": "@fishy.ai",
+    "country_or_region": null,
+    "language": null,
+    "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+    "published_at": "2025-03-24",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "surreal",
+    "title": "Hybrid-character comparison",
+    "visual_description": "Secondary account describes a comparison between two meme characters.",
+    "motion_description": "Comparison setup; actual animation not viewed.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+    "implementation_ideas": [
+      "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+      "Use a three-beat visual setup, transformation and benign payoff."
+    ],
+    "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+    "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://knowyourmeme.com/memes/brr-brr-patapim"
+    ],
+    "reported_metrics": {
+      "likes": 494400,
+      "views": null,
+      "comments": null,
+      "captured_at": "Historical 2025 reporting; interval varies by article",
+      "precision": "Source reports rounded counts / lower bounds; not current counters."
+    },
+    "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "surreal",
+      "hybrid-silhouette",
+      "scenario-reversal"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "story_beats": [
+        0,
+        0.35,
+        0.7
+      ],
+      "transformation_fraction": [
+        0.3,
+        0.55
+      ],
+      "silhouette_min_px_at_360": 90,
+      "ending_options": [
+        "return-to-origin",
+        "benign-scale-reveal",
+        "object-swap"
+      ],
+      "use_existing_character": false
+    }
+  },
+  {
+    "reference_id": "AS-015",
+    "platform": "TikTok",
+    "original_url": "https://www.tiktok.com/@brainrot7708/video/7488877273433607446",
+    "creator": "@brainrot7708",
+    "country_or_region": null,
+    "language": "it",
+    "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+    "published_at": "2025-04-02",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "surreal",
+    "title": "Absurd arrest scenario",
+    "visual_description": "Secondary account describes a skeleton character in a police scenario.",
+    "motion_description": "Scenario reversal; actual timing not observed.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+    "implementation_ideas": [
+      "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+      "Use a three-beat visual setup, transformation and benign payoff."
+    ],
+    "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+    "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://knowyourmeme.com/memes/no-la-polizia-italian-brainrot-arrested"
+    ],
+    "reported_metrics": {
+      "likes": 386700,
+      "views": null,
+      "comments": null,
+      "captured_at": "Historical 2025 reporting; interval varies by article",
+      "precision": "Source reports rounded counts / lower bounds; not current counters."
+    },
+    "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "surreal",
+      "hybrid-silhouette",
+      "scenario-reversal"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "story_beats": [
+        0,
+        0.35,
+        0.7
+      ],
+      "transformation_fraction": [
+        0.3,
+        0.55
+      ],
+      "silhouette_min_px_at_360": 90,
+      "ending_options": [
+        "return-to-origin",
+        "benign-scale-reveal",
+        "object-swap"
+      ],
+      "use_existing_character": false
+    }
+  },
+  {
+    "reference_id": "AS-016",
+    "platform": "TikTok",
+    "original_url": "https://www.tiktok.com/@mrtrallaloo/video/7493570429483846934",
+    "creator": "@mrtrallaloo",
+    "country_or_region": null,
+    "language": "it",
+    "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+    "published_at": "2025-04-15",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "surreal",
+    "title": "Tree creature in custody",
+    "visual_description": "Secondary account describes a hybrid character in custody.",
+    "motion_description": "Unexpected ordinary-world interaction; not directly viewed.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+    "implementation_ideas": [
+      "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+      "Use a three-beat visual setup, transformation and benign payoff."
+    ],
+    "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+    "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://knowyourmeme.com/memes/no-la-polizia-italian-brainrot-arrested"
+    ],
+    "reported_metrics": {
+      "likes": 2700000,
+      "views": null,
+      "comments": null,
+      "captured_at": "Historical 2025 reporting; interval varies by article",
+      "precision": "Source reports rounded counts / lower bounds; not current counters."
+    },
+    "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "surreal",
+      "hybrid-silhouette",
+      "scenario-reversal"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "story_beats": [
+        0,
+        0.35,
+        0.7
+      ],
+      "transformation_fraction": [
+        0.3,
+        0.55
+      ],
+      "silhouette_min_px_at_360": 90,
+      "ending_options": [
+        "return-to-origin",
+        "benign-scale-reveal",
+        "object-swap"
+      ],
+      "use_existing_character": false
+    }
+  },
+  {
+    "reference_id": "AS-017",
+    "platform": "TikTok",
+    "original_url": "https://www.tiktok.com/@yourhonor823/video/7494820186264997150",
+    "creator": "@yourhonor823",
+    "country_or_region": null,
+    "language": "it",
+    "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+    "published_at": "2025-04-19",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "surreal",
+    "title": "Two characters in custody",
+    "visual_description": "Secondary account describes two unrelated hybrids together.",
+    "motion_description": "Paired scenario; frames and ending unverified.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+    "implementation_ideas": [
+      "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+      "Use a three-beat visual setup, transformation and benign payoff."
+    ],
+    "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+    "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://knowyourmeme.com/memes/no-la-polizia-italian-brainrot-arrested"
+    ],
+    "reported_metrics": {
+      "likes": 305500,
+      "views": null,
+      "comments": null,
+      "captured_at": "Historical 2025 reporting; interval varies by article",
+      "precision": "Source reports rounded counts / lower bounds; not current counters."
+    },
+    "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "surreal",
+      "hybrid-silhouette",
+      "scenario-reversal"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "story_beats": [
+        0,
+        0.35,
+        0.7
+      ],
+      "transformation_fraction": [
+        0.3,
+        0.55
+      ],
+      "silhouette_min_px_at_360": 90,
+      "ending_options": [
+        "return-to-origin",
+        "benign-scale-reveal",
+        "object-swap"
+      ],
+      "use_existing_character": false
+    }
+  },
+  {
+    "reference_id": "AS-018",
+    "platform": "TikTok",
+    "original_url": "https://www.tiktok.com/@armenjiharhanyan/video/7473526211541536055",
+    "creator": "@armenjiharhanyan",
+    "country_or_region": null,
+    "language": "it",
+    "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+    "published_at": "2025-02-20",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "surreal",
+    "title": "Animal-machine hybrid",
+    "visual_description": "Secondary account describes an animal/aircraft hybrid.",
+    "motion_description": "Still/image premise reported; actual motion unverified.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+    "implementation_ideas": [
+      "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+      "Use a three-beat visual setup, transformation and benign payoff."
+    ],
+    "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+    "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://knowyourmeme.com/memes/bombardiro-crocodilo-italian-brainrot"
+    ],
+    "reported_metrics": {
+      "likes": 543000,
+      "views": 5000000,
+      "comments": null,
+      "captured_at": "Historical 2025 reporting; interval varies by article",
+      "precision": "Source reports rounded counts / lower bounds; not current counters."
+    },
+    "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "surreal",
+      "hybrid-silhouette",
+      "scenario-reversal"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "story_beats": [
+        0,
+        0.35,
+        0.7
+      ],
+      "transformation_fraction": [
+        0.3,
+        0.55
+      ],
+      "silhouette_min_px_at_360": 90,
+      "ending_options": [
+        "return-to-origin",
+        "benign-scale-reveal",
+        "object-swap"
+      ],
+      "use_existing_character": false
+    }
+  },
+  {
+    "reference_id": "AS-019",
+    "platform": "TikTok",
+    "original_url": "https://www.tiktok.com/@aironic.fun/video/7483426614135491862",
+    "creator": "@aironic.fun",
+    "country_or_region": null,
+    "language": "it",
+    "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+    "published_at": "2025-03-19",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "surreal",
+    "title": "Object-headed dancer",
+    "visual_description": "Secondary account describes a dancer with an object-shaped head.",
+    "motion_description": "Dance/narration premise reported, not viewed.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+    "implementation_ideas": [
+      "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+      "Use a three-beat visual setup, transformation and benign payoff."
+    ],
+    "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+    "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://knowyourmeme.com/memes/ballerina-cappuccina-italian-brainrot"
+    ],
+    "reported_metrics": {
+      "likes": 2200000,
+      "views": 19500000,
+      "comments": null,
+      "captured_at": "Historical 2025 reporting; interval varies by article",
+      "precision": "Source reports rounded counts / lower bounds; not current counters."
+    },
+    "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "surreal",
+      "hybrid-silhouette",
+      "scenario-reversal"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "story_beats": [
+        0,
+        0.35,
+        0.7
+      ],
+      "transformation_fraction": [
+        0.3,
+        0.55
+      ],
+      "silhouette_min_px_at_360": 90,
+      "ending_options": [
+        "return-to-origin",
+        "benign-scale-reveal",
+        "object-swap"
+      ],
+      "use_existing_character": false
+    }
+  },
+  {
+    "reference_id": "AS-020",
+    "platform": "TikTok",
+    "original_url": "https://www.tiktok.com/@surrealfusion10/video/7484937346434043138",
+    "creator": "@surrealfusion10",
+    "country_or_region": null,
+    "language": "it",
+    "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+    "published_at": "2025-03-23",
+    "likes": null,
+    "views": null,
+    "comments": null,
+    "duration": null,
+    "genre": "surreal",
+    "title": "Dancer sound variation",
+    "visual_description": "Secondary account reports a derivative using the dancer sound.",
+    "motion_description": "Actual scene and motion unverified.",
+    "opening_hook": {
+      "at_0_5s": null,
+      "at_1s": null,
+      "at_3s": null
+    },
+    "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+    "ending": null,
+    "loop_structure": null,
+    "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+    "implementation_ideas": [
+      "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+      "Use a three-beat visual setup, transformation and benign payoff."
+    ],
+    "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+    "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+    "verified_at": "2026-11-03",
+    "verification_status": "snippet_only",
+    "numeric_evidence_source": "secondary_report",
+    "evidence_urls": [
+      "https://knowyourmeme.com/memes/ballerina-cappuccina-italian-brainrot"
+    ],
+    "reported_metrics": {
+      "likes": 1400000,
+      "views": 12500000,
+      "comments": null,
+      "captured_at": "Historical 2025 reporting; interval varies by article",
+      "precision": "Source reports rounded counts / lower bounds; not current counters."
+    },
+    "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+    "eligible_100k": false,
+    "feature_tags": [
+      "surreal",
+      "hybrid-silhouette",
+      "scenario-reversal"
+    ],
+    "production_parameters": {
+      "status": "original design hypothesis, not measured from reference",
+      "story_beats": [
+        0,
+        0.35,
+        0.7
+      ],
+      "transformation_fraction": [
+        0.3,
+        0.55
+      ],
+      "silhouette_min_px_at_360": 90,
+      "ending_options": [
+        "return-to-origin",
+        "benign-scale-reveal",
+        "object-swap"
+      ],
+      "use_existing_character": false
+    }
+  }
+]

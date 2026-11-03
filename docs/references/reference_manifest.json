@@ -1,0 +1,3680 @@
+{
+  "version": 2,
+  "verified_at": "2026-11-03",
+  "threshold": {
+    "metric": "likes",
+    "minimum": 100000,
+    "evidence_required": "original visible per-post counter",
+    "views_are_not_likes": true
+  },
+  "summary": {
+    "research_entries": 44,
+    "known_original_urls": 41,
+    "unknown_original_urls": 3,
+    "direct_verified_100k": 0,
+    "by_genre": {
+      "ball": 12,
+      "domino": 12,
+      "asmr": 10,
+      "meme": 10
+    },
+    "target_qualified": 40,
+    "target_met": false
+  },
+  "limitations": [
+    "No original video was frame-reviewed or audio-auditioned",
+    "All opening hook timing observations are null",
+    "Secondhand engagement reports are historical, unverified and excluded",
+    "Region searches do not establish creator country or global representativeness",
+    "Distinct URLs do not prove absence of reposts"
+  ],
+  "references": [
+    {
+      "reference_id": "PC-001",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=mUns7QevB2g",
+      "creator": "satisfying.ba11s",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": "2023-11-07",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "ball",
+      "title": "Bouncing square but the border gets smaller",
+      "visual_description": "Secondary article describes square motion in a shrinking square.",
+      "motion_description": "Secondary article describes square motion in a shrinking square.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use collision events, visible constraint changes and an original reveal; do not copy a melody or scene.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/will-the-ball-escape-ball-bouncing-brainrot"
+      ],
+      "evidence_notes": "URL/title discovered in public indexed text; original video and its like count not directly verified. No frame-accurate viewing.",
+      "reported_metrics": {
+        "views": 191000,
+        "as_of": "five months after upload",
+        "source_kind": "secondary_article",
+        "source_url": "https://knowyourmeme.com/memes/will-the-ball-escape-ball-bouncing-brainrot"
+      },
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "gravity_px_s2": [
+          250,
+          600
+        ],
+        "restitution": [
+          0.88,
+          0.96
+        ],
+        "visual_focus_objects": [
+          1,
+          5
+        ],
+        "collision_substep_hz": 120,
+        "sound_trigger": "collision_event",
+        "story_phases_normalized": {
+          "setup": [
+            0,
+            0.15
+          ],
+          "escalation": [
+            0.15,
+            0.78
+          ],
+          "payoff": [
+            0.78,
+            0.94
+          ],
+          "loop_transition": [
+            0.94,
+            1
+          ]
+        }
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "cause-effect",
+        "constraint",
+        "original-audio"
+      ],
+      "template_ids": [
+        "phy-ring-escape",
+        "phy-maze",
+        "phy-funnel"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-002",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=GPJqda-ThrY",
+      "creator": "Jack’s Physics",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": "2023-11-28",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "ball",
+      "title": "Bouncing ball but every time it bounces it gets bigger and faster",
+      "visual_description": "Secondary article describes a growing, accelerating bouncing ball.",
+      "motion_description": "Secondary article describes a growing, accelerating bouncing ball.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use collision events, visible constraint changes and an original reveal; do not copy a melody or scene.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/will-the-ball-escape-ball-bouncing-brainrot"
+      ],
+      "evidence_notes": "URL/title discovered in public indexed text; original video and its like count not directly verified. No frame-accurate viewing.",
+      "reported_metrics": {
+        "views": 945000,
+        "as_of": "five months after upload",
+        "source_kind": "secondary_article",
+        "source_url": "https://knowyourmeme.com/memes/will-the-ball-escape-ball-bouncing-brainrot"
+      },
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "gravity_px_s2": [
+          250,
+          600
+        ],
+        "restitution": [
+          0.88,
+          0.96
+        ],
+        "visual_focus_objects": [
+          1,
+          5
+        ],
+        "collision_substep_hz": 120,
+        "sound_trigger": "collision_event",
+        "story_phases_normalized": {
+          "setup": [
+            0,
+            0.15
+          ],
+          "escalation": [
+            0.15,
+            0.78
+          ],
+          "payoff": [
+            0.78,
+            0.94
+          ],
+          "loop_transition": [
+            0.94,
+            1
+          ]
+        }
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "cause-effect",
+        "constraint",
+        "original-audio"
+      ],
+      "template_ids": [
+        "phy-ring-escape",
+        "phy-maze",
+        "phy-funnel"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-003",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=rgjeRfHFjms",
+      "creator": "satisfying.ba11ls",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": "2023-11-29",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "ball",
+      "title": "Reminds me of something (November)",
+      "visual_description": "Secondary article identifies bounce-triggered notes; no footage viewed.",
+      "motion_description": "Secondary article identifies bounce-triggered notes; no footage viewed.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use collision events, visible constraint changes and an original reveal; do not copy a melody or scene.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/will-the-ball-escape-ball-bouncing-brainrot"
+      ],
+      "evidence_notes": "Secondary article names an existing song. Do not reproduce its melody or use its recording. Likes not reported; views are NOT likes.",
+      "reported_metrics": {
+        "views": 38000000,
+        "as_of": "five months after upload",
+        "source_kind": "secondary_article",
+        "source_url": "https://knowyourmeme.com/memes/will-the-ball-escape-ball-bouncing-brainrot"
+      },
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "gravity_px_s2": [
+          250,
+          600
+        ],
+        "restitution": [
+          0.88,
+          0.96
+        ],
+        "visual_focus_objects": [
+          1,
+          5
+        ],
+        "collision_substep_hz": 120,
+        "sound_trigger": "collision_event",
+        "story_phases_normalized": {
+          "setup": [
+            0,
+            0.15
+          ],
+          "escalation": [
+            0.15,
+            0.78
+          ],
+          "payoff": [
+            0.78,
+            0.94
+          ],
+          "loop_transition": [
+            0.94,
+            1
+          ]
+        }
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "cause-effect",
+        "constraint",
+        "original-audio"
+      ],
+      "template_ids": [
+        "phy-ring-escape",
+        "phy-maze",
+        "phy-funnel"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-004",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=Peo-DIOmmRo",
+      "creator": "satisfying.ba11s",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": "2023-12-28",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "ball",
+      "title": "Reminds me of something (December)",
+      "visual_description": "Secondary article describes repeated balls/walls format.",
+      "motion_description": "Secondary article describes repeated balls/walls format.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use collision events, visible constraint changes and an original reveal; do not copy a melody or scene.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/will-the-ball-escape-ball-bouncing-brainrot"
+      ],
+      "evidence_notes": "URL/title discovered in public indexed text; original video and its like count not directly verified. No frame-accurate viewing.",
+      "reported_metrics": {
+        "views": 67000000,
+        "as_of": "four months after upload",
+        "source_kind": "secondary_article",
+        "source_url": "https://knowyourmeme.com/memes/will-the-ball-escape-ball-bouncing-brainrot"
+      },
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "gravity_px_s2": [
+          250,
+          600
+        ],
+        "restitution": [
+          0.88,
+          0.96
+        ],
+        "visual_focus_objects": [
+          1,
+          5
+        ],
+        "collision_substep_hz": 120,
+        "sound_trigger": "collision_event",
+        "story_phases_normalized": {
+          "setup": [
+            0,
+            0.15
+          ],
+          "escalation": [
+            0.15,
+            0.78
+          ],
+          "payoff": [
+            0.78,
+            0.94
+          ],
+          "loop_transition": [
+            0.94,
+            1
+          ]
+        }
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "cause-effect",
+        "constraint",
+        "original-audio"
+      ],
+      "template_ids": [
+        "phy-ring-escape",
+        "phy-maze",
+        "phy-funnel"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-005",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=unEH15m8NHw",
+      "creator": "Elfara",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": "2024-02-10",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "ball",
+      "title": "Bouncing Balls (function simulation, February 10)",
+      "visual_description": "Indexed creator description says balls bounce around in a function.",
+      "motion_description": "Indexed creator description says balls bounce around in a function.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use collision events, visible constraint changes and an original reveal; do not copy a melody or scene.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "search_snippet",
+      "evidence_urls": [
+        "https://www.youtube.com/watch?v=unEH15m8NHw"
+      ],
+      "evidence_notes": "URL/title discovered in public indexed text; original video and its like count not directly verified. No frame-accurate viewing.",
+      "reported_metrics": {
+        "views": 2679,
+        "likes": 92,
+        "source_kind": "original_search_snippet",
+        "source_url": "https://www.youtube.com/watch?v=unEH15m8NHw"
+      },
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "gravity_px_s2": [
+          250,
+          600
+        ],
+        "restitution": [
+          0.88,
+          0.96
+        ],
+        "visual_focus_objects": [
+          1,
+          5
+        ],
+        "collision_substep_hz": 120,
+        "sound_trigger": "collision_event",
+        "story_phases_normalized": {
+          "setup": [
+            0,
+            0.15
+          ],
+          "escalation": [
+            0.15,
+            0.78
+          ],
+          "payoff": [
+            0.78,
+            0.94
+          ],
+          "loop_transition": [
+            0.94,
+            1
+          ]
+        }
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "cause-effect",
+        "constraint",
+        "original-audio"
+      ],
+      "template_ids": [
+        "phy-ring-escape",
+        "phy-maze",
+        "phy-funnel"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-006",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=s1xCM5oTGhY",
+      "creator": "Elfara",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": "2024-02-03",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "ball",
+      "title": "Bouncing Balls (February 3)",
+      "visual_description": "Indexed title identifies bouncing-ball simulation; full video not watched.",
+      "motion_description": "Indexed title identifies bouncing-ball simulation; full video not watched.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use collision events, visible constraint changes and an original reveal; do not copy a melody or scene.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "search_snippet",
+      "evidence_urls": [
+        "https://www.youtube.com/watch?v=s1xCM5oTGhY"
+      ],
+      "evidence_notes": "URL/title discovered in public indexed text; original video and its like count not directly verified. No frame-accurate viewing.",
+      "reported_metrics": {
+        "views": 176,
+        "likes": 9,
+        "source_kind": "original_search_snippet",
+        "source_url": "https://www.youtube.com/watch?v=s1xCM5oTGhY"
+      },
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "gravity_px_s2": [
+          250,
+          600
+        ],
+        "restitution": [
+          0.88,
+          0.96
+        ],
+        "visual_focus_objects": [
+          1,
+          5
+        ],
+        "collision_substep_hz": 120,
+        "sound_trigger": "collision_event",
+        "story_phases_normalized": {
+          "setup": [
+            0,
+            0.15
+          ],
+          "escalation": [
+            0.15,
+            0.78
+          ],
+          "payoff": [
+            0.78,
+            0.94
+          ],
+          "loop_transition": [
+            0.94,
+            1
+          ]
+        }
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "cause-effect",
+        "constraint",
+        "original-audio"
+      ],
+      "template_ids": [
+        "phy-ring-escape",
+        "phy-maze",
+        "phy-funnel"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-007",
+      "platform": "Reddit",
+      "original_url": "https://www.reddit.com/r/blender/comments/1pushx1/satisfying_koi_pond_ring_escape/",
+      "creator": "u/Cyclo_Studios",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": null,
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "ball",
+      "title": "Satisfying Koi Pond Ring Escape",
+      "visual_description": "Original author text explains scripted kinematics. Comments identify ball/wall mismatch. Video not frame-reviewed.",
+      "motion_description": "Original author text explains scripted kinematics. Comments identify ball/wall mismatch. Video not frame-reviewed.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use collision events, visible constraint changes and an original reveal; do not copy a melody or scene.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "candidate_unverified",
+      "numeric_evidence_source": "unverified",
+      "evidence_urls": [
+        "https://www.reddit.com/r/blender/comments/1pushx1/satisfying_koi_pond_ring_escape/"
+      ],
+      "evidence_notes": "Original post text accessible. No like count, upvote count or views available. Reddit upvotes are not interpreted as likes; author explicitly distinguishes kinematic scripting from Blender physics.",
+      "reported_metrics": null,
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "gravity_px_s2": [
+          250,
+          600
+        ],
+        "restitution": [
+          0.88,
+          0.96
+        ],
+        "visual_focus_objects": [
+          1,
+          5
+        ],
+        "collision_substep_hz": 120,
+        "sound_trigger": "collision_event",
+        "story_phases_normalized": {
+          "setup": [
+            0,
+            0.15
+          ],
+          "escalation": [
+            0.15,
+            0.78
+          ],
+          "payoff": [
+            0.78,
+            0.94
+          ],
+          "loop_transition": [
+            0.94,
+            1
+          ]
+        }
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "cause-effect",
+        "constraint",
+        "original-audio"
+      ],
+      "template_ids": [
+        "phy-ring-escape",
+        "phy-maze",
+        "phy-funnel"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-008",
+      "platform": "Reddit",
+      "original_url": "https://www.reddit.com/r/processing/comments/1bsy00x/how_to_create_these_bouncing_ball_simulations_is/",
+      "creator": null,
+      "country_or_region": null,
+      "language": "en",
+      "published_at": null,
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "ball",
+      "title": "Bouncing simulations discussion and Galton example",
+      "visual_description": "Indexed discussion links a bouncing-ball example and a creator Galton-board simulation.",
+      "motion_description": "Indexed discussion links a bouncing-ball example and a creator Galton-board simulation.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use collision events, visible constraint changes and an original reveal; do not copy a melody or scene.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "candidate_unverified",
+      "numeric_evidence_source": "unverified",
+      "evidence_urls": [
+        "https://www.reddit.com/r/processing/comments/1bsy00x/how_to_create_these_bouncing_ball_simulations_is/"
+      ],
+      "evidence_notes": "URL/title discovered in public indexed text; original video and its like count not directly verified. No frame-accurate viewing.",
+      "reported_metrics": null,
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "gravity_px_s2": [
+          250,
+          600
+        ],
+        "restitution": [
+          0.88,
+          0.96
+        ],
+        "visual_focus_objects": [
+          1,
+          5
+        ],
+        "collision_substep_hz": 120,
+        "sound_trigger": "collision_event",
+        "story_phases_normalized": {
+          "setup": [
+            0,
+            0.15
+          ],
+          "escalation": [
+            0.15,
+            0.78
+          ],
+          "payoff": [
+            0.78,
+            0.94
+          ],
+          "loop_transition": [
+            0.94,
+            1
+          ]
+        }
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "cause-effect",
+        "constraint",
+        "original-audio"
+      ],
+      "template_ids": [
+        "phy-ring-escape",
+        "phy-maze",
+        "phy-funnel"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-011",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=8gidAbqhUrE",
+      "creator": null,
+      "country_or_region": null,
+      "language": "en",
+      "published_at": "2026-10-21",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "ball",
+      "title": "Which song is the bouncing balls playing?",
+      "visual_description": "Indexed title describes bouncing balls and a song-recognition prompt.",
+      "motion_description": "Indexed title describes bouncing balls and a song-recognition prompt.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use collision events, visible constraint changes and an original reveal; do not copy a melody or scene.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://socialcounts.org/youtube-video-analytics/8gidAbqhUrE"
+      ],
+      "evidence_notes": "Canonical YouTube URL uses the exact video id shown in the analytics source. Direct original open was throttled. Third-party metrics are not original verification.",
+      "reported_metrics": {
+        "views": 202639,
+        "likes": 831,
+        "comments": 5,
+        "source_kind": "third_party_analytics",
+        "source_url": "https://socialcounts.org/youtube-video-analytics/8gidAbqhUrE"
+      },
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "gravity_px_s2": [
+          250,
+          600
+        ],
+        "restitution": [
+          0.88,
+          0.96
+        ],
+        "visual_focus_objects": [
+          1,
+          5
+        ],
+        "collision_substep_hz": 120,
+        "sound_trigger": "collision_event",
+        "story_phases_normalized": {
+          "setup": [
+            0,
+            0.15
+          ],
+          "escalation": [
+            0.15,
+            0.78
+          ],
+          "payoff": [
+            0.78,
+            0.94
+          ],
+          "loop_transition": [
+            0.94,
+            1
+          ]
+        }
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "cause-effect",
+        "constraint",
+        "original-audio"
+      ],
+      "template_ids": [
+        "phy-ring-escape",
+        "phy-maze",
+        "phy-funnel"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-012",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=suE3NxL8Akk",
+      "creator": null,
+      "country_or_region": null,
+      "language": "en",
+      "published_at": "2026-10-26",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "ball",
+      "title": "Guess The Song — 999 varied bouncing orbs",
+      "visual_description": "Indexed title describes a large-orb-count simulation; footage not viewed.",
+      "motion_description": "Indexed title describes a large-orb-count simulation; footage not viewed.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use collision events, visible constraint changes and an original reveal; do not copy a melody or scene.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://socialcounts.org/youtube-video-analytics/suE3NxL8Akk/growth"
+      ],
+      "evidence_notes": "Rounded third-party snippet counts, not original. Canonical YouTube URL uses explicit source id; direct original open throttled.",
+      "reported_metrics": {
+        "views": 99900,
+        "likes": 533,
+        "comments": 5,
+        "source_kind": "third_party_search_snippet",
+        "source_url": "https://socialcounts.org/youtube-video-analytics/suE3NxL8Akk/growth"
+      },
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "gravity_px_s2": [
+          250,
+          600
+        ],
+        "restitution": [
+          0.88,
+          0.96
+        ],
+        "visual_focus_objects": [
+          1,
+          5
+        ],
+        "collision_substep_hz": 120,
+        "sound_trigger": "collision_event",
+        "story_phases_normalized": {
+          "setup": [
+            0,
+            0.15
+          ],
+          "escalation": [
+            0.15,
+            0.78
+          ],
+          "payoff": [
+            0.78,
+            0.94
+          ],
+          "loop_transition": [
+            0.94,
+            1
+          ]
+        }
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "cause-effect",
+        "constraint",
+        "original-audio"
+      ],
+      "template_ids": [
+        "phy-ring-escape",
+        "phy-maze",
+        "phy-funnel"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-013",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=0LHtcimhbrU",
+      "creator": "Hevesh5",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": null,
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "domino",
+      "title": "domino effect chain reaction! oddly satisfying",
+      "visual_description": "Indexed title/hashtags identify a domino and popsicle-stick chain reaction.",
+      "motion_description": "Indexed title/hashtags identify a domino and popsicle-stick chain reaction.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use a legible trigger path, one delayed transfer, progressive completion and an original final reveal.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "unverified",
+      "evidence_urls": [
+        "https://www.youtube.com/watch?v=0LHtcimhbrU"
+      ],
+      "evidence_notes": "URL/title discovered in public indexed text; original video and its like count not directly verified. No frame-accurate viewing.",
+      "reported_metrics": null,
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "path_nodes": [
+          24,
+          64
+        ],
+        "trigger_interval_s": [
+          0.055,
+          0.12
+        ],
+        "transfer_stages": [
+          2,
+          4
+        ],
+        "anticipation_pause_s": [
+          0.15,
+          0.35
+        ],
+        "sound_trigger": "topple_or_transfer_event",
+        "camera_focus": "leading_trigger",
+        "final_reveal_normalized": 0.85
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "chain",
+        "payoff",
+        "readable-path"
+      ],
+      "template_ids": [
+        "chain-spiral",
+        "chain-machine",
+        "chain-gears"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-014",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=75UUOGrOTzk",
+      "creator": "Hevesh5",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": null,
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "domino",
+      "title": "10,000 domino chain reaction!",
+      "visual_description": "Indexed title identifies a 10,000-domino chain reaction.",
+      "motion_description": "Indexed title identifies a 10,000-domino chain reaction.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use a legible trigger path, one delayed transfer, progressive completion and an original final reveal.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "unverified",
+      "evidence_urls": [
+        "https://www.youtube.com/watch?v=75UUOGrOTzk"
+      ],
+      "evidence_notes": "URL/title discovered in public indexed text; original video and its like count not directly verified. No frame-accurate viewing.",
+      "reported_metrics": null,
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "path_nodes": [
+          24,
+          64
+        ],
+        "trigger_interval_s": [
+          0.055,
+          0.12
+        ],
+        "transfer_stages": [
+          2,
+          4
+        ],
+        "anticipation_pause_s": [
+          0.15,
+          0.35
+        ],
+        "sound_trigger": "topple_or_transfer_event",
+        "camera_focus": "leading_trigger",
+        "final_reveal_normalized": 0.85
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "chain",
+        "payoff",
+        "readable-path"
+      ],
+      "template_ids": [
+        "chain-spiral",
+        "chain-machine",
+        "chain-gears"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-015",
+      "platform": "TikTok",
+      "original_url": "https://www.tiktok.com/@hevesh5/video/7220455388104101162",
+      "creator": "Lily Hevesh / Hevesh5",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": null,
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "domino",
+      "title": "A perfect topple — Super Mario Bros in dominoes",
+      "visual_description": "Third-party caption identifies domino art with Super Mario theme; not viewed.",
+      "motion_description": "Third-party caption identifies domino art with Super Mario theme; not viewed.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use a legible trigger path, one delayed transfer, progressive completion and an original final reveal.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://urlebird.com/video/a-perfect-topple-super-mario-bros-in-dominoes-7220455388104101162/"
+      ],
+      "evidence_notes": "Original TikTok URL attempted and explicitly restricted. Third-party metrics were read as 890.12K likes / 14.37M views / 5.55K comments. Not direct verification. Study abstract progressive reveal only; branded Nintendo artwork is not licensed.",
+      "reported_metrics": {
+        "likes": 890120,
+        "views": 14370000,
+        "comments": 5550,
+        "source_kind": "third_party_page_rounded",
+        "source_url": "https://urlebird.com/video/a-perfect-topple-super-mario-bros-in-dominoes-7220455388104101162/"
+      },
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "path_nodes": [
+          24,
+          64
+        ],
+        "trigger_interval_s": [
+          0.055,
+          0.12
+        ],
+        "transfer_stages": [
+          2,
+          4
+        ],
+        "anticipation_pause_s": [
+          0.15,
+          0.35
+        ],
+        "sound_trigger": "topple_or_transfer_event",
+        "camera_focus": "leading_trigger",
+        "final_reveal_normalized": 0.85
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "chain",
+        "payoff",
+        "readable-path"
+      ],
+      "template_ids": [
+        "chain-spiral",
+        "chain-machine",
+        "chain-gears"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-016",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=sHT9FaHtdX8",
+      "creator": "Hevesh5 & Kaplamino",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": null,
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "domino",
+      "title": "Unconventional Domino Tricks",
+      "visual_description": "Secondary text describes an edited screenlink connecting separate builds.",
+      "motion_description": "Secondary text describes an edited screenlink connecting separate builds.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use a legible trigger path, one delayed transfer, progressive completion and an original final reveal.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "candidate_unverified",
+      "numeric_evidence_source": "unverified",
+      "evidence_urls": [
+        "https://twistedsifter.com/videos/unconventional-domino-tricks-and-chain-reactions-by-hevesh5-kaplamino/"
+      ],
+      "evidence_notes": "Exact YouTube embed id exposed by article. Original fetch throttled. Article says creator transition at 1:44, but no frame-level opening hook or loop is asserted.",
+      "reported_metrics": null,
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "path_nodes": [
+          24,
+          64
+        ],
+        "trigger_interval_s": [
+          0.055,
+          0.12
+        ],
+        "transfer_stages": [
+          2,
+          4
+        ],
+        "anticipation_pause_s": [
+          0.15,
+          0.35
+        ],
+        "sound_trigger": "topple_or_transfer_event",
+        "camera_focus": "leading_trigger",
+        "final_reveal_normalized": 0.85
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "chain",
+        "payoff",
+        "readable-path"
+      ],
+      "template_ids": [
+        "chain-spiral",
+        "chain-machine",
+        "chain-gears"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-017",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=NS9uKRcxmy0",
+      "creator": "Kaplamino",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": null,
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "domino",
+      "title": "Blue Marble 3",
+      "visual_description": "Secondary article describes a two-table chain reaction and varied energy transfers.",
+      "motion_description": "Secondary article describes a two-table chain reaction and varied energy transfers.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use a legible trigger path, one delayed transfer, progressive completion and an original final reveal.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "candidate_unverified",
+      "numeric_evidence_source": "unverified",
+      "evidence_urls": [
+        "https://boingboing.net/2019/02/27/the-latest-marble-chain-reacti.html"
+      ],
+      "evidence_notes": "YouTube embed id exposed in article. Not a verified short-form video and not qualifying. Use multi-stage transfer idea, not physical arrangement.",
+      "reported_metrics": null,
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "path_nodes": [
+          24,
+          64
+        ],
+        "trigger_interval_s": [
+          0.055,
+          0.12
+        ],
+        "transfer_stages": [
+          2,
+          4
+        ],
+        "anticipation_pause_s": [
+          0.15,
+          0.35
+        ],
+        "sound_trigger": "topple_or_transfer_event",
+        "camera_focus": "leading_trigger",
+        "final_reveal_normalized": 0.85
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "chain",
+        "payoff",
+        "readable-path"
+      ],
+      "template_ids": [
+        "chain-spiral",
+        "chain-machine",
+        "chain-gears"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-018",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=QQ9gs-5lRKc",
+      "creator": "Kaplamino",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": null,
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "domino",
+      "title": "Magnets and Marbles",
+      "visual_description": "Secondary description identifies marbles, small magnets and wooden blocks.",
+      "motion_description": "Secondary description identifies marbles, small magnets and wooden blocks.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use a legible trigger path, one delayed transfer, progressive completion and an original final reveal.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "candidate_unverified",
+      "numeric_evidence_source": "unverified",
+      "evidence_urls": [
+        "https://thekidshouldseethis.com/post/magnets-marbles-kaplaminos-pitagora-style-chain-reactions"
+      ],
+      "evidence_notes": "Article links original youtu.be/QQ9gs-5lRKc. Original opens metadata-only login shell. No counts or short-form status verified.",
+      "reported_metrics": null,
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "path_nodes": [
+          24,
+          64
+        ],
+        "trigger_interval_s": [
+          0.055,
+          0.12
+        ],
+        "transfer_stages": [
+          2,
+          4
+        ],
+        "anticipation_pause_s": [
+          0.15,
+          0.35
+        ],
+        "sound_trigger": "topple_or_transfer_event",
+        "camera_focus": "leading_trigger",
+        "final_reveal_normalized": 0.85
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "chain",
+        "payoff",
+        "readable-path"
+      ],
+      "template_ids": [
+        "chain-spiral",
+        "chain-machine",
+        "chain-gears"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-019",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=ZrIv5jUsLqE",
+      "creator": "Hevesh5",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": null,
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": 62,
+      "genre": "domino",
+      "title": "Huge Domino Field",
+      "visual_description": "Secondary description identifies a sustained domino-field toppling sequence.",
+      "motion_description": "Secondary description identifies a sustained domino-field toppling sequence.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use a legible trigger path, one delayed transfer, progressive completion and an original final reveal.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "candidate_unverified",
+      "numeric_evidence_source": "unverified",
+      "evidence_urls": [
+        "https://heypiko.co.uk/library/videos/huge-domino-field-hevesh5"
+      ],
+      "evidence_notes": "Duration 62s comes from secondary curator. Do not reuse curator subjective scores as measured quality or popularity. Original fetch throttled.",
+      "reported_metrics": null,
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "path_nodes": [
+          24,
+          64
+        ],
+        "trigger_interval_s": [
+          0.055,
+          0.12
+        ],
+        "transfer_stages": [
+          2,
+          4
+        ],
+        "anticipation_pause_s": [
+          0.15,
+          0.35
+        ],
+        "sound_trigger": "topple_or_transfer_event",
+        "camera_focus": "leading_trigger",
+        "final_reveal_normalized": 0.85
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "chain",
+        "payoff",
+        "readable-path"
+      ],
+      "template_ids": [
+        "chain-spiral",
+        "chain-machine",
+        "chain-gears"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-020",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=FWgH0hXZKrE",
+      "creator": "Hevesh5",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": null,
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "domino",
+      "title": "NEW DOMINO RECORD + Most INSANE Spiral Ever! (32,000 Dominoes)",
+      "visual_description": "Indexed title identifies a large domino spiral.",
+      "motion_description": "Indexed title identifies a large domino spiral.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use a legible trigger path, one delayed transfer, progressive completion and an original final reveal.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "unverified",
+      "evidence_urls": [
+        "https://www.youtube.com/watch?v=FWgH0hXZKrE"
+      ],
+      "evidence_notes": "Original indexed URL/title, no original like count. Longer video candidate, not confirmed Shorts; no inference of >=100k likes from 32,000 domino count.",
+      "reported_metrics": null,
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "path_nodes": [
+          24,
+          64
+        ],
+        "trigger_interval_s": [
+          0.055,
+          0.12
+        ],
+        "transfer_stages": [
+          2,
+          4
+        ],
+        "anticipation_pause_s": [
+          0.15,
+          0.35
+        ],
+        "sound_trigger": "topple_or_transfer_event",
+        "camera_focus": "leading_trigger",
+        "final_reveal_normalized": 0.85
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "chain",
+        "payoff",
+        "readable-path"
+      ],
+      "template_ids": [
+        "chain-spiral",
+        "chain-machine",
+        "chain-gears"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-021",
+      "platform": "YouTube",
+      "original_url": "https://www.youtube.com/watch?v=POSNEWl_3To",
+      "creator": "Hevesh5",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": null,
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "domino",
+      "title": "Domino Spiral Universe! Best of Hevesh5 (13)",
+      "visual_description": "Indexed title identifies a domino-spiral compilation.",
+      "motion_description": "Indexed title identifies a domino-spiral compilation.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use a legible trigger path, one delayed transfer, progressive completion and an original final reveal.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "unverified",
+      "evidence_urls": [
+        "https://www.youtube.com/watch?v=POSNEWl_3To"
+      ],
+      "evidence_notes": "Compilation candidate, not verified short. No original counts. Potential overlap with individual creator uploads; excluded from qualifying count.",
+      "reported_metrics": null,
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "path_nodes": [
+          24,
+          64
+        ],
+        "trigger_interval_s": [
+          0.055,
+          0.12
+        ],
+        "transfer_stages": [
+          2,
+          4
+        ],
+        "anticipation_pause_s": [
+          0.15,
+          0.35
+        ],
+        "sound_trigger": "topple_or_transfer_event",
+        "camera_focus": "leading_trigger",
+        "final_reveal_normalized": 0.85
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "chain",
+        "payoff",
+        "readable-path"
+      ],
+      "template_ids": [
+        "chain-spiral",
+        "chain-machine",
+        "chain-gears"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-022",
+      "platform": "Reddit",
+      "original_url": "https://www.reddit.com/r/marblerun/comments/1v5s848/a_marble_run_i_made/",
+      "creator": null,
+      "country_or_region": null,
+      "language": "en",
+      "published_at": null,
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "domino",
+      "title": "A marble run I made",
+      "visual_description": "Indexed author text describes a self-made marble run.",
+      "motion_description": "Indexed author text describes a self-made marble run.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use a legible trigger path, one delayed transfer, progressive completion and an original final reveal.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "candidate_unverified",
+      "numeric_evidence_source": "unverified",
+      "evidence_urls": [
+        "https://www.reddit.com/r/marblerun/comments/1v5s848/a_marble_run_i_made/"
+      ],
+      "evidence_notes": "Original Reddit locator from search. No media watched or numeric engagement verified; Reddit score would not equal likes.",
+      "reported_metrics": null,
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "path_nodes": [
+          24,
+          64
+        ],
+        "trigger_interval_s": [
+          0.055,
+          0.12
+        ],
+        "transfer_stages": [
+          2,
+          4
+        ],
+        "anticipation_pause_s": [
+          0.15,
+          0.35
+        ],
+        "sound_trigger": "topple_or_transfer_event",
+        "camera_focus": "leading_trigger",
+        "final_reveal_normalized": 0.85
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "chain",
+        "payoff",
+        "readable-path"
+      ],
+      "template_ids": [
+        "chain-spiral",
+        "chain-machine",
+        "chain-gears"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-023",
+      "platform": "Pinterest",
+      "original_url": "https://kr.pinterest.com/pin/398427898302566081/",
+      "creator": null,
+      "country_or_region": null,
+      "language": null,
+      "published_at": null,
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "domino",
+      "title": "DIY cardboard marble run pin",
+      "visual_description": "Indexed pin title describes a cardboard marble machine.",
+      "motion_description": "Indexed pin title describes a cardboard marble machine.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use a legible trigger path, one delayed transfer, progressive completion and an original final reveal.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "candidate_unverified",
+      "numeric_evidence_source": "unverified",
+      "evidence_urls": [
+        "https://kr.pinterest.com/pin/398427898302566081/"
+      ],
+      "evidence_notes": "Pinterest pin, original creator and original video not established. Repost/duplicate status unknown, rights unknown. Not a qualifying original video; discovery lead only.",
+      "reported_metrics": null,
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "path_nodes": [
+          24,
+          64
+        ],
+        "trigger_interval_s": [
+          0.055,
+          0.12
+        ],
+        "transfer_stages": [
+          2,
+          4
+        ],
+        "anticipation_pause_s": [
+          0.15,
+          0.35
+        ],
+        "sound_trigger": "topple_or_transfer_event",
+        "camera_focus": "leading_trigger",
+        "final_reveal_normalized": 0.85
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "chain",
+        "payoff",
+        "readable-path"
+      ],
+      "template_ids": [
+        "chain-spiral",
+        "chain-machine",
+        "chain-gears"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "AS-001",
+      "platform": "YouTube Shorts",
+      "original_url": "https://www.youtube.com/shorts/j2TVdltvJ_k",
+      "creator": "Chillin' with Rachel",
+      "country_or_region": null,
+      "language": "en",
+      "language_basis": "Public title language only; spoken language unverified.",
+      "published_at": "2025-03-08",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "asmr",
+      "title": "Stress-ball repair",
+      "visual_description": "Title-based premise only: Stress-ball repair. Video not viewed.",
+      "motion_description": "Not directly observed; title suggests repair.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+      "implementation_ideas": [
+        "soft material restoration",
+        "Use original procedural assets; do not recreate source composition."
+      ],
+      "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+      "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://www.2mv.ai/topic/satisfying"
+      ],
+      "reported_metrics": {
+        "likes": 720000,
+        "views": 50378839,
+        "comments": null,
+        "captured_at": "2026-10-13/2026-10-14",
+        "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+      },
+      "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "repair",
+        "material-change",
+        "original-procedural"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "subject_screen_fraction": [
+          0.45,
+          0.65
+        ],
+        "contact_sound_attack_ms": [
+          4,
+          12
+        ],
+        "contact_sound_decay_ms": [
+          60,
+          180
+        ],
+        "first_change_by_seconds": 0.5,
+        "process_cycles": 2,
+        "seeded_geometry": true
+      },
+      "tags": [
+        "repair",
+        "material-change",
+        "original-procedural"
+      ],
+      "template_ids": [
+        "asmr-jelly-compression",
+        "asmr-glass-cutting",
+        "asmr-color-mixing"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-002",
+      "platform": "YouTube Shorts",
+      "original_url": "https://www.youtube.com/shorts/Cv19w_2-rMc",
+      "creator": "Sand Tagious",
+      "country_or_region": null,
+      "language": "en",
+      "language_basis": "Public title language only; spoken language unverified.",
+      "published_at": "2022-08-16",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "asmr",
+      "title": "Kinetic sand",
+      "visual_description": "Title-based premise only: Kinetic sand. Video not viewed.",
+      "motion_description": "Not directly observed; title suggests slicing.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+      "implementation_ideas": [
+        "granular layers and clean boundaries",
+        "Use original procedural assets; do not recreate source composition."
+      ],
+      "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+      "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://www.2mv.ai/topic/satisfying"
+      ],
+      "reported_metrics": {
+        "likes": 517000,
+        "views": 24342009,
+        "comments": null,
+        "captured_at": "2026-10-13/2026-10-14",
+        "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+      },
+      "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "slicing",
+        "material-change",
+        "original-procedural"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "subject_screen_fraction": [
+          0.45,
+          0.65
+        ],
+        "contact_sound_attack_ms": [
+          4,
+          12
+        ],
+        "contact_sound_decay_ms": [
+          60,
+          180
+        ],
+        "first_change_by_seconds": 0.5,
+        "process_cycles": 2,
+        "seeded_geometry": true
+      },
+      "tags": [
+        "slicing",
+        "material-change",
+        "original-procedural"
+      ],
+      "template_ids": [
+        "asmr-jelly-compression",
+        "asmr-glass-cutting",
+        "asmr-color-mixing"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-003",
+      "platform": "YouTube Shorts",
+      "original_url": "https://www.youtube.com/shorts/-lgPez-zZQU",
+      "creator": "Whats Next",
+      "country_or_region": null,
+      "language": "en",
+      "language_basis": "Public title language only; spoken language unverified.",
+      "published_at": "2026-08-24",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "asmr",
+      "title": "Butter shaping",
+      "visual_description": "Title-based premise only: Butter shaping. Video not viewed.",
+      "motion_description": "Not directly observed; title suggests shaping.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+      "implementation_ideas": [
+        "smooth ribbons and curvature",
+        "Use original procedural assets; do not recreate source composition."
+      ],
+      "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+      "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://www.2mv.ai/topic/satisfying"
+      ],
+      "reported_metrics": {
+        "likes": 52000,
+        "views": 13723214,
+        "comments": null,
+        "captured_at": "2026-10-13/2026-10-14",
+        "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+      },
+      "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "shaping",
+        "material-change",
+        "original-procedural"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "subject_screen_fraction": [
+          0.45,
+          0.65
+        ],
+        "contact_sound_attack_ms": [
+          4,
+          12
+        ],
+        "contact_sound_decay_ms": [
+          60,
+          180
+        ],
+        "first_change_by_seconds": 0.5,
+        "process_cycles": 2,
+        "seeded_geometry": true
+      },
+      "tags": [
+        "shaping",
+        "material-change",
+        "original-procedural"
+      ],
+      "template_ids": [
+        "asmr-jelly-compression",
+        "asmr-glass-cutting",
+        "asmr-color-mixing"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-004",
+      "platform": "YouTube Shorts",
+      "original_url": "https://www.youtube.com/shorts/zFEDCo-eyi4",
+      "creator": "Maqaroon",
+      "country_or_region": null,
+      "language": "en",
+      "language_basis": "Public title language only; spoken language unverified.",
+      "published_at": "2024-09-26",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "asmr",
+      "title": "Stress ball",
+      "visual_description": "Title-based premise only: Stress ball. Video not viewed.",
+      "motion_description": "Not directly observed; title suggests compression.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+      "implementation_ideas": [
+        "compression and elastic recovery",
+        "Use original procedural assets; do not recreate source composition."
+      ],
+      "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+      "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://www.2mv.ai/topic/satisfying"
+      ],
+      "reported_metrics": {
+        "likes": 162000,
+        "views": 11941944,
+        "comments": null,
+        "captured_at": "2026-10-13/2026-10-14",
+        "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+      },
+      "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "compression",
+        "material-change",
+        "original-procedural"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "subject_screen_fraction": [
+          0.45,
+          0.65
+        ],
+        "contact_sound_attack_ms": [
+          4,
+          12
+        ],
+        "contact_sound_decay_ms": [
+          60,
+          180
+        ],
+        "first_change_by_seconds": 0.5,
+        "process_cycles": 2,
+        "seeded_geometry": true
+      },
+      "tags": [
+        "compression",
+        "material-change",
+        "original-procedural"
+      ],
+      "template_ids": [
+        "asmr-jelly-compression",
+        "asmr-glass-cutting",
+        "asmr-color-mixing"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-005",
+      "platform": "YouTube Shorts",
+      "original_url": "https://www.youtube.com/shorts/6xWawR7J2Qs",
+      "creator": "Stan 3D",
+      "country_or_region": null,
+      "language": "en",
+      "language_basis": "Public title language only; spoken language unverified.",
+      "published_at": "2026-08-16",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "asmr",
+      "title": "3D prints",
+      "visual_description": "Title-based premise only: 3D prints. Video not viewed.",
+      "motion_description": "Not directly observed; title suggests mechanical.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+      "implementation_ideas": [
+        "interlocking geometry",
+        "Use original procedural assets; do not recreate source composition."
+      ],
+      "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+      "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://www.2mv.ai/topic/satisfying"
+      ],
+      "reported_metrics": {
+        "likes": 201000,
+        "views": 11271026,
+        "comments": null,
+        "captured_at": "2026-10-13/2026-10-14",
+        "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+      },
+      "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "mechanical",
+        "material-change",
+        "original-procedural"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "subject_screen_fraction": [
+          0.45,
+          0.65
+        ],
+        "contact_sound_attack_ms": [
+          4,
+          12
+        ],
+        "contact_sound_decay_ms": [
+          60,
+          180
+        ],
+        "first_change_by_seconds": 0.5,
+        "process_cycles": 2,
+        "seeded_geometry": true
+      },
+      "tags": [
+        "mechanical",
+        "material-change",
+        "original-procedural"
+      ],
+      "template_ids": [
+        "asmr-jelly-compression",
+        "asmr-glass-cutting",
+        "asmr-color-mixing"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-006",
+      "platform": "YouTube Shorts",
+      "original_url": "https://www.youtube.com/shorts/7gV-0be8WqE",
+      "creator": "miss foxy",
+      "country_or_region": null,
+      "language": "en",
+      "language_basis": "Public title language only; spoken language unverified.",
+      "published_at": "2026-08-27",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "asmr",
+      "title": "Mango comparison",
+      "visual_description": "Title-based premise only: Mango comparison. Video not viewed.",
+      "motion_description": "Not directly observed; title suggests cracking.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+      "implementation_ideas": [
+        "material contrast",
+        "Use original procedural assets; do not recreate source composition."
+      ],
+      "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+      "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://www.2mv.ai/topic/satisfying"
+      ],
+      "reported_metrics": {
+        "likes": 90000,
+        "views": 7517943,
+        "comments": null,
+        "captured_at": "2026-10-13/2026-10-14",
+        "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+      },
+      "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "cracking",
+        "material-change",
+        "original-procedural"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "subject_screen_fraction": [
+          0.45,
+          0.65
+        ],
+        "contact_sound_attack_ms": [
+          4,
+          12
+        ],
+        "contact_sound_decay_ms": [
+          60,
+          180
+        ],
+        "first_change_by_seconds": 0.5,
+        "process_cycles": 2,
+        "seeded_geometry": true
+      },
+      "tags": [
+        "cracking",
+        "material-change",
+        "original-procedural"
+      ],
+      "template_ids": [
+        "asmr-jelly-compression",
+        "asmr-glass-cutting",
+        "asmr-color-mixing"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-007",
+      "platform": "YouTube Shorts",
+      "original_url": "https://www.youtube.com/shorts/uaebwwpiDCU",
+      "creator": "Paola F. Rey",
+      "country_or_region": null,
+      "language": "en",
+      "language_basis": "Public title language only; spoken language unverified.",
+      "published_at": "2022-12-31",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "asmr",
+      "title": "Gold marker",
+      "visual_description": "Title-based premise only: Gold marker. Video not viewed.",
+      "motion_description": "Not directly observed; title suggests filling.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+      "implementation_ideas": [
+        "a visible fill frontier",
+        "Use original procedural assets; do not recreate source composition."
+      ],
+      "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+      "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://www.2mv.ai/topic/satisfying"
+      ],
+      "reported_metrics": {
+        "likes": 16000,
+        "views": 3306150,
+        "comments": null,
+        "captured_at": "2026-10-13/2026-10-14",
+        "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+      },
+      "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "filling",
+        "material-change",
+        "original-procedural"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "subject_screen_fraction": [
+          0.45,
+          0.65
+        ],
+        "contact_sound_attack_ms": [
+          4,
+          12
+        ],
+        "contact_sound_decay_ms": [
+          60,
+          180
+        ],
+        "first_change_by_seconds": 0.5,
+        "process_cycles": 2,
+        "seeded_geometry": true
+      },
+      "tags": [
+        "filling",
+        "material-change",
+        "original-procedural"
+      ],
+      "template_ids": [
+        "asmr-jelly-compression",
+        "asmr-glass-cutting",
+        "asmr-color-mixing"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-008",
+      "platform": "YouTube Shorts",
+      "original_url": "https://www.youtube.com/shorts/Syd_4J6OWRk",
+      "creator": "Satisfying Shorts",
+      "country_or_region": null,
+      "language": "en",
+      "language_basis": "Public title language only; spoken language unverified.",
+      "published_at": "2025-06-23",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "asmr",
+      "title": "Powder molding",
+      "visual_description": "Title-based premise only: Powder molding. Video not viewed.",
+      "motion_description": "Not directly observed; title suggests pressing.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+      "implementation_ideas": [
+        "shape-to-mold alignment",
+        "Use original procedural assets; do not recreate source composition."
+      ],
+      "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+      "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://www.2mv.ai/topic/satisfying"
+      ],
+      "reported_metrics": {
+        "likes": 42000,
+        "views": 1951581,
+        "comments": null,
+        "captured_at": "2026-10-13/2026-10-14",
+        "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+      },
+      "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "pressing",
+        "material-change",
+        "original-procedural"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "subject_screen_fraction": [
+          0.45,
+          0.65
+        ],
+        "contact_sound_attack_ms": [
+          4,
+          12
+        ],
+        "contact_sound_decay_ms": [
+          60,
+          180
+        ],
+        "first_change_by_seconds": 0.5,
+        "process_cycles": 2,
+        "seeded_geometry": true
+      },
+      "tags": [
+        "pressing",
+        "material-change",
+        "original-procedural"
+      ],
+      "template_ids": [
+        "asmr-jelly-compression",
+        "asmr-glass-cutting",
+        "asmr-color-mixing"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-009",
+      "platform": "YouTube Shorts",
+      "original_url": "https://www.youtube.com/shorts/P6xWEgyI_lw",
+      "creator": "ShannyPOP",
+      "country_or_region": null,
+      "language": "en",
+      "language_basis": "Public title language only; spoken language unverified.",
+      "published_at": "2026-10-04",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "asmr",
+      "title": "Squishy mixing",
+      "visual_description": "Title-based premise only: Squishy mixing. Video not viewed.",
+      "motion_description": "Not directly observed; title suggests mixing.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+      "implementation_ideas": [
+        "bounded particles and blend progression",
+        "Use original procedural assets; do not recreate source composition."
+      ],
+      "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+      "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://www.2mv.ai/topic/satisfying"
+      ],
+      "reported_metrics": {
+        "likes": 21000,
+        "views": 1899875,
+        "comments": null,
+        "captured_at": "2026-10-13/2026-10-14",
+        "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+      },
+      "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "mixing",
+        "material-change",
+        "original-procedural"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "subject_screen_fraction": [
+          0.45,
+          0.65
+        ],
+        "contact_sound_attack_ms": [
+          4,
+          12
+        ],
+        "contact_sound_decay_ms": [
+          60,
+          180
+        ],
+        "first_change_by_seconds": 0.5,
+        "process_cycles": 2,
+        "seeded_geometry": true
+      },
+      "tags": [
+        "mixing",
+        "material-change",
+        "original-procedural"
+      ],
+      "template_ids": [
+        "asmr-jelly-compression",
+        "asmr-glass-cutting",
+        "asmr-color-mixing"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-010",
+      "platform": "YouTube Shorts",
+      "original_url": "https://www.youtube.com/shorts/bumb4d7NwdI",
+      "creator": "Sandy Cake Studio",
+      "country_or_region": null,
+      "language": "en",
+      "language_basis": "Public title language only; spoken language unverified.",
+      "published_at": "2026-09-28",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "asmr",
+      "title": "Sand cake",
+      "visual_description": "Title-based premise only: Sand cake. Video not viewed.",
+      "motion_description": "Not directly observed; title suggests assembly.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "ASMR indicated by source title/category; audio not auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: a visible material change and completion may sustain attention; causality untested.",
+      "implementation_ideas": [
+        "layered construction and completion",
+        "Use original procedural assets; do not recreate source composition."
+      ],
+      "originality_notes": "Borrow only an abstract material/process idea; generate independent geometry, palette and timing.",
+      "rights_status": "Unknown; no reproduction or training permission assumed. No media downloaded.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://www.2mv.ai/topic/satisfying"
+      ],
+      "reported_metrics": {
+        "likes": null,
+        "views": 317403,
+        "comments": null,
+        "captured_at": "2026-10-13/2026-10-14",
+        "precision": "Rounded likes; views reported by secondary page, not verified on YouTube."
+      },
+      "primary_access_status": "YouTube extraction returned footer only, consent redirect, or online-fetch throttling; no counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "assembly",
+        "material-change",
+        "original-procedural"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "subject_screen_fraction": [
+          0.45,
+          0.65
+        ],
+        "contact_sound_attack_ms": [
+          4,
+          12
+        ],
+        "contact_sound_decay_ms": [
+          60,
+          180
+        ],
+        "first_change_by_seconds": 0.5,
+        "process_cycles": 2,
+        "seeded_geometry": true
+      },
+      "tags": [
+        "assembly",
+        "material-change",
+        "original-procedural"
+      ],
+      "template_ids": [
+        "asmr-jelly-compression",
+        "asmr-glass-cutting",
+        "asmr-color-mixing"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-011",
+      "platform": "TikTok",
+      "original_url": "https://www.tiktok.com/@noxaasht/video/7476497064961051909",
+      "creator": "@noxaasht",
+      "country_or_region": null,
+      "language": "id",
+      "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+      "published_at": "2025-02-28",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "meme",
+      "title": "Tung character introduction",
+      "visual_description": "A wooden anthropomorphic character is described in the secondary source.",
+      "motion_description": "Introduction and invented lore; motion not directly viewed.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+      "implementation_ideas": [
+        "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+        "Use a three-beat visual setup, transformation and benign payoff."
+      ],
+      "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+      "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/tung-tung-tung-sahur"
+      ],
+      "reported_metrics": {
+        "likes": 2400000,
+        "views": 31000000,
+        "comments": null,
+        "captured_at": "Historical 2025 reporting; interval varies by article",
+        "precision": "Source reports rounded counts / lower bounds; not current counters."
+      },
+      "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "story_beats": [
+          0,
+          0.35,
+          0.7
+        ],
+        "transformation_fraction": [
+          0.3,
+          0.55
+        ],
+        "silhouette_min_px_at_360": 90,
+        "ending_options": [
+          "return-to-origin",
+          "benign-scale-reveal",
+          "object-swap"
+        ],
+        "use_existing_character": false
+      },
+      "tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "template_ids": [
+        "surreal-creature-transformation",
+        "surreal-absurd-race",
+        "surreal-impossible-object"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-012",
+      "platform": "TikTok",
+      "original_url": "https://www.tiktok.com/@redbluzx_tiktoq/video/7480169885385903368",
+      "creator": "@redbluzx_tiktoq",
+      "country_or_region": null,
+      "language": "id",
+      "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+      "published_at": "2025-03-10",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "meme",
+      "title": "Character burst ending",
+      "visual_description": "Secondary description of the same meme character.",
+      "motion_description": "Secondary account describes bat swing, running and a burst.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+      "ending": "Burst described by source; timing unverified.",
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+      "implementation_ideas": [
+        "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+        "Use a three-beat visual setup, transformation and benign payoff."
+      ],
+      "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+      "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/tung-tung-tung-sahur"
+      ],
+      "reported_metrics": {
+        "likes": 300000,
+        "views": 5300000,
+        "comments": null,
+        "captured_at": "Historical 2025 reporting; interval varies by article",
+        "precision": "Source reports rounded counts / lower bounds; not current counters."
+      },
+      "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "story_beats": [
+          0,
+          0.35,
+          0.7
+        ],
+        "transformation_fraction": [
+          0.3,
+          0.55
+        ],
+        "silhouette_min_px_at_360": 90,
+        "ending_options": [
+          "return-to-origin",
+          "benign-scale-reveal",
+          "object-swap"
+        ],
+        "use_existing_character": false
+      },
+      "tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "template_ids": [
+        "surreal-creature-transformation",
+        "surreal-absurd-race",
+        "surreal-impossible-object"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-013",
+      "platform": "TikTok",
+      "original_url": "https://www.tiktok.com/@ofuscabreno/video/7472552426617228599",
+      "creator": "@ofuscabreno",
+      "country_or_region": null,
+      "language": "it",
+      "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+      "published_at": "2025-02-17",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "meme",
+      "title": "Tree-creature introduction",
+      "visual_description": "Secondary account describes a tree/animal hybrid.",
+      "motion_description": "Narrated character introduction; actual frames unviewed.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+      "implementation_ideas": [
+        "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+        "Use a three-beat visual setup, transformation and benign payoff."
+      ],
+      "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+      "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/brr-brr-patapim"
+      ],
+      "reported_metrics": {
+        "likes": 172500,
+        "views": null,
+        "comments": null,
+        "captured_at": "Historical 2025 reporting; interval varies by article",
+        "precision": "Source reports rounded counts / lower bounds; not current counters."
+      },
+      "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "story_beats": [
+          0,
+          0.35,
+          0.7
+        ],
+        "transformation_fraction": [
+          0.3,
+          0.55
+        ],
+        "silhouette_min_px_at_360": 90,
+        "ending_options": [
+          "return-to-origin",
+          "benign-scale-reveal",
+          "object-swap"
+        ],
+        "use_existing_character": false
+      },
+      "tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "template_ids": [
+        "surreal-creature-transformation",
+        "surreal-absurd-race",
+        "surreal-impossible-object"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-014",
+      "platform": "TikTok",
+      "original_url": "https://www.tiktok.com/@fishy.ai/video/7485383108724886806",
+      "creator": "@fishy.ai",
+      "country_or_region": null,
+      "language": null,
+      "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+      "published_at": "2025-03-24",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "meme",
+      "title": "Hybrid-character comparison",
+      "visual_description": "Secondary account describes a comparison between two meme characters.",
+      "motion_description": "Comparison setup; actual animation not viewed.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+      "implementation_ideas": [
+        "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+        "Use a three-beat visual setup, transformation and benign payoff."
+      ],
+      "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+      "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/brr-brr-patapim"
+      ],
+      "reported_metrics": {
+        "likes": 494400,
+        "views": null,
+        "comments": null,
+        "captured_at": "Historical 2025 reporting; interval varies by article",
+        "precision": "Source reports rounded counts / lower bounds; not current counters."
+      },
+      "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "story_beats": [
+          0,
+          0.35,
+          0.7
+        ],
+        "transformation_fraction": [
+          0.3,
+          0.55
+        ],
+        "silhouette_min_px_at_360": 90,
+        "ending_options": [
+          "return-to-origin",
+          "benign-scale-reveal",
+          "object-swap"
+        ],
+        "use_existing_character": false
+      },
+      "tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "template_ids": [
+        "surreal-creature-transformation",
+        "surreal-absurd-race",
+        "surreal-impossible-object"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-015",
+      "platform": "TikTok",
+      "original_url": "https://www.tiktok.com/@brainrot7708/video/7488877273433607446",
+      "creator": "@brainrot7708",
+      "country_or_region": null,
+      "language": "it",
+      "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+      "published_at": "2025-04-02",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "meme",
+      "title": "Absurd arrest scenario",
+      "visual_description": "Secondary account describes a skeleton character in a police scenario.",
+      "motion_description": "Scenario reversal; actual timing not observed.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+      "implementation_ideas": [
+        "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+        "Use a three-beat visual setup, transformation and benign payoff."
+      ],
+      "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+      "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/no-la-polizia-italian-brainrot-arrested"
+      ],
+      "reported_metrics": {
+        "likes": 386700,
+        "views": null,
+        "comments": null,
+        "captured_at": "Historical 2025 reporting; interval varies by article",
+        "precision": "Source reports rounded counts / lower bounds; not current counters."
+      },
+      "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "story_beats": [
+          0,
+          0.35,
+          0.7
+        ],
+        "transformation_fraction": [
+          0.3,
+          0.55
+        ],
+        "silhouette_min_px_at_360": 90,
+        "ending_options": [
+          "return-to-origin",
+          "benign-scale-reveal",
+          "object-swap"
+        ],
+        "use_existing_character": false
+      },
+      "tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "template_ids": [
+        "surreal-creature-transformation",
+        "surreal-absurd-race",
+        "surreal-impossible-object"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-016",
+      "platform": "TikTok",
+      "original_url": "https://www.tiktok.com/@mrtrallaloo/video/7493570429483846934",
+      "creator": "@mrtrallaloo",
+      "country_or_region": null,
+      "language": "it",
+      "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+      "published_at": "2025-04-15",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "meme",
+      "title": "Tree creature in custody",
+      "visual_description": "Secondary account describes a hybrid character in custody.",
+      "motion_description": "Unexpected ordinary-world interaction; not directly viewed.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+      "implementation_ideas": [
+        "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+        "Use a three-beat visual setup, transformation and benign payoff."
+      ],
+      "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+      "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/no-la-polizia-italian-brainrot-arrested"
+      ],
+      "reported_metrics": {
+        "likes": 2700000,
+        "views": null,
+        "comments": null,
+        "captured_at": "Historical 2025 reporting; interval varies by article",
+        "precision": "Source reports rounded counts / lower bounds; not current counters."
+      },
+      "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "story_beats": [
+          0,
+          0.35,
+          0.7
+        ],
+        "transformation_fraction": [
+          0.3,
+          0.55
+        ],
+        "silhouette_min_px_at_360": 90,
+        "ending_options": [
+          "return-to-origin",
+          "benign-scale-reveal",
+          "object-swap"
+        ],
+        "use_existing_character": false
+      },
+      "tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "template_ids": [
+        "surreal-creature-transformation",
+        "surreal-absurd-race",
+        "surreal-impossible-object"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-017",
+      "platform": "TikTok",
+      "original_url": "https://www.tiktok.com/@yourhonor823/video/7494820186264997150",
+      "creator": "@yourhonor823",
+      "country_or_region": null,
+      "language": "it",
+      "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+      "published_at": "2025-04-19",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "meme",
+      "title": "Two characters in custody",
+      "visual_description": "Secondary account describes two unrelated hybrids together.",
+      "motion_description": "Paired scenario; frames and ending unverified.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+      "implementation_ideas": [
+        "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+        "Use a three-beat visual setup, transformation and benign payoff."
+      ],
+      "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+      "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/no-la-polizia-italian-brainrot-arrested"
+      ],
+      "reported_metrics": {
+        "likes": 305500,
+        "views": null,
+        "comments": null,
+        "captured_at": "Historical 2025 reporting; interval varies by article",
+        "precision": "Source reports rounded counts / lower bounds; not current counters."
+      },
+      "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "story_beats": [
+          0,
+          0.35,
+          0.7
+        ],
+        "transformation_fraction": [
+          0.3,
+          0.55
+        ],
+        "silhouette_min_px_at_360": 90,
+        "ending_options": [
+          "return-to-origin",
+          "benign-scale-reveal",
+          "object-swap"
+        ],
+        "use_existing_character": false
+      },
+      "tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "template_ids": [
+        "surreal-creature-transformation",
+        "surreal-absurd-race",
+        "surreal-impossible-object"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-018",
+      "platform": "TikTok",
+      "original_url": "https://www.tiktok.com/@armenjiharhanyan/video/7473526211541536055",
+      "creator": "@armenjiharhanyan",
+      "country_or_region": null,
+      "language": "it",
+      "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+      "published_at": "2025-02-20",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "meme",
+      "title": "Animal-machine hybrid",
+      "visual_description": "Secondary account describes an animal/aircraft hybrid.",
+      "motion_description": "Still/image premise reported; actual motion unverified.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+      "implementation_ideas": [
+        "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+        "Use a three-beat visual setup, transformation and benign payoff."
+      ],
+      "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+      "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/bombardiro-crocodilo-italian-brainrot"
+      ],
+      "reported_metrics": {
+        "likes": 543000,
+        "views": 5000000,
+        "comments": null,
+        "captured_at": "Historical 2025 reporting; interval varies by article",
+        "precision": "Source reports rounded counts / lower bounds; not current counters."
+      },
+      "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "story_beats": [
+          0,
+          0.35,
+          0.7
+        ],
+        "transformation_fraction": [
+          0.3,
+          0.55
+        ],
+        "silhouette_min_px_at_360": 90,
+        "ending_options": [
+          "return-to-origin",
+          "benign-scale-reveal",
+          "object-swap"
+        ],
+        "use_existing_character": false
+      },
+      "tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "template_ids": [
+        "surreal-creature-transformation",
+        "surreal-absurd-race",
+        "surreal-impossible-object"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-019",
+      "platform": "TikTok",
+      "original_url": "https://www.tiktok.com/@aironic.fun/video/7483426614135491862",
+      "creator": "@aironic.fun",
+      "country_or_region": null,
+      "language": "it",
+      "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+      "published_at": "2025-03-19",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "meme",
+      "title": "Object-headed dancer",
+      "visual_description": "Secondary account describes a dancer with an object-shaped head.",
+      "motion_description": "Dance/narration premise reported, not viewed.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+      "implementation_ideas": [
+        "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+        "Use a three-beat visual setup, transformation and benign payoff."
+      ],
+      "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+      "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/ballerina-cappuccina-italian-brainrot"
+      ],
+      "reported_metrics": {
+        "likes": 2200000,
+        "views": 19500000,
+        "comments": null,
+        "captured_at": "Historical 2025 reporting; interval varies by article",
+        "precision": "Source reports rounded counts / lower bounds; not current counters."
+      },
+      "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "story_beats": [
+          0,
+          0.35,
+          0.7
+        ],
+        "transformation_fraction": [
+          0.3,
+          0.55
+        ],
+        "silhouette_min_px_at_360": 90,
+        "ending_options": [
+          "return-to-origin",
+          "benign-scale-reveal",
+          "object-swap"
+        ],
+        "use_existing_character": false
+      },
+      "tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "template_ids": [
+        "surreal-creature-transformation",
+        "surreal-absurd-race",
+        "surreal-impossible-object"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    },
+    {
+      "reference_id": "AS-020",
+      "platform": "TikTok",
+      "original_url": "https://www.tiktok.com/@surrealfusion10/video/7484937346434043138",
+      "creator": "@surrealfusion10",
+      "country_or_region": null,
+      "language": "it",
+      "language_basis": "Narration language described by secondary source, where known. Not creator nationality.",
+      "published_at": "2025-03-23",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "meme",
+      "title": "Dancer sound variation",
+      "visual_description": "Secondary account reports a derivative using the dancer sound.",
+      "motion_description": "Actual scene and motion unverified.",
+      "opening_hook": {
+        "at_0_5s": null,
+        "at_1s": null,
+        "at_3s": null
+      },
+      "sound_design": "Rhythmic/character narration discussed by source; source audio not reused or auditioned.",
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Hypothesis only: an unfamiliar silhouette plus an easy-to-read incongruity may prompt attention. Reported engagement does not prove the mechanism.",
+      "implementation_ideas": [
+        "Invent a new abstract creature with no copied name, face, voice, brand or lore.",
+        "Use a three-beat visual setup, transformation and benign payoff."
+      ],
+      "originality_notes": "Existing characters and source audio are excluded from application assets. Reference variation may derive from shared meme lore; uniqueness not independently verified.",
+      "rights_status": "Unknown, potentially creator/character rights. Link-only research; no media downloaded or training performed.",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/ballerina-cappuccina-italian-brainrot"
+      ],
+      "reported_metrics": {
+        "likes": 1400000,
+        "views": 12500000,
+        "comments": null,
+        "captured_at": "Historical 2025 reporting; interval varies by article",
+        "precision": "Source reports rounded counts / lower bounds; not current counters."
+      },
+      "primary_access_status": "Original TikTok URL attempted; restricted or empty extraction. No original counter verified.",
+      "eligible_100k": false,
+      "feature_tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "production_parameters": {
+        "status": "original design hypothesis, not measured from reference",
+        "story_beats": [
+          0,
+          0.35,
+          0.7
+        ],
+        "transformation_fraction": [
+          0.3,
+          0.55
+        ],
+        "silhouette_min_px_at_360": 90,
+        "ending_options": [
+          "return-to-origin",
+          "benign-scale-reveal",
+          "object-swap"
+        ],
+        "use_existing_character": false
+      },
+      "tags": [
+        "surreal",
+        "hybrid-silhouette",
+        "scenario-reversal"
+      ],
+      "template_ids": [
+        "surreal-creature-transformation",
+        "surreal-absurd-race",
+        "surreal-impossible-object"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames"
+    }
+  ],
+  "discovery_leads_without_original_url": [
+    {
+      "reference_id": "PC-009",
+      "platform": "TikTok",
+      "original_url": null,
+      "creator": "Earclacks",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": "2025-07-14",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "ball",
+      "title": "Sword vs Dagger (original URL not exposed by retrieved text)",
+      "visual_description": "Secondary encyclopedia describes competing spinning circles with escalation rules.",
+      "motion_description": "Secondary encyclopedia describes competing spinning circles with escalation rules.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use collision events, visible constraint changes and an original reveal; do not copy a melody or scene.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/weapon-ball-battles-earclacks"
+      ],
+      "evidence_notes": "Like count is SECONDARY ONLY. Retrieved embed links expose creator profile, not a unique original video URL. Original URL left null rather than fabricated. Not qualifying.",
+      "reported_metrics": {
+        "likes": 817000,
+        "source_kind": "secondary_article",
+        "source_url": "https://knowyourmeme.com/memes/weapon-ball-battles-earclacks"
+      },
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "gravity_px_s2": [
+          250,
+          600
+        ],
+        "restitution": [
+          0.88,
+          0.96
+        ],
+        "visual_focus_objects": [
+          1,
+          5
+        ],
+        "collision_substep_hz": 120,
+        "sound_trigger": "collision_event",
+        "story_phases_normalized": {
+          "setup": [
+            0,
+            0.15
+          ],
+          "escalation": [
+            0.15,
+            0.78
+          ],
+          "payoff": [
+            0.78,
+            0.94
+          ],
+          "loop_transition": [
+            0.94,
+            1
+          ]
+        }
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "cause-effect",
+        "constraint",
+        "original-audio"
+      ],
+      "template_ids": [
+        "phy-ring-escape",
+        "phy-maze",
+        "phy-funnel"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-010",
+      "platform": "TikTok",
+      "original_url": null,
+      "creator": "Earclacks",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": "2025-07-25",
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "ball",
+      "title": "Weapon Ball Season 1 Tournament FULL (original URL unavailable)",
+      "visual_description": "Secondary encyclopedia describes a tournament compilation of physics characters.",
+      "motion_description": "Secondary encyclopedia describes a tournament compilation of physics characters.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use collision events, visible constraint changes and an original reveal; do not copy a melody or scene.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://knowyourmeme.com/memes/weapon-ball-battles-earclacks"
+      ],
+      "evidence_notes": "SECONDARY reported likes; original video URL and direct count not accessible. Compilation may contain the first episode; potential overlap, not counted as independent qualifying evidence.",
+      "reported_metrics": {
+        "likes": 106900,
+        "source_kind": "secondary_article",
+        "source_url": "https://knowyourmeme.com/memes/weapon-ball-battles-earclacks"
+      },
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "gravity_px_s2": [
+          250,
+          600
+        ],
+        "restitution": [
+          0.88,
+          0.96
+        ],
+        "visual_focus_objects": [
+          1,
+          5
+        ],
+        "collision_substep_hz": 120,
+        "sound_trigger": "collision_event",
+        "story_phases_normalized": {
+          "setup": [
+            0,
+            0.15
+          ],
+          "escalation": [
+            0.15,
+            0.78
+          ],
+          "payoff": [
+            0.78,
+            0.94
+          ],
+          "loop_transition": [
+            0.94,
+            1
+          ]
+        }
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "cause-effect",
+        "constraint",
+        "original-audio"
+      ],
+      "template_ids": [
+        "phy-ring-escape",
+        "phy-maze",
+        "phy-funnel"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    },
+    {
+      "reference_id": "PC-024",
+      "platform": "TikTok",
+      "original_url": null,
+      "creator": "Fara O’Byrne",
+      "country_or_region": null,
+      "language": "en",
+      "published_at": null,
+      "likes": null,
+      "views": null,
+      "comments": null,
+      "duration": null,
+      "genre": "domino",
+      "title": "Clemmons Elementary cereal-box domino video (original URL unavailable)",
+      "visual_description": "News report describes a school-wide chain of donated cereal boxes.",
+      "motion_description": "News report describes a school-wide chain of donated cereal boxes.",
+      "opening_hook": null,
+      "sound_design": null,
+      "ending": null,
+      "loop_structure": null,
+      "popularity_hypothesis": "Production hypothesis to test, not a causal explanation or a verified popularity claim.",
+      "implementation_ideas": "Use a legible trigger path, one delayed transfer, progressive completion and an original final reveal.",
+      "originality_notes": "Study abstract cause/effect and staging only. Do not copy character designs, scene arrangements, branded imagery or audio.",
+      "rights_status": "not_licensed_reference_only_no_media_downloaded",
+      "verified_at": "2026-11-03",
+      "verification_status": "snippet_only",
+      "numeric_evidence_source": "secondary_report",
+      "evidence_urls": [
+        "https://krdo.com/cnn-regional/2024/02/20/clemmons-elementary-school-video-of-cereal-box-dominoes-goes-viral-on-tiktok/"
+      ],
+      "evidence_notes": "Secondary news says more than 30M views and3.5M likes. Original TikTok post URL unavailable, so left null and not counted. Article has an embargo notice; no media copied.",
+      "reported_metrics": {
+        "likes": 3500000,
+        "views": 30000000,
+        "shares": 200000,
+        "source_kind": "secondary_news",
+        "as_of": "2024-02-20",
+        "source_url": "https://krdo.com/cnn-regional/2024/02/20/clemmons-elementary-school-video-of-cereal-box-dominoes-goes-viral-on-tiktok/"
+      },
+      "hook_timings": {
+        "0.5s": null,
+        "1s": null,
+        "3s": null
+      },
+      "production_parameters": {
+        "path_nodes": [
+          24,
+          64
+        ],
+        "trigger_interval_s": [
+          0.055,
+          0.12
+        ],
+        "transfer_stages": [
+          2,
+          4
+        ],
+        "anticipation_pause_s": [
+          0.15,
+          0.35
+        ],
+        "sound_trigger": "topple_or_transfer_event",
+        "camera_focus": "leading_trigger",
+        "final_reveal_normalized": 0.85
+      },
+      "production_parameters_status": "original_design_proposal_not_measured_from_video",
+      "qualifies_100k_likes": false,
+      "media_viewed": false,
+      "tags": [
+        "chain",
+        "payoff",
+        "readable-path"
+      ],
+      "template_ids": [
+        "chain-spiral",
+        "chain-machine",
+        "chain-gears"
+      ],
+      "template_link_basis": "Original design hypotheses only; not a reconstruction of directly observed frames",
+      "eligible_100k": false
+    }
+  ]
+}

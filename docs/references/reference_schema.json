@@ -1,0 +1,236 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence-aware social reference manifest",
+  "type": "object",
+  "required": [
+    "version",
+    "summary",
+    "references"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer"
+    },
+    "summary": {
+      "type": "object"
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/reference"
+      }
+    },
+    "discovery_leads_without_original_url": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/reference"
+      }
+    }
+  },
+  "$defs": {
+    "reference": {
+      "type": "object",
+      "required": [
+        "reference_id",
+        "platform",
+        "original_url",
+        "creator",
+        "country_or_region",
+        "language",
+        "published_at",
+        "likes",
+        "views",
+        "comments",
+        "duration",
+        "genre",
+        "visual_description",
+        "motion_description",
+        "opening_hook",
+        "sound_design",
+        "ending",
+        "loop_structure",
+        "popularity_hypothesis",
+        "implementation_ideas",
+        "originality_notes",
+        "rights_status",
+        "verified_at",
+        "verification_status"
+      ],
+      "properties": {
+        "reference_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "platform": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "original_url": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https?://"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "creator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "country_or_region": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "language": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "published_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "likes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "views": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "comments": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "duration": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "genre": {
+          "enum": [
+            "ball",
+            "asmr",
+            "meme",
+            "domino"
+          ]
+        },
+        "visual_description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "motion_description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "opening_hook": {
+          "type": [
+            "string",
+            "object",
+            "array",
+            "null"
+          ]
+        },
+        "sound_design": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ending": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "loop_structure": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "popularity_hypothesis": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "implementation_ideas": {
+          "type": [
+            "string",
+            "object",
+            "array",
+            "null"
+          ]
+        },
+        "originality_notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rights_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verified_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verification_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "numeric_evidence_source": {
+          "enum": [
+            "original",
+            "search_snippet",
+            "secondary",
+            "secondary_report",
+            "unverified"
+          ]
+        },
+        "eligible_100k": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

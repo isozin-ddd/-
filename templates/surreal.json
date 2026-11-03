@@ -1,0 +1,438 @@
+[
+  {
+    "id": "surreal-creature-transformation",
+    "genre": "meme",
+    "name": "The Shape-Shifting Bean",
+    "caption": "That is not its final form",
+    "description": "An original glassy bean stretches into a long-legged visitor, then folds back into a pebble.",
+    "motion": "morph",
+    "hook": {
+      "half_second": "A readable unfamiliar silhouette in a quiet studio",
+      "one_second": "That is not its final form",
+      "three_seconds": "An original glassy bean stretches into a long-legged visitor, then folds back into a pebble."
+    },
+    "ending": "Returns to its opening pose via periodic motion",
+    "loop": "seamless",
+    "beats": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "render_family": "morph",
+    "originality_notes": "Original procedural creature silhouettes, objects and sound; no existing brainrot characters or copied audio",
+    "limitations": "Stylized procedural animation, not generative AI or photorealistic video",
+    "quality": {
+      "max_particles": 48,
+      "contrast": "rim-lit subjects on a dark studio",
+      "camera": "fixed or periodic subtle push"
+    },
+    "featured": true
+  },
+  {
+    "id": "surreal-absurd-race",
+    "genre": "meme",
+    "name": "The Slowest Race in Space",
+    "caption": "Who wins without moving?",
+    "description": "Three improbable creatures ride sliding pedestals toward a miniature finish gate.",
+    "motion": "race",
+    "hook": {
+      "half_second": "A readable unfamiliar silhouette in a quiet studio",
+      "one_second": "Who wins without moving?",
+      "three_seconds": "Three improbable creatures ride sliding pedestals toward a miniature finish gate."
+    },
+    "ending": "Resolves the miniature story before an intentional restart",
+    "loop": "reset",
+    "beats": [
+      0.24,
+      0.53,
+      0.82
+    ],
+    "render_family": "race",
+    "originality_notes": "Original procedural creature silhouettes, objects and sound; no existing brainrot characters or copied audio",
+    "limitations": "Stylized procedural animation, not generative AI or photorealistic video",
+    "quality": {
+      "max_particles": 48,
+      "contrast": "rim-lit subjects on a dark studio",
+      "camera": "fixed or periodic subtle push"
+    },
+    "featured": true
+  },
+  {
+    "id": "surreal-impossible-object",
+    "genre": "meme",
+    "name": "Impossible Ribbon",
+    "caption": "Follow one edge",
+    "description": "Three dimensional-looking beams twist into a triangular impossible ribbon with moving highlights.",
+    "motion": "impossible",
+    "hook": {
+      "half_second": "A readable unfamiliar silhouette in a quiet studio",
+      "one_second": "Follow one edge",
+      "three_seconds": "Three dimensional-looking beams twist into a triangular impossible ribbon with moving highlights."
+    },
+    "ending": "Returns to its opening pose via periodic motion",
+    "loop": "seamless",
+    "beats": [
+      0.333,
+      0.666
+    ],
+    "render_family": "impossible",
+    "originality_notes": "Original procedural creature silhouettes, objects and sound; no existing brainrot characters or copied audio",
+    "limitations": "Stylized procedural animation, not generative AI or photorealistic video",
+    "quality": {
+      "max_particles": 48,
+      "contrast": "rim-lit subjects on a dark studio",
+      "camera": "fixed or periodic subtle push"
+    },
+    "featured": true
+  },
+  {
+    "id": "surreal-unexpected-evolution",
+    "genre": "meme",
+    "name": "An Unexpected Hatch",
+    "caption": "A very strange little egg",
+    "description": "An egg opens, sprouts a tiny walking creature, and reveals a much smaller egg inside.",
+    "motion": "evolution",
+    "hook": {
+      "half_second": "A readable unfamiliar silhouette in a quiet studio",
+      "one_second": "A very strange little egg",
+      "three_seconds": "An egg opens, sprouts a tiny walking creature, and reveals a much smaller egg inside."
+    },
+    "ending": "Resolves the miniature story before an intentional restart",
+    "loop": "reset",
+    "beats": [
+      0.25,
+      0.52,
+      0.82
+    ],
+    "render_family": "evolution",
+    "originality_notes": "Original procedural creature silhouettes, objects and sound; no existing brainrot characters or copied audio",
+    "limitations": "Stylized procedural animation, not generative AI or photorealistic video",
+    "quality": {
+      "max_particles": 48,
+      "contrast": "rim-lit subjects on a dark studio",
+      "camera": "fixed or periodic subtle push"
+    },
+    "featured": false
+  },
+  {
+    "id": "surreal-surreal-dance",
+    "genre": "meme",
+    "name": "Moonwalk Tea Party",
+    "caption": "Nobody taught them this",
+    "description": "Two original ceramic creatures trade mirrored dance poses around a floating tea table.",
+    "motion": "dance",
+    "hook": {
+      "half_second": "A readable unfamiliar silhouette in a quiet studio",
+      "one_second": "Nobody taught them this",
+      "three_seconds": "Two original ceramic creatures trade mirrored dance poses around a floating tea table."
+    },
+    "ending": "Returns to its opening pose via periodic motion",
+    "loop": "seamless",
+    "beats": [
+      0.125,
+      0.375,
+      0.625,
+      0.875
+    ],
+    "render_family": "dance",
+    "originality_notes": "Original procedural creature silhouettes, objects and sound; no existing brainrot characters or copied audio",
+    "limitations": "Stylized procedural animation, not generative AI or photorealistic video",
+    "quality": {
+      "max_particles": 48,
+      "contrast": "rim-lit subjects on a dark studio",
+      "camera": "fixed or periodic subtle push"
+    },
+    "featured": false
+  },
+  {
+    "id": "surreal-infinite-character",
+    "genre": "meme",
+    "name": "Portal Parade",
+    "caption": "They keep coming back",
+    "description": "A ribbon-bodied creature enters a luminous portal and emerges from a smaller portal upside down.",
+    "motion": "portal",
+    "hook": {
+      "half_second": "A readable unfamiliar silhouette in a quiet studio",
+      "one_second": "They keep coming back",
+      "three_seconds": "A ribbon-bodied creature enters a luminous portal and emerges from a smaller portal upside down."
+    },
+    "ending": "Resolves the miniature story before an intentional restart",
+    "loop": "reset",
+    "beats": [
+      0.25,
+      0.75
+    ],
+    "render_family": "portal",
+    "originality_notes": "Original procedural creature silhouettes, objects and sound; no existing brainrot characters or copied audio",
+    "limitations": "Stylized procedural animation, not generative AI or photorealistic video",
+    "quality": {
+      "max_particles": 48,
+      "contrast": "rim-lit subjects on a dark studio",
+      "camera": "fixed or periodic subtle push"
+    },
+    "featured": false
+  },
+  {
+    "id": "surreal-facial-expressions",
+    "genre": "meme",
+    "name": "A Face Full of Weather",
+    "caption": "Wait for the tiny cloud",
+    "description": "A soft sculpture face cycles from surprise to a smile as a tiny rain cloud becomes a halo.",
+    "motion": "face",
+    "hook": {
+      "half_second": "A readable unfamiliar silhouette in a quiet studio",
+      "one_second": "Wait for the tiny cloud",
+      "three_seconds": "A soft sculpture face cycles from surprise to a smile as a tiny rain cloud becomes a halo."
+    },
+    "ending": "Returns to its opening pose via periodic motion",
+    "loop": "seamless",
+    "beats": [
+      0.22,
+      0.5,
+      0.78
+    ],
+    "render_family": "face",
+    "originality_notes": "Original procedural creature silhouettes, objects and sound; no existing brainrot characters or copied audio",
+    "limitations": "Stylized procedural animation, not generative AI or photorealistic video",
+    "quality": {
+      "max_particles": 48,
+      "contrast": "rim-lit subjects on a dark studio",
+      "camera": "fixed or periodic subtle push"
+    },
+    "featured": false
+  },
+  {
+    "id": "surreal-strange-planet",
+    "genre": "meme",
+    "name": "One Tiny Planet",
+    "caption": "Gravity has other plans",
+    "description": "A little creature walks around a miniature ringed planet while loose stones follow a contrary orbit.",
+    "motion": "planet",
+    "hook": {
+      "half_second": "A readable unfamiliar silhouette in a quiet studio",
+      "one_second": "Gravity has other plans",
+      "three_seconds": "A little creature walks around a miniature ringed planet while loose stones follow a contrary orbit."
+    },
+    "ending": "Returns to its opening pose via periodic motion",
+    "loop": "seamless",
+    "beats": [
+      0.25,
+      0.75
+    ],
+    "render_family": "planet",
+    "originality_notes": "Original procedural creature silhouettes, objects and sound; no existing brainrot characters or copied audio",
+    "limitations": "Stylized procedural animation, not generative AI or photorealistic video",
+    "quality": {
+      "max_particles": 48,
+      "contrast": "rim-lit subjects on a dark studio",
+      "camera": "fixed or periodic subtle push"
+    },
+    "featured": false
+  },
+  {
+    "id": "surreal-bizarre-machine",
+    "genre": "meme",
+    "name": "The Absolutely Useless Machine",
+    "caption": "What goes in is not what comes out",
+    "description": "A brass conveyor feeds a polished ball through a machine that produces a smiling cube.",
+    "motion": "machine",
+    "hook": {
+      "half_second": "A readable unfamiliar silhouette in a quiet studio",
+      "one_second": "What goes in is not what comes out",
+      "three_seconds": "A brass conveyor feeds a polished ball through a machine that produces a smiling cube."
+    },
+    "ending": "Resolves the miniature story before an intentional restart",
+    "loop": "reset",
+    "beats": [
+      0.25,
+      0.5,
+      0.78
+    ],
+    "render_family": "machine",
+    "originality_notes": "Original procedural creature silhouettes, objects and sound; no existing brainrot characters or copied audio",
+    "limitations": "Stylized procedural animation, not generative AI or photorealistic video",
+    "quality": {
+      "max_particles": 48,
+      "contrast": "rim-lit subjects on a dark studio",
+      "camera": "fixed or periodic subtle push"
+    },
+    "featured": false
+  },
+  {
+    "id": "surreal-scale-change",
+    "genre": "meme",
+    "name": "Small World, Big Visitor",
+    "caption": "The little thing is the big thing",
+    "description": "A tiny creature on a pedestal expands to reveal a miniature version of the same pedestal.",
+    "motion": "scale",
+    "hook": {
+      "half_second": "A readable unfamiliar silhouette in a quiet studio",
+      "one_second": "The little thing is the big thing",
+      "three_seconds": "A tiny creature on a pedestal expands to reveal a miniature version of the same pedestal."
+    },
+    "ending": "Returns to its opening pose via periodic motion",
+    "loop": "seamless",
+    "beats": [
+      0.5
+    ],
+    "render_family": "scale",
+    "originality_notes": "Original procedural creature silhouettes, objects and sound; no existing brainrot characters or copied audio",
+    "limitations": "Stylized procedural animation, not generative AI or photorealistic video",
+    "quality": {
+      "max_particles": 48,
+      "contrast": "rim-lit subjects on a dark studio",
+      "camera": "fixed or periodic subtle push"
+    },
+    "featured": false
+  },
+  {
+    "id": "surreal-creature-generator",
+    "genre": "meme",
+    "name": "A Creature, Piece by Piece",
+    "caption": "One more piece...",
+    "description": "Floating geometric modules assemble into a seed-specific original creature and gently disassemble.",
+    "motion": "assemble",
+    "hook": {
+      "half_second": "A readable unfamiliar silhouette in a quiet studio",
+      "one_second": "One more piece...",
+      "three_seconds": "Floating geometric modules assemble into a seed-specific original creature and gently disassemble."
+    },
+    "ending": "Returns to its opening pose via periodic motion",
+    "loop": "seamless",
+    "beats": [
+      0.18,
+      0.35,
+      0.5,
+      0.65,
+      0.82
+    ],
+    "render_family": "assemble",
+    "originality_notes": "Original procedural creature silhouettes, objects and sound; no existing brainrot characters or copied audio",
+    "limitations": "Stylized procedural animation, not generative AI or photorealistic video",
+    "quality": {
+      "max_particles": 48,
+      "contrast": "rim-lit subjects on a dark studio",
+      "camera": "fixed or periodic subtle push"
+    },
+    "featured": false
+  },
+  {
+    "id": "surreal-dream-logic",
+    "genre": "meme",
+    "name": "The Staircase That Cheats",
+    "caption": "One step leads somewhere else",
+    "description": "A small traveler climbs a staircase whose upper doorway quietly connects back to its first step.",
+    "motion": "stairs",
+    "hook": {
+      "half_second": "A readable unfamiliar silhouette in a quiet studio",
+      "one_second": "One step leads somewhere else",
+      "three_seconds": "A small traveler climbs a staircase whose upper doorway quietly connects back to its first step."
+    },
+    "ending": "Resolves the miniature story before an intentional restart",
+    "loop": "reset",
+    "beats": [
+      0.16,
+      0.32,
+      0.48,
+      0.64,
+      0.8
+    ],
+    "render_family": "stairs",
+    "originality_notes": "Original procedural creature silhouettes, objects and sound; no existing brainrot characters or copied audio",
+    "limitations": "Stylized procedural animation, not generative AI or photorealistic video",
+    "quality": {
+      "max_particles": 48,
+      "contrast": "rim-lit subjects on a dark studio",
+      "camera": "fixed or periodic subtle push"
+    },
+    "featured": false
+  },
+  {
+    "id": "surreal-weird-interaction",
+    "genre": "meme",
+    "name": "An Umbrella for Stars",
+    "caption": "The rain is not rain",
+    "description": "A levitating kettle pours little stars into an upside-down umbrella held by a patient creature.",
+    "motion": "stars",
+    "hook": {
+      "half_second": "A readable unfamiliar silhouette in a quiet studio",
+      "one_second": "The rain is not rain",
+      "three_seconds": "A levitating kettle pours little stars into an upside-down umbrella held by a patient creature."
+    },
+    "ending": "Returns to its opening pose via periodic motion",
+    "loop": "seamless",
+    "beats": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "render_family": "stars",
+    "originality_notes": "Original procedural creature silhouettes, objects and sound; no existing brainrot characters or copied audio",
+    "limitations": "Stylized procedural animation, not generative AI or photorealistic video",
+    "quality": {
+      "max_particles": 48,
+      "contrast": "rim-lit subjects on a dark studio",
+      "camera": "fixed or periodic subtle push"
+    },
+    "featured": false
+  },
+  {
+    "id": "surreal-reality-glitch",
+    "genre": "meme",
+    "name": "A Gentle Reality Glitch",
+    "caption": "Something does not line up",
+    "description": "A polished sculpture separates into softly offset horizontal slices before locking back into one shape.",
+    "motion": "glitch",
+    "hook": {
+      "half_second": "A readable unfamiliar silhouette in a quiet studio",
+      "one_second": "Something does not line up",
+      "three_seconds": "A polished sculpture separates into softly offset horizontal slices before locking back into one shape."
+    },
+    "ending": "Returns to its opening pose via periodic motion",
+    "loop": "seamless",
+    "beats": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "render_family": "glitch",
+    "originality_notes": "Original procedural creature silhouettes, objects and sound; no existing brainrot characters or copied audio",
+    "limitations": "Stylized procedural animation, not generative AI or photorealistic video",
+    "quality": {
+      "max_particles": 48,
+      "contrast": "rim-lit subjects on a dark studio",
+      "camera": "fixed or periodic subtle push"
+    },
+    "featured": false
+  },
+  {
+    "id": "surreal-absurd-mini-story",
+    "genre": "meme",
+    "name": "The Missing Hat",
+    "caption": "It was right there all along",
+    "description": "A tiny character loses its floating hat; a mechanical flower catches it and politely returns it.",
+    "motion": "story",
+    "hook": {
+      "half_second": "A readable unfamiliar silhouette in a quiet studio",
+      "one_second": "It was right there all along",
+      "three_seconds": "A tiny character loses its floating hat; a mechanical flower catches it and politely returns it."
+    },
+    "ending": "Resolves the miniature story before an intentional restart",
+    "loop": "reset",
+    "beats": [
+      0.2,
+      0.5,
+      0.82
+    ],
+    "render_family": "story",
+    "originality_notes": "Original procedural creature silhouettes, objects and sound; no existing brainrot characters or copied audio",
+    "limitations": "Stylized procedural animation, not generative AI or photorealistic video",
+    "quality": {
+      "max_particles": 48,
+      "contrast": "rim-lit subjects on a dark studio",
+      "camera": "fixed or periodic subtle push"
+    },
+    "featured": false
+  }
+]

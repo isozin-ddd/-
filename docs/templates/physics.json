@@ -1,0 +1,257 @@
+[
+  {
+    "id": "phy-ring-escape",
+    "genre": "ball",
+    "name": "Rotating Ring Escape",
+    "caption": "Find the opening.",
+    "description": "Rotating circular boundary with a moving escape slot",
+    "motion": "ring",
+    "hook": "First impact or nearly closed gap is visible immediately",
+    "ending": "escape or near miss",
+    "loop": "reset",
+    "quality_principles": [
+      "single focal area",
+      "material highlights",
+      "collision-synced sound"
+    ],
+    "originality": "Original procedural geometry and seeded launch states; no external footage"
+  },
+  {
+    "id": "phy-maze",
+    "genre": "ball",
+    "name": "Bouncing Ball Maze",
+    "caption": "One way through.",
+    "description": "Alternating shelves and a descending ball corridor",
+    "motion": "maze",
+    "hook": "First impact or nearly closed gap is visible immediately",
+    "ending": "collected marbles",
+    "loop": "reset",
+    "quality_principles": [
+      "single focal area",
+      "material highlights",
+      "collision-synced sound"
+    ],
+    "originality": "Original procedural geometry and seeded launch states; no external footage"
+  },
+  {
+    "id": "phy-funnel",
+    "genre": "ball",
+    "name": "Gravity Funnel",
+    "caption": "Everything finds its way.",
+    "description": "Inclined funnel walls focus a shower through a narrow neck",
+    "motion": "funnel",
+    "hook": "First impact or nearly closed gap is visible immediately",
+    "ending": "visible momentum transfer",
+    "loop": "reset",
+    "quality_principles": [
+      "single focal area",
+      "material highlights",
+      "collision-synced sound"
+    ],
+    "originality": "Original procedural geometry and seeded launch states; no external footage"
+  },
+  {
+    "id": "phy-race",
+    "genre": "ball",
+    "name": "Marble Race",
+    "caption": "Who reaches the finish?",
+    "description": "Parallel peg lanes turn a falling race into different routes",
+    "motion": "race",
+    "hook": "Motion begins in the first half-second",
+    "ending": "escape or near miss",
+    "loop": "reset",
+    "quality_principles": [
+      "single focal area",
+      "material highlights",
+      "collision-synced sound"
+    ],
+    "originality": "Original procedural geometry and seeded launch states; no external footage"
+  },
+  {
+    "id": "phy-multiplication",
+    "genre": "ball",
+    "name": "Ball Multiplication",
+    "caption": "One becomes many.",
+    "description": "A floor impact releases additional original spheres",
+    "motion": "multiply",
+    "hook": "Motion begins in the first half-second",
+    "ending": "collected marbles",
+    "loop": "reset",
+    "quality_principles": [
+      "single focal area",
+      "material highlights",
+      "collision-synced sound"
+    ],
+    "originality": "Original procedural geometry and seeded launch states; no external footage"
+  },
+  {
+    "id": "phy-spiral",
+    "genre": "ball",
+    "name": "Spiral Drop",
+    "caption": "Around, then down.",
+    "description": "A constrained helical rail projects depth and a descending marble",
+    "motion": "spiral",
+    "hook": "Motion begins in the first half-second",
+    "ending": "visible momentum transfer",
+    "loop": "reset",
+    "quality_principles": [
+      "single focal area",
+      "material highlights",
+      "collision-synced sound"
+    ],
+    "originality": "Original procedural geometry and seeded launch states; no external footage"
+  },
+  {
+    "id": "phy-magnetic",
+    "genre": "ball",
+    "name": "Magnetic Ball",
+    "caption": "An invisible force.",
+    "description": "A moving magnetic attractor bends gravity-driven trajectories",
+    "motion": "magnetic",
+    "hook": "Motion begins in the first half-second",
+    "ending": "escape or near miss",
+    "loop": "reset",
+    "quality_principles": [
+      "single focal area",
+      "material highlights",
+      "collision-synced sound"
+    ],
+    "originality": "Original procedural geometry and seeded launch states; no external footage"
+  },
+  {
+    "id": "phy-sorting",
+    "genre": "ball",
+    "name": "Color Sorting",
+    "caption": "Every color, a home.",
+    "description": "Three constrained paths route matching marbles into separate cups",
+    "motion": "sorting",
+    "hook": "Motion begins in the first half-second",
+    "ending": "collected marbles",
+    "loop": "reset",
+    "quality_principles": [
+      "single focal area",
+      "material highlights",
+      "collision-synced sound"
+    ],
+    "originality": "Original procedural geometry and seeded launch states; no external footage"
+  },
+  {
+    "id": "phy-paddles",
+    "genre": "ball",
+    "name": "Falling Obstacles",
+    "caption": "The path keeps changing.",
+    "description": "Oscillating paddles redirect falling bodies",
+    "motion": "paddles",
+    "hook": "Motion begins in the first half-second",
+    "ending": "visible momentum transfer",
+    "loop": "reset",
+    "quality_principles": [
+      "single focal area",
+      "material highlights",
+      "collision-synced sound"
+    ],
+    "originality": "Original procedural geometry and seeded launch states; no external footage"
+  },
+  {
+    "id": "phy-gap",
+    "genre": "ball",
+    "name": "Narrow Gap Challenge",
+    "caption": "Will it fit?",
+    "description": "A narrow central slot creates an exact-fit falling challenge",
+    "motion": "gap",
+    "hook": "Motion begins in the first half-second",
+    "ending": "escape or near miss",
+    "loop": "reset",
+    "quality_principles": [
+      "single focal area",
+      "material highlights",
+      "collision-synced sound"
+    ],
+    "originality": "Original procedural geometry and seeded launch states; no external footage"
+  },
+  {
+    "id": "phy-elastic",
+    "genre": "ball",
+    "name": "Elastic Collision",
+    "caption": "Pass the momentum.",
+    "description": "Differently sized spheres exchange normal impulses inside a glass box",
+    "motion": "elastic",
+    "hook": "Motion begins in the first half-second",
+    "ending": "collected marbles",
+    "loop": "reset",
+    "quality_principles": [
+      "single focal area",
+      "material highlights",
+      "collision-synced sound"
+    ],
+    "originality": "Original procedural geometry and seeded launch states; no external footage"
+  },
+  {
+    "id": "phy-orbit",
+    "genre": "ball",
+    "name": "Orbit Breakout",
+    "caption": "Leave the ordinary orbit.",
+    "description": "A central attractor and offset launch speeds create orbital crossings",
+    "motion": "orbit",
+    "hook": "Motion begins in the first half-second",
+    "ending": "visible momentum transfer",
+    "loop": "reset",
+    "quality_principles": [
+      "single focal area",
+      "material highlights",
+      "collision-synced sound"
+    ],
+    "originality": "Original procedural geometry and seeded launch states; no external footage"
+  },
+  {
+    "id": "phy-survival",
+    "genre": "ball",
+    "name": "Multi-Ball Survival",
+    "caption": "Stay inside the light.",
+    "description": "A rotating polygon of sloped deflectors catches a multiball shower",
+    "motion": "survival",
+    "hook": "Motion begins in the first half-second",
+    "ending": "escape or near miss",
+    "loop": "reset",
+    "quality_principles": [
+      "single focal area",
+      "material highlights",
+      "collision-synced sound"
+    ],
+    "originality": "Original procedural geometry and seeded launch states; no external footage"
+  },
+  {
+    "id": "phy-chain-bounce",
+    "genre": "ball",
+    "name": "Chain Bounce",
+    "caption": "Every bounce matters.",
+    "description": "Staggered angled bumpers carry a marble across the stage",
+    "motion": "chainbounce",
+    "hook": "Motion begins in the first half-second",
+    "ending": "collected marbles",
+    "loop": "reset",
+    "quality_principles": [
+      "single focal area",
+      "material highlights",
+      "collision-synced sound"
+    ],
+    "originality": "Original procedural geometry and seeded launch states; no external footage"
+  },
+  {
+    "id": "phy-timing",
+    "genre": "ball",
+    "name": "Perfect Timing Drop",
+    "caption": "Wait for the moment.",
+    "description": "A timed mechanical gate briefly clears a descending path",
+    "motion": "timing",
+    "hook": "Motion begins in the first half-second",
+    "ending": "visible momentum transfer",
+    "loop": "reset",
+    "quality_principles": [
+      "single focal area",
+      "material highlights",
+      "collision-synced sound"
+    ],
+    "originality": "Original procedural geometry and seeded launch states; no external footage"
+  }
+]
