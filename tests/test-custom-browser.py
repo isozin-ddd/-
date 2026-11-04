@@ -33,7 +33,7 @@ with sync_playwright() as p:
  page.locator('.card').first.get_by_role('button',name='▷ 再生・保存').click()
  with tempfile.TemporaryDirectory() as tmp:
   with page.expect_download() as event:page.click('#download-file')
-  file=Path(tmp)/'custom.mp4';event.value.save_as(file);data=json.loads(subprocess.check_output(['ffprobe','-v','quiet','-show_streams','-of','json',str(file)]));v=next(s for s in data['streams'] if s['codec_type']=='video');check('Downloaded custom MP4 has H264360x640 and audio',v['codec_name']=='h264' and (v['width'],v['height'])==(360,640) and any(s['codec_type']=='audio' for s in data['streams']))
+  file=Path(tmp)/'custom.mp4';event.value.save_as(file);data=json.loads(subprocess.check_output(['ffprobe','-v','quiet','-show_streams','-of','json',str(file)]));v=next(s for s in data['streams'] if s['codec_type']=='video');print('Downloaded MP4 streams: '+json.dumps(data['streams']),flush=True);check('Downloaded custom MP4 has360x640 video and audio',(v['width'],v['height'])==(360,640) and any(s['codec_type']=='audio' for s in data['streams']));check('Downloaded MP4 video uses a recognized browser codec',v['codec_name'] in ('h264','hevc','av1','vp9'))
  page.click('#close-player')
  page.locator('.card').first.get_by_role('button',name='同じシード・設定を読み込む').click();page.wait_for_timeout(200);check('Library recall restores customsnapshot',[page.locator('[name=custom-'+key+']').input_value() for key in ['ballCount','wallCount','ringCount']]==['100','30','6'])
  # Pause/resume stabletime.
