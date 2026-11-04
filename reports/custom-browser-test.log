@@ -1,0 +1,28 @@
+PASS Changing10 to100 produces100 actual preview balls
+PASS Changing5 to30 produces30 actual preview walls
+PASS Ring count changes actual preview objects
+PASS Heavy preview reduces resolution, never object counts
+PASS Phone viewport has no horizontal overflow
+PASS Named preset stores actual settings
+PASS Preset load restores preview counts
+PASS Settings and stage editor locked duringrecord
+PASS MP4 task preserves100/30/6 instead ofdefaults
+PASS Recording and preview use same normalized snapshot
+PASS MP4 solver endstate equals independent preview solver
+PASS Downloaded custom MP4 has H264360x640 and audio
+PASS Library recall restores customsnapshot
+PASS Pause holds simulationtime
+PASS Resume advances time
+PASS Reload restores pending customsettings into visiblepreview
+PASS Pending customrecording retries with frozen snapshot
+PASS Real touchscreen tap adds ball
+PASS Undo restores count
+PASS Redo restores addition
+PASS Touch tap adds wall
+PASS Duplicate wall updatescount
+PASS Delete wall updatescount
+PASS Touch drag changes storedinitialballposition
+PASS Wall endpoint touchdrag changeslengthandangle
+PASS All original60 plus existing20VIRAL remain
+PASS Unsupportedgenre retains basegenerator with reason
+PASS No uncaught JavaScript errors

@@ -1,0 +1,5 @@
+PASS 80 unique default catalog entries: viral 20; ball/asmr/meme/domino 15 each.
+PASS All 80 default factory paths draw finite frames and states, change sampled pixels, and exactly match direct factory hashes.
+PASS 23 archived replay paths: viral-1 (3 IDs) and viral-2 (20 IDs) match direct archived factories.
+PASS Canvas save/restore balance and numeric drawing parameters.
+NOTE No all-template MP4 recording, listening, UI controls, Files save, or iPhone Safari test.

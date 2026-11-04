@@ -51,5 +51,18 @@
     "directly_verified_100000_likes": 0
   },
   "paid_render_actions": "None; Render is not used",
-  "release": "global-factory-60-2026-11-03"
+  "release": "custom-stage-v1-2026-11-04",
+  "customization": {
+    "implemented": true,
+    "original_catalog_preserved": 80,
+    "seed_and_settings_frozen": true,
+    "browser_counts_verified": [
+      100,
+      30,
+      6
+    ],
+    "iphone_safari": "UNTESTED",
+    "max_device_limits": "Not established on physical iPhone",
+    "ci_state": "Will be checked for this release after main update; see GitHub Actions for current state"
+  }
 }

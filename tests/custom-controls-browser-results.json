@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "browser": "Chromium 390x844",
+  "iphone_safari": "UNTESTED",
+  "checks": [
+    "Defaults remain in easy mode",
+    "Mode recall API supports suppressed notification",
+    "Advanced physics enabled",
+    "Priority quick controls include restitution and radius",
+    "Invalid count disables through API without contaminating settings",
+    "Count repaired",
+    "Gravity edits preserve manual stage",
+    "Count edits regenerate manual stage",
+    "Radius lower bound1 accepted",
+    "Radius upper bound50 accepted",
+    "Built-in applies actual geometry settings",
+    "Preset persists",
+    "Preset duplicates independent IDs",
+    "Real JSON export contains settings",
+    "Valid exported JSON imports and selects saved settings",
+    "Secret-containing JSON rejected",
+    "Advanced unsupported genres keep base generation and disable custom controls",
+    "VIRAL supports custom free stage",
+    "Recording lock disables mode and settings",
+    "Mobile viewport has no overflow",
+    "No uncaught JavaScript errors"
+  ]
+}

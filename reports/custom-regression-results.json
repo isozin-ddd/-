@@ -1,0 +1,1793 @@
+{
+  "verified_at": "2026-11-04T04:28:07.624372+00:00",
+  "environment": "Headless desktop Chromium, isolated local static Canvas harness, viewport 390x844",
+  "iphone_safari": "UNTESTED",
+  "recording_scope": "No MP4 recording in this regression. Rendering/state checks do not establish MP4 recording, audio playback, sharing, Files save, or iPhone support.",
+  "custom_settings_scope": "customSettings omitted in all catalog/default comparisons. Custom physics itself is tested separately.",
+  "seed": 20261104,
+  "resolution": [
+    360,
+    640
+  ],
+  "duration_seconds": 3,
+  "moments": [
+    0,
+    0.5,
+    1.5,
+    2.99
+  ],
+  "catalog_count": 80,
+  "unique_catalog_ids": 80,
+  "genre_counts": {
+    "viral": 20,
+    "ball": 15,
+    "asmr": 15,
+    "meme": 15,
+    "domino": 15
+  },
+  "filtered_genre_counts": {
+    "viral": 20,
+    "ball": 15,
+    "asmr": 15,
+    "meme": 15,
+    "domino": 15,
+    "random": 80
+  },
+  "records": [
+    {
+      "id": "viral-escape",
+      "genre": "viral",
+      "hashes": [
+        2696145750,
+        2370863428,
+        3469523886,
+        300109639
+      ],
+      "events": 4,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-multiply",
+      "genre": "viral",
+      "hashes": [
+        2715285861,
+        2699494887,
+        3084999076,
+        3446811119
+      ],
+      "events": 9,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-center",
+      "genre": "viral",
+      "hashes": [
+        988759667,
+        136171136,
+        3908203122,
+        2825813253
+      ],
+      "events": 11,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-last",
+      "genre": "viral",
+      "hashes": [
+        3933634741,
+        833783476,
+        4214509431,
+        3219957019
+      ],
+      "events": 42,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-color",
+      "genre": "viral",
+      "hashes": [
+        392488614,
+        3553300001,
+        324708878,
+        177519101
+      ],
+      "events": 20,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-spiral",
+      "genre": "viral",
+      "hashes": [
+        463461324,
+        3591496825,
+        2074686313,
+        2873493175
+      ],
+      "events": 0,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-gravity",
+      "genre": "viral",
+      "hashes": [
+        3824506371,
+        490399814,
+        3423475435,
+        1727547346
+      ],
+      "events": 4,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-fusion",
+      "genre": "viral",
+      "hashes": [
+        4106915723,
+        498329310,
+        2762631358,
+        3680561417
+      ],
+      "events": 10,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-destroy",
+      "genre": "viral",
+      "hashes": [
+        3339142753,
+        2502952840,
+        899048879,
+        1583367951
+      ],
+      "events": 4,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-timing",
+      "genre": "viral",
+      "hashes": [
+        1259929110,
+        1684885383,
+        348865206,
+        2618995046
+      ],
+      "events": 3,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-oneexit",
+      "genre": "viral",
+      "hashes": [
+        1428051773,
+        156698408,
+        1724394009,
+        3719580523
+      ],
+      "events": 95,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-magnetic",
+      "genre": "viral",
+      "hashes": [
+        3826850172,
+        3242882431,
+        81356114,
+        3118577242
+      ],
+      "events": 2,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-shrink",
+      "genre": "viral",
+      "hashes": [
+        666108734,
+        44303663,
+        3965790364,
+        2376052326
+      ],
+      "events": 1,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-reverse",
+      "genre": "viral",
+      "hashes": [
+        970334208,
+        2546416280,
+        853064589,
+        1664176914
+      ],
+      "events": 1,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-race",
+      "genre": "viral",
+      "hashes": [
+        78268633,
+        1404734041,
+        3010392832,
+        4247712894
+      ],
+      "events": 5,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-chain",
+      "genre": "viral",
+      "hashes": [
+        1228960377,
+        3343745095,
+        858011456,
+        1948853525
+      ],
+      "events": 6,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-split",
+      "genre": "viral",
+      "hashes": [
+        2202015078,
+        2445873052,
+        923255568,
+        640180382
+      ],
+      "events": 7,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-impossible",
+      "genre": "viral",
+      "hashes": [
+        2666697719,
+        136361393,
+        365125485,
+        646332422
+      ],
+      "events": 8,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-transform",
+      "genre": "viral",
+      "hashes": [
+        451171173,
+        1031204859,
+        962102665,
+        3452595411
+      ],
+      "events": 4,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "viral-ultimate",
+      "genre": "viral",
+      "hashes": [
+        301896474,
+        248339538,
+        4233656156,
+        1449010156
+      ],
+      "events": 6,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "phy-ring-escape",
+      "genre": "ball",
+      "hashes": [
+        2442718455,
+        757937064,
+        2236230012,
+        1252297545
+      ],
+      "events": 35,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "phy-maze",
+      "genre": "ball",
+      "hashes": [
+        3591765692,
+        4255614235,
+        3092229310,
+        4207329562
+      ],
+      "events": 71,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "phy-funnel",
+      "genre": "ball",
+      "hashes": [
+        3356593847,
+        833151098,
+        3975717266,
+        1958976211
+      ],
+      "events": 37,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "phy-race",
+      "genre": "ball",
+      "hashes": [
+        497953353,
+        3510061329,
+        4231980809,
+        2709515332
+      ],
+      "events": 42,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "phy-multiplication",
+      "genre": "ball",
+      "hashes": [
+        3799671208,
+        1129048693,
+        3707367974,
+        2417003635
+      ],
+      "events": 17,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "phy-spiral",
+      "genre": "ball",
+      "hashes": [
+        1415847954,
+        4159140276,
+        545670641,
+        986603903
+      ],
+      "events": 14,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "phy-magnetic",
+      "genre": "ball",
+      "hashes": [
+        1136387862,
+        3728138747,
+        542298828,
+        4158524343
+      ],
+      "events": 20,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "phy-sorting",
+      "genre": "ball",
+      "hashes": [
+        3925658372,
+        2295772117,
+        1781749857,
+        502545787
+      ],
+      "events": 3,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "phy-paddles",
+      "genre": "ball",
+      "hashes": [
+        418321987,
+        1985190135,
+        2913019138,
+        1558814344
+      ],
+      "events": 63,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "phy-gap",
+      "genre": "ball",
+      "hashes": [
+        1360054560,
+        2451982435,
+        4096876873,
+        1399872528
+      ],
+      "events": 25,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "phy-elastic",
+      "genre": "ball",
+      "hashes": [
+        2434823469,
+        315617863,
+        2217130702,
+        985069015
+      ],
+      "events": 5,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "phy-orbit",
+      "genre": "ball",
+      "hashes": [
+        4067063910,
+        224145034,
+        3698177430,
+        2793349645
+      ],
+      "events": 10,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "phy-survival",
+      "genre": "ball",
+      "hashes": [
+        3253879672,
+        2133121196,
+        963862733,
+        2879138655
+      ],
+      "events": 35,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "phy-chain-bounce",
+      "genre": "ball",
+      "hashes": [
+        2156114635,
+        2506203747,
+        3697794384,
+        2734829595
+      ],
+      "events": 48,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "phy-timing",
+      "genre": "ball",
+      "hashes": [
+        1611799459,
+        243529322,
+        4132061335,
+        731121751
+      ],
+      "events": 31,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "asmr-jelly-compression",
+      "genre": "asmr",
+      "hashes": [
+        3655296163,
+        2216872444,
+        1619243881,
+        451637865
+      ],
+      "events": 1,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "asmr-glass-cutting",
+      "genre": "asmr",
+      "hashes": [
+        174150557,
+        3265448664,
+        2093251224,
+        985544775
+      ],
+      "events": 3,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "asmr-color-mixing",
+      "genre": "asmr",
+      "hashes": [
+        1432971223,
+        34169403,
+        609280793,
+        2183786516
+      ],
+      "events": 1,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "asmr-smooth-ripple",
+      "genre": "asmr",
+      "hashes": [
+        1198083986,
+        2225150950,
+        1509835436,
+        207292643
+      ],
+      "events": 1,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "asmr-soft-deformation",
+      "genre": "asmr",
+      "hashes": [
+        3028881836,
+        1873866966,
+        1464485497,
+        915398450
+      ],
+      "events": 2,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "asmr-liquid-gradient",
+      "genre": "asmr",
+      "hashes": [
+        1396850610,
+        1631853141,
+        3028012072,
+        990975530
+      ],
+      "events": 2,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "asmr-bubble-popping",
+      "genre": "asmr",
+      "hashes": [
+        2224854888,
+        3563971947,
+        2903027784,
+        2344220603
+      ],
+      "events": 12,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "asmr-particle-flow",
+      "genre": "asmr",
+      "hashes": [
+        3465046753,
+        2149043333,
+        1157880664,
+        1703626276
+      ],
+      "events": 2,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "asmr-perfect-slicing",
+      "genre": "asmr",
+      "hashes": [
+        4114318914,
+        1503807236,
+        1887570351,
+        594032042
+      ],
+      "events": 5,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "asmr-symmetry-arrangement",
+      "genre": "asmr",
+      "hashes": [
+        3400925196,
+        2567796345,
+        2952520426,
+        3481189709
+      ],
+      "events": 1,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "asmr-crystal-formation",
+      "genre": "asmr",
+      "hashes": [
+        827970860,
+        3241133735,
+        1577312054,
+        1081115495
+      ],
+      "events": 5,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "asmr-melting-shapes",
+      "genre": "asmr",
+      "hashes": [
+        1252516202,
+        3177510435,
+        1614357076,
+        2157725233
+      ],
+      "events": 1,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "asmr-satisfying-fill",
+      "genre": "asmr",
+      "hashes": [
+        2622736331,
+        577736889,
+        4174857419,
+        2990074595
+      ],
+      "events": 2,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "asmr-layer-peeling",
+      "genre": "asmr",
+      "hashes": [
+        4134987873,
+        2181788711,
+        2011510861,
+        1837273847
+      ],
+      "events": 3,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "asmr-seamless-liquid",
+      "genre": "asmr",
+      "hashes": [
+        1462840731,
+        2114292686,
+        1244543703,
+        3634247345
+      ],
+      "events": 2,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "surreal-creature-transformation",
+      "genre": "meme",
+      "hashes": [
+        2077260787,
+        3692564373,
+        3541728659,
+        3128468202
+      ],
+      "events": 3,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "surreal-absurd-race",
+      "genre": "meme",
+      "hashes": [
+        367168191,
+        2099809978,
+        2752564310,
+        1008156250
+      ],
+      "events": 3,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "surreal-impossible-object",
+      "genre": "meme",
+      "hashes": [
+        4256553308,
+        1148688059,
+        57488519,
+        2100122247
+      ],
+      "events": 2,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "surreal-unexpected-evolution",
+      "genre": "meme",
+      "hashes": [
+        4288899151,
+        3573428401,
+        3002108470,
+        3754829397
+      ],
+      "events": 3,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "surreal-surreal-dance",
+      "genre": "meme",
+      "hashes": [
+        1357492754,
+        3790098561,
+        1461933022,
+        951637078
+      ],
+      "events": 4,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "surreal-infinite-character",
+      "genre": "meme",
+      "hashes": [
+        4247010137,
+        2254326991,
+        3369506514,
+        4171888408
+      ],
+      "events": 2,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "surreal-facial-expressions",
+      "genre": "meme",
+      "hashes": [
+        1467975056,
+        1697739591,
+        3837046439,
+        2448867958
+      ],
+      "events": 3,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "surreal-strange-planet",
+      "genre": "meme",
+      "hashes": [
+        2916366895,
+        1006104807,
+        2739706660,
+        4105158723
+      ],
+      "events": 2,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "surreal-bizarre-machine",
+      "genre": "meme",
+      "hashes": [
+        412550523,
+        3223258502,
+        3772889925,
+        2803909134
+      ],
+      "events": 3,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "surreal-scale-change",
+      "genre": "meme",
+      "hashes": [
+        3708612104,
+        1270259961,
+        3145237950,
+        2325416044
+      ],
+      "events": 1,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "surreal-creature-generator",
+      "genre": "meme",
+      "hashes": [
+        542760355,
+        1503093042,
+        1423122166,
+        1093293675
+      ],
+      "events": 5,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "surreal-dream-logic",
+      "genre": "meme",
+      "hashes": [
+        2249146239,
+        2823051633,
+        485073152,
+        1385744504
+      ],
+      "events": 5,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "surreal-weird-interaction",
+      "genre": "meme",
+      "hashes": [
+        4192549679,
+        402870643,
+        1538132010,
+        174458293
+      ],
+      "events": 4,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "surreal-reality-glitch",
+      "genre": "meme",
+      "hashes": [
+        1802540545,
+        200812994,
+        2976508974,
+        105647423
+      ],
+      "events": 3,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "surreal-absurd-mini-story",
+      "genre": "meme",
+      "hashes": [
+        2368014630,
+        1783590345,
+        1456126869,
+        2554102226
+      ],
+      "events": 3,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "chain-spiral",
+      "genre": "domino",
+      "hashes": [
+        3576525018,
+        944949608,
+        3538078956,
+        2962667556
+      ],
+      "events": 36,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "chain-machine",
+      "genre": "domino",
+      "hashes": [
+        2219815884,
+        2105239563,
+        3152685588,
+        3421550094
+      ],
+      "events": 5,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "chain-gears",
+      "genre": "domino",
+      "hashes": [
+        332772156,
+        3128030255,
+        3994808367,
+        4013967695
+      ],
+      "events": 8,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "chain-blocks",
+      "genre": "domino",
+      "hashes": [
+        4164897015,
+        2962580433,
+        1278453974,
+        384238354
+      ],
+      "events": 18,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "chain-stages",
+      "genre": "domino",
+      "hashes": [
+        1073592771,
+        2955302451,
+        1455046306,
+        3783648140
+      ],
+      "events": 21,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "chain-endless",
+      "genre": "domino",
+      "hashes": [
+        3624233784,
+        3217513907,
+        3943944766,
+        2086875442
+      ],
+      "events": 35,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "chain-ball-gear",
+      "genre": "domino",
+      "hashes": [
+        288497026,
+        202143898,
+        1326971065,
+        2726281306
+      ],
+      "events": 10,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "chain-perfect",
+      "genre": "domino",
+      "hashes": [
+        1373190397,
+        2965689664,
+        1124209840,
+        2849922718
+      ],
+      "events": 36,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "chain-puzzle",
+      "genre": "domino",
+      "hashes": [
+        2906880673,
+        4071875279,
+        1458834998,
+        1129228604
+      ],
+      "events": 9,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "chain-gravity",
+      "genre": "domino",
+      "hashes": [
+        166758473,
+        2337226016,
+        3688211084,
+        1492859734
+      ],
+      "events": 3,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "chain-rube",
+      "genre": "domino",
+      "hashes": [
+        179277818,
+        940809424,
+        893917116,
+        381853535
+      ],
+      "events": 9,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "chain-circular",
+      "genre": "domino",
+      "hashes": [
+        1188252785,
+        2727842890,
+        273502970,
+        4215986885
+      ],
+      "events": 35,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "chain-delayed",
+      "genre": "domino",
+      "hashes": [
+        2108395387,
+        2374417913,
+        3391235428,
+        2077671247
+      ],
+      "events": 36,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "chain-color",
+      "genre": "domino",
+      "hashes": [
+        2076846213,
+        3794740331,
+        2116456299,
+        3023687753
+      ],
+      "events": 12,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    },
+    {
+      "id": "chain-burst",
+      "genre": "domino",
+      "hashes": [
+        2299608180,
+        2000317747,
+        448861755,
+        2036878559
+      ],
+      "events": 37,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "default_factory_matches": true,
+      "passed": true
+    }
+  ],
+  "archives": [
+    {
+      "engineVersion": "viral-1",
+      "id": "viral-escape",
+      "hashes": [
+        2696145750,
+        2370863428,
+        3469523886,
+        300109639
+      ],
+      "events": 4,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-1",
+      "id": "viral-multiply",
+      "hashes": [
+        2715285861,
+        2699494887,
+        3084999076,
+        3446811119
+      ],
+      "events": 9,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-1",
+      "id": "viral-center",
+      "hashes": [
+        988759667,
+        136171136,
+        3908203122,
+        2825813253
+      ],
+      "events": 11,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-escape",
+      "hashes": [
+        2696145750,
+        2370863428,
+        3469523886,
+        300109639
+      ],
+      "events": 4,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-multiply",
+      "hashes": [
+        2715285861,
+        2699494887,
+        3084999076,
+        3446811119
+      ],
+      "events": 9,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-center",
+      "hashes": [
+        988759667,
+        136171136,
+        3908203122,
+        2825813253
+      ],
+      "events": 11,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-last",
+      "hashes": [
+        3933634741,
+        833783476,
+        4214509431,
+        3219957019
+      ],
+      "events": 42,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-color",
+      "hashes": [
+        392488614,
+        3553300001,
+        324708878,
+        177519101
+      ],
+      "events": 20,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-spiral",
+      "hashes": [
+        463461324,
+        3591496825,
+        2074686313,
+        2873493175
+      ],
+      "events": 0,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-gravity",
+      "hashes": [
+        3824506371,
+        490399814,
+        3423475435,
+        1727547346
+      ],
+      "events": 4,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-fusion",
+      "hashes": [
+        4106915723,
+        498329310,
+        2762631358,
+        3680561417
+      ],
+      "events": 10,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-destroy",
+      "hashes": [
+        3339142753,
+        2502952840,
+        899048879,
+        1583367951
+      ],
+      "events": 4,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-timing",
+      "hashes": [
+        1259929110,
+        1684885383,
+        348865206,
+        2618995046
+      ],
+      "events": 3,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-oneexit",
+      "hashes": [
+        1428051773,
+        156698408,
+        1724394009,
+        3719580523
+      ],
+      "events": 95,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-magnetic",
+      "hashes": [
+        3826850172,
+        3242882431,
+        81356114,
+        3118577242
+      ],
+      "events": 2,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-shrink",
+      "hashes": [
+        666108734,
+        44303663,
+        3965790364,
+        2376052326
+      ],
+      "events": 1,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-reverse",
+      "hashes": [
+        970334208,
+        2546416280,
+        853064589,
+        1664176914
+      ],
+      "events": 1,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-race",
+      "hashes": [
+        78268633,
+        1404734041,
+        3010392832,
+        4247712894
+      ],
+      "events": 5,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-chain",
+      "hashes": [
+        1228960377,
+        3343745095,
+        858011456,
+        1948853525
+      ],
+      "events": 6,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-split",
+      "hashes": [
+        2202015078,
+        2445873052,
+        923255568,
+        640180382
+      ],
+      "events": 7,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-impossible",
+      "hashes": [
+        2666697719,
+        136361393,
+        365125485,
+        646332422
+      ],
+      "events": 8,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-transform",
+      "hashes": [
+        451171173,
+        1031204859,
+        962102665,
+        3452595411
+      ],
+      "events": 4,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    },
+    {
+      "engineVersion": "viral-2",
+      "id": "viral-ultimate",
+      "hashes": [
+        2974415045,
+        335385065,
+        247334479,
+        1060437923
+      ],
+      "events": 6,
+      "finite_state": true,
+      "finite_canvas_parameters": true,
+      "balanced_context": true,
+      "unique_frame_hashes": 4,
+      "archived_factory_matches": true,
+      "passed": true
+    }
+  ],
+  "uncaught_errors": [],
+  "status": "PASS"
+}

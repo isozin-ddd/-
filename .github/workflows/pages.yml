@@ -30,10 +30,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install playwright==1.56.0
+      - run: pip install playwright==1.56.0 'Pillow>=12,<13'
       - run: python -m playwright install --with-deps chromium
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: python tests/test-viral-browser.py
+      - run: python tests/test-custom-regression.py
+      - run: python tests/test-custom-controls-ui.py
+      - run: python tests/test-custom-browser.py
+      - run: python tests/test-custom-recording.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -62,10 +66,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install playwright==1.56.0
+      - run: pip install playwright==1.56.0 'Pillow>=12,<13'
       - run: python -m playwright install --with-deps chromium
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: python tests/test-viral-browser.py
+      - run: python tests/test-custom-regression.py
+      - run: python tests/test-custom-controls-ui.py
+      - run: python tests/test-custom-browser.py
+      - run: python tests/test-custom-recording.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
