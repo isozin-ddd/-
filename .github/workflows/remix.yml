@@ -1,0 +1,92 @@
+name: VIRAL REMIX batch
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/remix.yml']
+  schedule:
+    - cron: '20 3 * * *'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'Total videos (serial within each shard)'
+        type: choice
+        options: ['1', '5', '10', '20', '50', '100']
+        default: '5'
+      duration:
+        description: 'Seconds per original evolving simulation'
+        type: choice
+        options: ['15', '30', '61', '75', '90']
+        default: '15'
+      seed:
+        description: 'Seed (empty uses UTC date)'
+        type: string
+        default: ''
+permissions:
+  contents: read
+concurrency:
+  group: remix-batch
+  cancel-in-progress: false
+jobs:
+  prepare:
+    if: github.event_name != 'schedule' || vars.REMIX_DAILY_ENABLED != 'false'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    outputs:
+      shards: ${{ steps.plan.outputs.shards }}
+      duration: ${{ steps.plan.outputs.duration }}
+      seed: ${{ steps.plan.outputs.seed }}
+    steps:
+      - id: plan
+        env:
+          REQUEST_COUNT: ${{ inputs.count || '5' }}
+          REQUEST_DURATION: ${{ inputs.duration || '15' }}
+          REQUEST_SEED: ${{ inputs.seed }}
+        run: |
+          python - <<'PY'
+          import os,json,datetime
+          count=int(os.environ['REQUEST_COUNT']);duration=int(os.environ['REQUEST_DURATION']);seed=int(os.environ['REQUEST_SEED'] or datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%d'))
+          assert count in [1,5,10,20,50,100] and duration in [15,30,61,75,90] and 0<=seed<=4294967295
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:
+            f.write('shards='+json.dumps([{'offset':i,'count':min(10,count-i)} for i in range(0,count,10)])+'\n')
+            f.write(f'duration={duration}\nseed={seed}\n')
+          PY
+  render:
+    needs: prepare
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        shard: ${{ fromJSON(needs.prepare.outputs.shards) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install playwright==1.56.0
+      - run: python -m playwright install --with-deps chromium
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Audit reference metadata (does not refresh SNS counts)
+        run: |
+          mkdir -p reports/remix-batch
+          python - <<'PY'
+          import json,datetime
+          from pathlib import Path
+          data=json.loads(Path('docs/remix/research.json').read_text())
+          Path('reports/remix-batch/reference-audit.json').write_text(json.dumps({'audit_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'references':data['references'],'metrics_refetched':False,'note':'No SNS API configured. Recorded evidence timestamps remain unchanged.'},indent=2))
+          PY
+      - name: Generate serial MP4s and verify decoded audio/video
+        env:
+          REMIX_COUNT: ${{ matrix.shard.count }}
+          REMIX_OFFSET: ${{ matrix.shard.offset }}
+          REMIX_DURATION: ${{ needs.prepare.outputs.duration }}
+          REMIX_SEED: ${{ needs.prepare.outputs.seed }}
+        run: python scripts/render-remix.py --count "$REMIX_COUNT" --offset "$REMIX_OFFSET" --duration "$REMIX_DURATION" --seed "$REMIX_SEED"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: remix-${{ needs.prepare.outputs.seed }}-${{ matrix.shard.offset }}
+          path: reports/remix-batch
+          retention-days: 3
+          if-no-files-found: error

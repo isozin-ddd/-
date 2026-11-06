@@ -1,10 +1,12 @@
+import {ARCHETYPES} from './remix/design.js';
+import {mountRemix} from './remix/ui.js?v=remix1';
 import {mountCustomControls} from './custom-controls.js?v=custom1';
 import {mountStageEditor} from './stage-editor.js?v=custom1';
 import {normalizeCustom} from './custom-physics.js';
-import {CATALOG,templatesFor,templateFor,englishMetadata,productionAssessment} from './catalog.js?v=custom1';
+import {CATALOG,templatesFor,templateFor,englishMetadata,productionAssessment} from './catalog.js?v=remix1';
 import {mountResearch} from './research-ui.js';
 import {mountAnalytics} from './insights.js';
-import {capability,pickTypes,createAudio,scene,record,inspect,newSeed,rng,simulationDigest,LABELS,GENRES} from './engine.js?v=custom1';
+import {capability,pickTypes,createAudio,scene,record,inspect,newSeed,rng,simulationDigest,LABELS,GENRES} from './engine.js?v=remix1';
 import * as store from './storage.js?v=global60';
 const $=id=>document.getElementById(id),canvas=$('canvas');
 let previewAudio=null,previewContext=null,previewTime=-.001;
@@ -30,6 +32,7 @@ function loadCustomTemplate(){if(customControls){customValue=customControls.setT
 function previewButtons(){const b=$('preview-pause');b.textContent=previewPaused?'再開':'一時停止';b.setAttribute('aria-pressed',String(previewPaused))}
 function preview(now){
  const dt=Math.max(0,(now-lastPreview)/1000);lastPreview=now;
+ if($('studio-workspace')?.hidden){previewRAF=requestAnimationFrame(preview);return}
  if(!active&&!document.hidden&&previewTask&&!previewPaused){if(dt>1.5){previewPaused=true;previewButtons();error('高負荷でプレビューを停止しました。解像度や精度・発光を下げて再開してください。')}else previewElapsed+=dt}
  if(!active&&!document.hidden&&previewTask&&(!customValue.enabled||now-lastPaint>=1000/24)){
   lastPaint=now;
@@ -161,10 +164,13 @@ async function boot(){
  try{await store.openDB();await refreshLibrary();storageReady=true;retryTasks=readQueue();saveQueue();if(retryTasks[0]?.customSettings)restoreTask(retryTasks[0])}catch(e){error(e.message)}
  $('status').textContent=supported&&storageReady?(retryTasks.length?`未完了 ${retryTasks.length}本が残っています。「再試行」で続けられます。`:'まず低解像度で1本を生成してください。'):'録画を開始できません。対応状況・エラーを確認してください。';updateButtons();resetPreview();previewRAF=requestAnimationFrame(preview);
  let seedReferences=[];try{const response=await fetch('./references/reference_manifest.json');if(response.ok){const data=await response.json();seedReferences=Array.isArray(data)?data:[...(data.references||[]),...(data.discovery_leads_without_original_url||[])]}}catch{}
- try{await mountResearch($('reference-manager'),{templates:CATALOG,seedReferences});await mountAnalytics($('analytics-manager'),{templates:CATALOG})}catch(e){const note=document.createElement('p');note.textContent='管理画面の読み込みに失敗しました: '+e.message;$('reference-manager').append(note)}
+ try{await mountResearch($('reference-manager'),{templates:CATALOG,seedReferences});await mountAnalytics($('analytics-manager'),{templates:[...CATALOG,...ARCHETYPES.map(a=>({id:'remix-'+a.id,name:a.name}))]})}catch(e){const note=document.createElement('p');note.textContent='管理画面の読み込みに失敗しました: '+e.message;$('reference-manager').append(note)}
 }
 document.querySelectorAll('.section-nav a').forEach(a=>a.addEventListener('click',()=>{const target=document.querySelector(a.getAttribute('href'));const details=target?.closest('details');if(details)details.open=true}));
-boot();
+let remixController=null;
+for(const tab of ['studio','remix'])$(tab+'-tab').onclick=()=>{if(active||remixController?.isRunning())return;for(const name of ['studio','remix']){$(name+'-workspace').hidden=name!==tab;$(name+'-tab').setAttribute('aria-selected',String(name===tab))}lastPreview=performance.now();if(tab==='remix'&&previewContext){previewAudio?.close();previewContext.close();previewContext=null;previewAudio=null;$('preview-audio').textContent='♪ プレビュー音声 OFF';$('preview-audio').setAttribute('aria-pressed','false')}};
+boot().then(async()=>{try{remixController=await mountRemix($('remix-workspace'),{isStudioBusy:()=>active,acquire:()=>{if(active)return false;active=true;updateButtons();return true},release:()=>{active=false;updateButtons();resetPreview()},onLibraryChange:refreshLibrary})}catch(e){$('remix-workspace').textContent='REMIXを読み込めません: '+e.message}});
+
 
 
 function chooseFromPerformance(choices,seed,duration){

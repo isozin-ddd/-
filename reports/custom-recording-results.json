@@ -2,14 +2,15 @@
   "info": {
     "width": 360,
     "height": 640,
-    "duration": 3.003533
+    "duration": 2.991033
   },
   "stats": {
     "renderedFrames": 73,
-    "elapsedSeconds": 3.0126999999999535,
-    "p95FrameMs": 1.5,
-    "maxFrameMs": 3.8999999999068677,
+    "elapsedSeconds": 3.0173000000000467,
+    "p95FrameMs": 0.9000000000232831,
+    "maxFrameMs": 2,
     "soundEvents": 0,
+    "audioPeak": 0,
     "mimeType": "video/mp4;codecs=avc1.42001f",
     "measuredIn": "current_browser_not_iphone",
     "customSimulation": {

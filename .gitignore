@@ -5,3 +5,7 @@ node_modules/
 tests/mobile-preview.png
 
 reports/*.png
+
+reports/remix-ten/
+reports/remix-batch/
+docs/samples/remix/

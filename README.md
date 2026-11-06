@@ -119,3 +119,11 @@ GitHub Pagesはmainブランチの`/docs`を配信するか、`.github/workflows
 既存60種に加え、GitHubで追加されていたVIRAL20種・長尺録画・旧版再生も保持しています。詳細ステージは15秒まで、かんたん生成は従来どおりです。現行録画上限は64MiBです（上記24MiBの記載は以前の仕様）。
 
 [カスタマイズの実装・検証・制約](reports/CUSTOMIZATION_STATUS.md)を参照してください。iPhone実機・最大負荷の安全性は未検証です。Chromiumでは100球/壁30/リング6の実MP4、タッチ編集、設定保存、既存80種と旧版23経路を検証しています。上限値をiPhoneで安全に使えると保証するものではありません。
+
+### VIRAL REMIX FACTORY
+
+新しい「VIRAL REMIX」タブで参考URL・確認値・一般的な制作原則を登録し、配置/物理ルール/中盤/結末の異なる10案を設計できます。逐次MP4、永続キュー、停止/再開、設定固定、品質チェック、プリセットとは別の設計JSON、既存ライブラリと共有に対応。
+
+[実装・検証と制約](reports/REMIX_STATUS.md)。[公開10本サンプル](https://isozin-ddd.github.io/-/samples/remix/index.html)はデプロイ検査で実録画して作成。iPhone実機未検証。参考投稿の元動画を解析・複製したものではありません。
+
+Actions「VIRAL REMIX batch」は毎日5本/15秒（UTC03:20、遅延する場合あり）。停止はRepository variable `REMIX_DAILY_ENABLED=false`。手動Run workflowで1/5/10/20/50/100本、15/30/61/75/90秒。成果物は3日保存、最大2ジョブ、各直列録画。SNSの数値自動更新・自動投稿は行いません。端末の投稿実績をActionsへ反映するにはJSONを `docs/remix/performance.json` に保存します。

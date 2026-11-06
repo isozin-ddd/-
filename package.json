@@ -4,6 +4,6 @@
   "type": "module",
   "scripts": {
     "test": "node --test tests/*.test.js",
-    "check": "node --check docs/app.js && node --check docs/engine.js && node --check docs/storage.js && node --check docs/catalog.js && node --check docs/research-ui.js && node --check docs/insights.js && node --check docs/custom-physics.js && node --check docs/custom-controls.js && node --check docs/stage-editor.js"
+    "check": "node --check docs/app.js && node --check docs/engine.js && node --check docs/storage.js && node --check docs/catalog.js && node --check docs/research-ui.js && node --check docs/insights.js && node --check docs/custom-physics.js && node --check docs/custom-controls.js && node --check docs/stage-editor.js && node --check docs/remix/design.js && node --check docs/remix/scene.js && node --check docs/remix/ui.js && node --check docs/remix/quality.js"
   }
 }
