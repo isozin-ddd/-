@@ -22,7 +22,13 @@ with sync_playwright() as p:
    page.click('#remix-design')
    page.wait_for_function("document.querySelectorAll('#remix-designs article').length===10")
    assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
-   assert page.request.get(url+'samples/remix/iris.mp4').status==200
+   sample_response=page.request.get(url+'samples/remix/iris.mp4?check='+str(int(time.time())))
+   print(json.dumps({'sample_status':sample_response.status,'content_type':sample_response.headers.get('content-type'),'sample_bytes':len(sample_response.body())}),flush=True)
+   assert sample_response.status in [200,206] and b'ftyp' in sample_response.body()[:32]
+   sample=page.context.new_page();sample.goto(url+'samples/remix/index.html?check='+str(int(time.time())))
+   decoded=sample.locator('video').first.evaluate('''v=>new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error('Public MP4 metadata timeout')),12000);v.preload='auto';v.onloadedmetadata=()=>{clearTimeout(timer);resolve({width:v.videoWidth,height:v.videoHeight,duration:v.duration})};v.onerror=()=>{clearTimeout(timer);reject(Error('Public MP4 playback error'))};v.load()})''')
+   assert decoded['width']==360 and decoded['height']==640 and decoded['duration']>14
+   sample.close()
    page.click('#studio-tab')
    result=page.evaluate('''async()=>{const r=await fetch('./samples/viral/qa.json?check='+Date.now());if(!r.ok)throw Error('sample QA missing');return await r.json()}''')
    assert len(result['results'])>=5

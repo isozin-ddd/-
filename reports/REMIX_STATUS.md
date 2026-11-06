@@ -27,10 +27,12 @@ TikTok official policy requires original high-quality videos over a minute and o
 
 - Unit validation: ten distinct layouts/rules/endings; deterministic designs;100-plan data shape; caps; frozen recording; reference provenance; exploration rate.
 - Actual mobile-width Chromium UI: ten15sec audio MP4s generated serially, stop/reload/resume, per-video playable decoding/nonblack samples, design snapshot agreement, duplicate reseeding;90sec continuous deterministic scene.
-- Actions renderer local smoke: actual3sec MP4, FFmpeg decoded non-silent audio, H264/AAC output.
+- Actions renderer: actual3/30/61/75/90sec MP4s (one each), FFmpeg decoded non-silent audio, H264/AAC output. Ten15sec native UI recordings separately verified.
+- Hundred-plan queue persisted/restored with100 unique seeds;30 metadata-only capacity fixtures prevent any recorder start. This is NOT100 actual MP4s.
+- Initial cloud Actions batch generated5×15sec successfully; run42163532567, artifact remix-20261106-0 (3-day retention).
 - Baseline80-template/default factories and23 archived replay paths preserved; old custom counts100/30/6, touch editor and MP4/static pixel comparison rerun.
 - Final CI and public URL verification recorded separately after source push. Public sample page generated from real ten-video test output during deployment.
 
 ## Not verified / incomplete
 
-Physical iPhone Safari touch/MP4/audio/Files/share/heat/memory/high-resolution, actual50/100-video stress runs, all requested long durations as encoded MP4s, human popularity/quality evaluation, primary SNS counts, automated authenticated research refresh and source-media perceptual similarity. No claim of monetization qualification. 50/100-plan and workflow support is implemented, but not a claim of completed100-video device testing.
+Physical iPhone Safari touch/MP4/audio/Files/share/heat/memory/high-resolution, actual50/100-video stress runs, long-duration device stress, human popularity/quality evaluation, primary SNS counts, automated authenticated research refresh and source-media perceptual similarity. No claim of monetization qualification. 50/100-plan and workflow support is implemented, but not a claim of completed100-video device testing.

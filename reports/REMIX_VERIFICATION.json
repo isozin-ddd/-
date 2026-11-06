@@ -1,0 +1,99 @@
+{
+  "source_sha": "317ef0b42d6d2f971cae310bf806e4a64038446f",
+  "ten_video_ui_test": {
+    "status": "PASS",
+    "videos": 10,
+    "duration": 15,
+    "checks": [
+      "Remix tab opens and original studio preserved",
+      "Phone layout does not overflow",
+      "Ten distinct layout",
+      "Ten distinct rule",
+      "Ten distinct ending",
+      "All designs retain source and deterministic seed",
+      "Stopped queue persists across reload",
+      "Ten serial15sec recordings complete",
+      "Ten saved videos with actual playback checks",
+      "All videos have synthesized audio events",
+      "Frozen original designs survive recorder",
+      "Playable15sec MP4 reverse",
+      "Playable15sec MP4 pendulum",
+      "Playable15sec MP4 glass",
+      "Playable15sec MP4 clock",
+      "Playable15sec MP4 race",
+      "Playable15sec MP4 fusion",
+      "Playable15sec MP4 bloom",
+      "Playable15sec MP4 tidal",
+      "Playable15sec MP4 iris",
+      "Playable15sec MP4 pulse",
+      "Duplicate design gets a new seed",
+      "No repeated structure fingerprint after duplicate retry",
+      "90sec scene advances continuously and deterministically",
+      "No uncaught JavaScript errors",
+      "Phone layout remains within viewport"
+    ]
+  },
+  "long_encoded_tests": [
+    {
+      "requested_duration": 30,
+      "encoded_duration": 30.033333,
+      "codecs": [
+        "h264",
+        "aac"
+      ],
+      "non_silent": true,
+      "phases": 5
+    },
+    {
+      "requested_duration": 61,
+      "encoded_duration": 61.033333,
+      "codecs": [
+        "h264",
+        "aac"
+      ],
+      "non_silent": true,
+      "phases": 8
+    },
+    {
+      "requested_duration": 75,
+      "encoded_duration": 75.0,
+      "codecs": [
+        "h264",
+        "aac"
+      ],
+      "non_silent": true,
+      "phases": 9
+    },
+    {
+      "requested_duration": 90,
+      "encoded_duration": 90.0,
+      "codecs": [
+        "h264",
+        "aac"
+      ],
+      "non_silent": true,
+      "phases": 11
+    }
+  ],
+  "queue_fixture_test": {
+    "status": "PASS",
+    "checks": [
+      "100-plan persistent queue",
+      "100 unique saved seeds",
+      "Storage-capacity pause before any recorder",
+      "Reload retains100 tasks"
+    ],
+    "fixture_scope": "30 metadata fixtures; NOT100 actual MP4 generation",
+    "iphone_safari": "UNTESTED"
+  },
+  "cloud_batch": {
+    "run": 42163532567,
+    "videos": 5,
+    "duration": 15,
+    "conclusion": "success"
+  },
+  "iphone_safari": "UNTESTED",
+  "actual_50_100_video_stress": "UNTESTED",
+  "public_deployment_run": 42163532746,
+  "public_deployment_status": "pending"
+}

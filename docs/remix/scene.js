@@ -1,4 +1,4 @@
-import {createCustomScene} from '../custom-physics.js';
+import {createCustomScene} from '../custom-physics.js?v=remix1';
 import {validateDesign,ARCHETYPES} from './design.js';
 export function createRemixScene(raw){
  const d=validateDesign(raw),base={...d.custom},a=ARCHETYPES.find(a=>a.id===d.archetype);let phase=0,best=null,crossings=0,previous=new Map(),state=null;
