@@ -1,0 +1,6 @@
+let opening;
+export function database(){return opening||=(new Promise((resolve,reject)=>{const r=indexedDB.open('viral-remix-factory-v1',1);r.onupgradeneeded=()=>{for(const name of ['state','references','history'])r.result.createObjectStore(name,{keyPath:'id'})};r.onsuccess=()=>resolve(r.result);r.onerror=()=>{opening=null;reject(Error('REMIX保存を開けません'))};r.onblocked=()=>reject(Error('別タブを閉じてください'))}))}
+export async function readAll(name){const db=await database();return new Promise((resolve,reject)=>{const r=db.transaction(name).objectStore(name).getAll();r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error)})}
+export async function save(name,value){const db=await database();return new Promise((resolve,reject)=>{const tx=db.transaction(name,'readwrite');tx.objectStore(name).put(value);tx.oncomplete=resolve;tx.onabort=()=>reject(Error('REMIX保存に失敗。空き容量を確認してください'));tx.onerror=()=>{}})}
+export async function remove(name,id){const db=await database();return new Promise((resolve,reject)=>{const tx=db.transaction(name,'readwrite');tx.objectStore(name).delete(id);tx.oncomplete=resolve;tx.onabort=()=>reject(tx.error)})}
+export async function appendHistory(value){await save('history',value);const rows=(await readAll('history')).sort((a,b)=>b.created-a.created);for(const r of rows.slice(500))await remove('history',r.id)}

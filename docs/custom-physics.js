@@ -103,7 +103,7 @@ export function buildStage(input={}){
  return{balls,walls,ringCenter:{...center},rings,effectiveRingSpacing:spacing,warnings};
 }
 function fingerprint(c){let h=2166136261;for(const ch of JSON.stringify(c)){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)}return(h>>>0).toString(16).padStart(8,'0')}
-export function createCustomScene(input={}){
+export function createCustomScene(input={},hooks={}){
  const c=normalizeCustom(input),stage=buildStage(c),hz={low:60,medium:120,high:240}[c.accuracy],step=1/hz;
  let balls,walls,rings,tick=0,eventLog=[],effects=[],spawnQueue=[],nextId=c.ballCount,random,colorRandom,totalMerges=0,totalSpawned=0,totalBroken=0,limitWarned=false;
  const stats={initialBallCount:c.ballCount,initialWallCount:c.wallCount,requestedRingCount:c.ringCount,initialRingCount:stage.rings.length,ballCount:c.ballCount,wallCount:c.wallCount,ringCount:stage.rings.length,currentCounts:{balls:c.ballCount,walls:c.wallCount,rings:stage.rings.length},steps:0,pairChecks:0,estimatedBytes:0,configFingerprint:fingerprint(c),warnings:[...stage.warnings],solver:'fixed-step discs/capsules with spatial-hash disc pairs',fixedHz:hz,effectiveRingSpacing:stage.effectiveRingSpacing};
@@ -153,7 +153,7 @@ export function createCustomScene(input={}){
   balls=balls.filter(b=>b.alive);
  }
  function advance(){
-  const time=(tick+1)*step;updateGeometry(time);const gravityX=Math.cos(c.gravityDirection*RAD)*c.gravity,gravityY=Math.sin(c.gravityDirection*RAD)*c.gravity,drag=Math.exp(-c.airDrag*step);
+  const time=(tick+1)*step;updateGeometry(time);hooks.onStep?.({time,step,balls,walls,rings,config:c});const gravityX=Math.cos(c.gravityDirection*RAD)*c.gravity,gravityY=Math.sin(c.gravityDirection*RAD)*c.gravity,drag=Math.exp(-c.airDrag*step);
   for(const b of balls){const oldX=b.x,oldY=b.y;b.vx=(b.vx+gravityX*step)*drag;b.vy=(b.vy+gravityY*step)*drag;b.vx=clamp(b.vx,-3000,3000);b.vy=clamp(b.vy,-3000,3000);b.x+=b.vx*step;b.y+=b.vy*step;for(const wall of walls)collideWall(b,wall,time,oldX,oldY);for(const ring of rings)collideRing(b,ring,time,oldX,oldY);constrain(b,time)}
   pairs(time);for(const b of balls)constrain(b,time);
   if(spawnQueue.length){totalSpawned+=spawnQueue.length;balls.push(...spawnQueue);spawnQueue=[]}
@@ -162,7 +162,7 @@ export function createCustomScene(input={}){
  }
  function seek(realTime){const target=Math.max(0,Math.floor(Math.max(0,finite(realTime,'time'))*c.simulationSpeed*hz+1e-7));if(target<tick)reset();while(tick<target)advance()}
  function snapshot(){return{time:tick*step/c.simulationSpeed,simulationTime:tick*step,balls:balls.map(({id,x,y,vx,vy,radius,mass,color})=>({id,x,y,vx,vy,heading:Math.atan2(vy,vx)/RAD,radius,mass,color})),walls:walls.map(({id,x,y,length,angle,broken,health})=>({id,x,y,length,angle,broken,health})),rings:rings.map(r=>({...r})),ringCenter:{...stage.ringCenter},stats:JSON.parse(JSON.stringify(stats))}}
- function background(ctx){const gradient=ctx.createLinearGradient(0,0,540,960);gradient.addColorStop(0,'#182840');gradient.addColorStop(.6,'#080f20');gradient.addColorStop(1,'#1b3042');ctx.fillStyle=gradient;ctx.fillRect(0,0,540,960);ctx.strokeStyle='#b5d3ed14';ctx.lineWidth=1;for(let y=125;y<=785;y+=60){ctx.beginPath();ctx.moveTo(24,y);ctx.lineTo(516,y);ctx.stroke()}ctx.strokeStyle='#8fb5ce88';ctx.strokeRect(24,125,492,660)}
+ function background(ctx){if(hooks.background){hooks.background(ctx);return}const gradient=ctx.createLinearGradient(0,0,540,960);gradient.addColorStop(0,'#182840');gradient.addColorStop(.6,'#080f20');gradient.addColorStop(1,'#1b3042');ctx.fillStyle=gradient;ctx.fillRect(0,0,540,960);ctx.strokeStyle='#b5d3ed14';ctx.lineWidth=1;for(let y=125;y<=785;y+=60){ctx.beginPath();ctx.moveTo(24,y);ctx.lineTo(516,y);ctx.stroke()}ctx.strokeStyle='#8fb5ce88';ctx.strokeRect(24,125,492,660)}
  function draw(ctx,w,h,t,dt,caption){
   seek(t);const simTime=tick*step;ctx.save();ctx.scale(w/540,h/960);background(ctx);
   for(const ring of rings){ctx.save();ctx.strokeStyle=ring.color;ctx.lineWidth=c.ringThickness;ctx.shadowBlur=c.quality==='low'?0:c.glow*.65;ctx.shadowColor=ring.color;for(let k=0;k<c.gapCount;k++){const start=ring.angle*RAD+k*TAU/c.gapCount+c.gapWidth*RAD/2,end=ring.angle*RAD+(k+1)*TAU/c.gapCount-c.gapWidth*RAD/2;if(end>start){ctx.beginPath();ctx.arc(ring.x,ring.y,ring.radius,start,end);ctx.stroke()}}ctx.restore()}
