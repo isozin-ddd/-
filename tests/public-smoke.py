@@ -2,7 +2,7 @@ from playwright.sync_api import sync_playwright
 import json,time
 url='https://isozin-ddd.github.io/-/'
 with sync_playwright() as p:
- b=p.chromium.launch();context=b.new_context(viewport={'width':390,'height':844},has_touch=True);page=context.new_page()
+ b=p.chromium.launch(channel='chrome');context=b.new_context(viewport={'width':390,'height':844},has_touch=True);page=context.new_page()
  last=None
  for attempt in range(6):
   try:
@@ -25,8 +25,10 @@ with sync_playwright() as p:
    sample_response=page.request.get(url+'samples/remix/iris.mp4?check='+str(int(time.time())))
    print(json.dumps({'sample_status':sample_response.status,'content_type':sample_response.headers.get('content-type'),'sample_bytes':len(sample_response.body())}),flush=True)
    assert sample_response.status in [200,206] and b'ftyp' in sample_response.body()[:32]
+   codec=page.evaluate('() => document.createElement("video").canPlayType(\'video/mp4;codecs="avc1.42E01E,mp4a.40.2"\')')
+   print(json.dumps({'h264_aac_support':codec}),flush=True)
    sample=page.context.new_page();sample.goto(url+'samples/remix/index.html?check='+str(int(time.time())))
-   decoded=sample.locator('video').first.evaluate('''v=>new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error('Public MP4 metadata timeout')),12000);v.preload='auto';v.onloadedmetadata=()=>{clearTimeout(timer);resolve({width:v.videoWidth,height:v.videoHeight,duration:v.duration})};v.onerror=()=>{clearTimeout(timer);reject(Error('Public MP4 playback error'))};v.load()})''')
+   decoded=sample.locator('video').first.evaluate('''v=>new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error('Public MP4 metadata timeout')),12000);v.preload='auto';v.onloadedmetadata=()=>{clearTimeout(timer);resolve({width:v.videoWidth,height:v.videoHeight,duration:v.duration})};v.onerror=()=>{clearTimeout(timer);reject(Error('Public MP4 playback error: '+v.error?.code+' '+v.error?.message))};v.load()})''')
    assert decoded['width']==360 and decoded['height']==640 and decoded['duration']>14
    print(json.dumps({'public_mp4_decoded':decoded}),flush=True)
    sample.close();page.bring_to_front()
