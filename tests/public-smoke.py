@@ -2,7 +2,7 @@ from playwright.sync_api import sync_playwright
 import json,time
 url='https://isozin-ddd.github.io/-/'
 with sync_playwright() as p:
- b=p.chromium.launch();page=b.new_page(viewport={'width':390,'height':844},has_touch=True)
+ b=p.chromium.launch();context=b.new_context(viewport={'width':390,'height':844},has_touch=True);page=context.new_page()
  last=None
  for attempt in range(6):
   try:
@@ -28,12 +28,13 @@ with sync_playwright() as p:
    sample=page.context.new_page();sample.goto(url+'samples/remix/index.html?check='+str(int(time.time())))
    decoded=sample.locator('video').first.evaluate('''v=>new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error('Public MP4 metadata timeout')),12000);v.preload='auto';v.onloadedmetadata=()=>{clearTimeout(timer);resolve({width:v.videoWidth,height:v.videoHeight,duration:v.duration})};v.onerror=()=>{clearTimeout(timer);reject(Error('Public MP4 playback error'))};v.load()})''')
    assert decoded['width']==360 and decoded['height']==640 and decoded['duration']>14
-   sample.close()
+   print(json.dumps({'public_mp4_decoded':decoded}),flush=True)
+   sample.close();page.bring_to_front()
    page.click('#studio-tab')
    result=page.evaluate('''async()=>{const r=await fetch('./samples/viral/qa.json?check='+Date.now());if(!r.ok)throw Error('sample QA missing');return await r.json()}''')
    assert len(result['results'])>=5
    fps=page.evaluate('''()=>new Promise(resolve=>{let first=0,frames=0;function frame(t){if(!first)first=t;frames++;if(t-first>=1000)resolve((frames-1)*1000/(t-first));else requestAnimationFrame(frame)}requestAnimationFrame(frame)})''')
    print(json.dumps({'preview_raf_fps':fps,'url':url,'templates':20,'mobile_width':390,'sample_results':len(result['results']),'iphone_hardware_tested':False,'custom_preview_balls':100,'release':'remix-v1-2026-11-06'}));last=None;break
-  except Exception as e:last=e;time.sleep(10)
+  except Exception as e:last=e;print(str(e),flush=True);time.sleep(10)
  b.close()
  if last:raise last
