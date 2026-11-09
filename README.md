@@ -1,3 +1,7 @@
+> **2026-11-09: QUALITY OVERHAUL** — テンプレート追加と量産を停止中です。既存3作品に新しい連続衝突判定・接触時刻による音声・60fps目標の録画を適用しました。定期生成・一括生成は停止を継続しています。下記の過去の量産設定は、現在の稼働状態を意味しません。
+>
+> [品質監査・再現条件・未検証項目](reports/QUALITY_AUDIT.md) / [改修前後の実MP4](https://isozin-ddd.github.io/-/samples/quality/index.html?v=quality1)。iPhone実機は未検証です。
+
 # Global Viral Shorts Factory — 無限ショートメーカー
 
 世界市場向けのオリジナル縦型動画を、端末内のCanvasで制作する静的Webアプリです。GitHub Pagesで運用し、Render・常時稼働サーバー・APIキー・ユーザーログインを必須にしません。

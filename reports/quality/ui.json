@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": [
+    "existing20 viral selector entries preserved",
+    "quality work buttons",
+    "real preview4balls5rings",
+    "invalid input disables recording",
+    "actual MP4 with audio",
+    "frozen settings and library recall",
+    "bulk paused",
+    "390px no overflow",
+    "no JavaScript errors"
+  ],
+  "iphone_hardware": "UNTESTED"
+}

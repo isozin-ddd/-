@@ -33,20 +33,20 @@ jobs:
       - run: pip install playwright==1.56.0 'Pillow>=12,<13'
       - run: python -m playwright install --with-deps chromium
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
-      - run: python tests/test-viral-browser.py
       - run: python tests/test-custom-regression.py
-      - run: python tests/test-custom-controls-ui.py
-      - run: python tests/test-custom-browser.py
-      - run: python tests/test-custom-recording.py
-      - run: python tests/test-remix.py
-      - run: python scripts/prepare-remix-samples.py
+      - run: python scripts/quality-capture.py --version before
+      - run: python scripts/quality-capture.py --version after --modes escape
+      - run: python scripts/quality-video-offset.py && python scripts/quality-metrics.py
+      - run: python scripts/quality-capture.py --version after --modes multiply,last
+      - run: python scripts/quality-video-offset.py && python scripts/quality-metrics.py
+      - run: python tests/test-quality-ui.py
+      - run: python scripts/quality-publish.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: viral-browser-qa
-          path: |
-            docs/samples/viral
-            reports/remix-ten
+          name: quality-overhaul-audit
+          path: reports/quality
+          retention-days: 3
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -55,7 +55,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       - name: Verify public mobile UI and sample QA
-        run: python tests/public-smoke.py
+        run: python scripts/quality-public-check.py
 
   validate-branch:
     if: github.ref != 'refs/heads/main'
@@ -73,17 +73,11 @@ jobs:
       - run: pip install playwright==1.56.0 'Pillow>=12,<13'
       - run: python -m playwright install --with-deps chromium
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
-      - run: python tests/test-viral-browser.py
       - run: python tests/test-custom-regression.py
-      - run: python tests/test-custom-controls-ui.py
-      - run: python tests/test-custom-browser.py
-      - run: python tests/test-custom-recording.py
-      - run: python tests/test-remix.py
-      - run: python scripts/prepare-remix-samples.py
+      - run: python tests/test-quality-ui.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: viral-browser-qa
-          path: |
-            docs/samples/viral
-            reports/remix-ten
+          name: quality-ui-audit
+          path: reports/quality
+          retention-days: 3

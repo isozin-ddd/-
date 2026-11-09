@@ -1,0 +1,62 @@
+[
+  {
+    "mode": "escape",
+    "video_timeline_offset_seconds": 0.1,
+    "mse": 105.41014751441291,
+    "next_candidates": [
+      {
+        "lag": 0.09166666666666666,
+        "mse": 106.37608115197824
+      },
+      {
+        "lag": 0.10833333333333334,
+        "mse": 109.60396205013673
+      },
+      {
+        "lag": 0.08333333333333333,
+        "mse": 109.99961311538834
+      }
+    ],
+    "method": "7 actual encoded frames, geometry fit against independent deterministic renderer;8.33ms search bins"
+  },
+  {
+    "mode": "multiply",
+    "video_timeline_offset_seconds": 0.11666666666666667,
+    "mse": 93.78624771752735,
+    "next_candidates": [
+      {
+        "lag": 0.10833333333333334,
+        "mse": 101.61212766019807
+      },
+      {
+        "lag": 0.125,
+        "mse": 113.00093497114486
+      },
+      {
+        "lag": 0.1,
+        "mse": 131.05361722457187
+      }
+    ],
+    "method": "7 actual encoded frames, geometry fit against independent deterministic renderer;8.33ms search bins"
+  },
+  {
+    "mode": "last",
+    "video_timeline_offset_seconds": 0.1,
+    "mse": 72.25566038565361,
+    "next_candidates": [
+      {
+        "lag": 0.09166666666666666,
+        "mse": 74.29664524146582
+      },
+      {
+        "lag": 0.10833333333333334,
+        "mse": 80.63659518094182
+      },
+      {
+        "lag": 0.08333333333333333,
+        "mse": 86.4618347123425
+      }
+    ],
+    "method": "7 actual encoded frames, geometry fit against independent deterministic renderer;8.33ms search bins"
+  }
+]

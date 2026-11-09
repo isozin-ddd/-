@@ -8,4 +8,15 @@ reports/*.png
 
 reports/remix-ten/
 reports/remix-batch/
-docs/samples/remix/
+docs/samples/remix/*
+!docs/samples/remix/index.html
+
+reports/quality/**/*.mp4
+reports/quality/**/*.wav
+reports/quality/**/*.png
+docs/samples/quality/
+
+reports/quality/*.png
+
+reports/quality/before/
+reports/quality/after/

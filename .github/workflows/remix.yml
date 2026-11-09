@@ -28,7 +28,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   prepare:
-    if: github.event_name != 'schedule' || vars.REMIX_DAILY_ENABLED != 'false'
+    if: github.event_name == 'workflow_dispatch' && vars.QUALITY_GATE_APPROVED == 'true' # Quality overhaul: automatic production paused
     runs-on: ubuntu-24.04
     timeout-minutes: 3
     outputs:
