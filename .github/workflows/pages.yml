@@ -40,6 +40,15 @@ jobs:
       - run: python scripts/quality-video-offset.py && python scripts/quality-metrics.py
       - run: python tests/test-quality-ui.py
       - run: python scripts/quality-publish.py
+      - run: python scripts/same-prompt-capture.py
+      - run: python scripts/same-prompt-video-offset.py && python scripts/same-prompt-metrics.py
+      - run: python scripts/same-prompt-publish.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: same-prompt-audit
+          path: reports/same-prompt
+          retention-days: 3
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -54,7 +63,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       - name: Verify public mobile UI and sample QA
-        run: python scripts/quality-public-check.py
+        run: python scripts/quality-public-check.py && python scripts/same-prompt-public-check.py
 
   validate-branch:
     if: github.ref != 'refs/heads/main'

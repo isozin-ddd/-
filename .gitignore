@@ -20,3 +20,6 @@ reports/quality/*.png
 
 reports/quality/before/
 reports/quality/after/
+
+reports/same-prompt/
+docs/samples/same-prompt/

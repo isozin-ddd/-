@@ -1,0 +1,19 @@
+{
+  "original_url": "https://www.instagram.com/reel/DeUvaLwMp3o/",
+  "creator": "music.bouncingball",
+  "title_reported": "Will the Ball Merge Into Final Form?",
+  "evidence_url": "https://vosscore.com/trend/6ad146b2795b766903e60d3c",
+  "views_reported": 33700000,
+  "likes_reported": 1700000,
+  "duration_reported_seconds": 57,
+  "numeric_evidence": "secondary_report_only",
+  "original_prompt": null,
+  "direct_video_viewed": false,
+  "direct_audio_heard": false,
+  "ring_geometry_verified": false,
+  "verified_at": "2026-11-09",
+  "access_result": "Instagram profile and reel fetch throttled; no bypass attempted",
+  "confirmed_analysis": ["The reported title poses a question about the final state.", "The reported hashtags identify bouncingball, physics, ASMR and satisfyingvideo.", "The secondary source reports a57-second video and high view/like counts; primary counts remain unverified."],
+  "unverified_analysis_fields": ["opening frames", "ring count and geometry", "ball count and motion", "materials", "camera and composition", "collision timing", "sound and melody", "actual ending"],
+  "experiment_relationship": "A general ball-and-ring original recipe, not a verified reconstruction of this merge video. Its actual ring structure is unknown."
+}
