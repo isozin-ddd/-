@@ -1,3 +1,4 @@
+import {createQualityScene} from './quality/scene.js?v=quality1';
 import {createRemixScene} from './remix/scene.js';
 import {createCustomScene,normalizeCustom} from './custom-physics.js';
 import {create as createViralV2} from './scenes/viral-v2.js';
@@ -11,7 +12,7 @@ export const CATALOG=[...viral,...physics,...asmr,...surreal,...chain];
 const factories={viral:createViral,ball:createPhysics,asmr:createASMR,meme:createSurreal,domino:createChain};
 export function templatesFor(genre){return genre==='random'?CATALOG:CATALOG.filter(t=>t.genre===genre)}
 export function templateFor(id,genre='ball'){return CATALOG.find(t=>t.id===id&&t.genre===genre)||templatesFor(genre)[0]}
-export function studioScene(genre,seed,options={}){if(options.remixDesign){if(options.remixDesign.seed!==seed)throw Error("Remix seed mismatch");return createRemixScene(options.remixDesign)}if(options.customSettings){if(!['ball','viral'].includes(genre))throw Error('このジャンルの専用演出は物理フリーステージへ変換できません');const custom=normalizeCustom(options.customSettings,{strict:true});if(custom.seed!==seed)throw Error('カスタム設定と録画シードが一致していません');return createCustomScene(custom)}const template=templateFor(options.templateId,genre);if(!template)throw Error('Template not found');return (genre==='viral'&&options.engineVersion==='viral-1'?createViralV1:genre==='viral'&&options.engineVersion==='viral-2'?createViralV2:factories[genre])(template.id,seed,options)}
+export function studioScene(genre,seed,options={}){if(genre==='viral'&&options.engineVersion==='quality-1'&&['viral-escape','viral-multiply','viral-last'].includes(options.templateId)&&!options.customSettings&&!options.remixDesign)return createQualityScene(options.templateId,seed,options);if(options.remixDesign){if(options.remixDesign.seed!==seed)throw Error("Remix seed mismatch");return createRemixScene(options.remixDesign)}if(options.customSettings){if(!['ball','viral'].includes(genre))throw Error('このジャンルの専用演出は物理フリーステージへ変換できません');const custom=normalizeCustom(options.customSettings,{strict:true});if(custom.seed!==seed)throw Error('カスタム設定と録画シードが一致していません');return createCustomScene(custom)}const template=templateFor(options.templateId,genre);if(!template)throw Error('Template not found');return (genre==='viral'&&options.engineVersion==='viral-1'?createViralV1:genre==='viral'&&options.engineVersion==='viral-2'?createViralV2:factories[genre])(template.id,seed,options)}
 export function englishMetadata(template,seed){
  const hooks=['Wait for the final move','One tiny change, a different ending','Follow the motion','The last second changes everything'];
  const title=`${template.name} - ${hooks[seed%hooks.length]}`;

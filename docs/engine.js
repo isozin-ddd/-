@@ -1,6 +1,8 @@
+import {recordQuality} from './quality/recorder.js?v=quality1';
+import {normalizeQuality} from './quality/world.js';
 import {validateDesign} from './remix/design.js';
 import {normalizeCustom} from './custom-physics.js';
-import {studioScene} from './catalog.js?v=remix1';
+import {studioScene} from './catalog.js?v=quality1';
 export const WIDTHS=[360,540,720,1080];
 export const GENRES=['viral','ball','asmr','meme','domino'];
 export const LABELS={ball:'跳ねるたび、予想外。',asmr:'ずっと見ていたい波紋',meme:'重力を忘れた宇宙人',domino:'最後までつながる？'};
@@ -30,7 +32,7 @@ export function createAudio(context,settings,seed){
  return {stream:destination.stream,monitor(){limiter.connect(context.destination)},hit(event){if(!settings.sfx)return;soundEvents++;tone(event.pitch||500+seed%240,context.currentTime+.004,.07+.12*Math.min(1,event.intensity||.5),.10+.16*Math.min(1,event.intensity||.5),['triangle','sine','triangle','sine'][Math.abs(event.ring||0)%4]);if(event.type==='goal')for(const factor of [1.25,1.5,2])tone((event.pitch||523)*factor,context.currentTime+.02,.4,.05)},get soundEvents(){return soundEvents},measure(){analyser.getFloatTimeDomainData(samples);for(const sample of samples)audioPeak=Math.max(audioPeak,Math.abs(sample))},get audioPeak(){return audioPeak},close(){for(const node of nodes){try{node.stop?.()}catch{}try{node.disconnect()}catch{}}nodes.clear();master.disconnect();limiter.disconnect();analyser.disconnect();destination.stream.getTracks().forEach(t=>t.stop())}};
 }
 export function freezeRecordingSettings(input){
- const copy=JSON.parse(JSON.stringify(input));
+ const copy=JSON.parse(JSON.stringify(input));if(copy.qualitySettings)copy.qualitySettings=normalizeQuality(copy.qualitySettings);
  if(copy.remixDesign){copy.remixDesign=validateDesign(copy.remixDesign);if(copy.seed!==copy.remixDesign.seed||copy.duration!==copy.remixDesign.duration)throw Error("Remix settings mismatch");if(!WIDTHS.includes(copy.width))throw Error("Unsupported remix resolution")}
  if(copy.customSettings){copy.customSettings=normalizeCustom(copy.customSettings,{strict:true});if(copy.seed!==copy.customSettings.seed)throw Error('録画シードがカスタム設定と一致していません');if(copy.duration>15)throw Error('詳細物理ステージの録画は15秒までです')}
  function freeze(value){if(value&&typeof value==='object'){for(const child of Object.values(value))freeze(child);Object.freeze(value)}return value}
@@ -42,6 +44,7 @@ export function simulationDigest(state){
 }
 export async function record(canvas,settings,{signal,onProgress,audioContext}){
  settings=freezeRecordingSettings(settings);
+ if(settings.engineVersion==='quality-1'&&['viral-escape','viral-multiply','viral-last'].includes(settings.templateId)&&!settings.customSettings&&!settings.remixDesign)return recordQuality(canvas,settings,{signal,onProgress,audioContext},pickTypes());
  if(signal.aborted)throw signal.reason||new DOMException('停止しました','AbortError');
  canvas.width=settings.width;canvas.height=settings.width*16/9;
  const ctx=canvas.getContext('2d',{alpha:false}),animation=scene(settings.genre,settings.seed,settings);animation.draw(ctx,canvas.width,canvas.height,0,0,settings.caption);
