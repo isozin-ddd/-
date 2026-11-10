@@ -1,0 +1,286 @@
+{
+  "version": "same-prompt-1",
+  "prompt": "15秒の縦型9:16、720×1280、60fps目標のオリジナルなボールとリングの物理シミュレーションを制作する。\n内部座標は540×960。中心(270,462)に半径105・161・217、線幅6の同心リングを3本置く。隙間幅は1.05rad、初期角は-1.65radからリングごとに1.8radずらし、回転速度は時計・反時計・時計の順に0.65rad/sで固定する。\n半径11、質量121の光沢ある紫の球を(270,440)に1個置く。初速の大きさ255px/s、下向き重力165px/s²、反発係数0.97、接触摩擦0.012、空気抵抗0.006/sを共通にする。固定120Hzと連続衝突判定を使い、丸い円弧端点も判定する。\n暗い青の背景、シアン・紫・琥珀のリング、抑えた発光、短い残像、固定カメラ、同じ英語見出しを使用する。境界は可視の壁とする。球全体が本物の隙間を通過したリングだけを開放し、終盤に隙間を広げたり成功を強制したりしない。\n独自に合成した衝突音・突破音・ゴール音をイベント時刻に同期する。音色・ミックス・ピーク処理は同一の手順を使い、BGMと他人の音源は使わない。終端0.8秒は実際の結果カードを表示し、未達ならTIME UPとする。\n変更できる入力は外部から渡すランダムシードのみ。シードは初速度の方向に作用し、文章、物理定数、構図、色、音声処理、尺、解像度を動画ごとに変更しない。",
+  "prompt_sha256": "41b451c5e7dff85534731c5ce754f4e7224584b48b82e15f89dae2adb8fe8dab",
+  "seed_only_difference": true,
+  "videos": [
+    {
+      "seed": 10,
+      "prompt_sha256": "41b451c5e7dff85534731c5ce754f4e7224584b48b82e15f89dae2adb8fe8dab",
+      "settings": {
+        "genre": "viral",
+        "templateId": "viral-escape",
+        "engineVersion": "quality-1",
+        "width": 720,
+        "duration": 15,
+        "sfx": true,
+        "bgm": "off",
+        "caption": true,
+        "qualitySettings": {
+          "rings": 3,
+          "balls": 1,
+          "phase": -1.65,
+          "gap": 1.05,
+          "rotation": 0.65,
+          "direction": "alternate",
+          "gravity": 165,
+          "restitution": 0.97,
+          "speed": 255,
+          "maxBalls": 32,
+          "multiplyWhen": "hit",
+          "eliminateWhen": "escape",
+          "obstacles": "chicane",
+          "ending": "winner"
+        },
+        "seed": 10
+      },
+      "video": "seed-10.mp4",
+      "video_sha256": "36c27a47f21feb636f67d90ef8cf24bf5fe9ce5002453ecd43ef25b377728e98",
+      "escape_times_seconds": [
+        3.4,
+        7.067,
+        14.033
+      ],
+      "metrics": {
+        "mode": "seed-10",
+        "alignment": {
+          "method": "lossless audio packet timestamp shift by measured residual; same algorithm for all seeds",
+          "audio_timestamp_shift_seconds": -0.026833333333333348
+        },
+        "pre_alignment_metrics": {
+          "mode": "seed-10",
+          "audio_envelope_correlation": 0.9853051412290303,
+          "audio_timing_envelope_correlation_1ms": 0.9663600764079142,
+          "audio_lead_measured_seconds": 0.10600000000000001,
+          "audio_stream_start_seconds": 0.057,
+          "expected_lead_seconds": 0.07916666666666666,
+          "audio_timeline_residual_seconds": 0.026833333333333348,
+          "encoded_audio_peak": 0.7063615918159485,
+          "video_frames": 906,
+          "native_video_frames": 906,
+          "frame_count_preserved": true,
+          "encoded_average_fps": 60.000001325966885,
+          "max_encoded_frame_gap_seconds": 0.033334,
+          "max_active_frame_gap_seconds": 0.033333999999999975,
+          "missed_draw_frames": 0,
+          "physics": {
+            "contacts": 19,
+            "pairTests": 0,
+            "budgetStops": 0,
+            "maxPenetration": 0
+          },
+          "outcome": "ALL RINGS CLEARED",
+          "limits": "1ms envelope bins; not a human listening test. Encoded-frame sampling quantizes collision visibility by up to one captured frame; target60fps, actual intervals measured."
+        },
+        "audio_envelope_correlation": 0.9853051412290303,
+        "audio_timing_envelope_correlation_1ms": 0.9663600764079142,
+        "audio_lead_measured_seconds": 0.079,
+        "audio_stream_start_seconds": 0.03,
+        "expected_lead_seconds": 0.07916666666666666,
+        "audio_timeline_residual_seconds": -0.0001666666666666622,
+        "encoded_audio_peak": 0.7063615918159485,
+        "video_frames": 906,
+        "native_video_frames": 906,
+        "frame_count_preserved": true,
+        "encoded_average_fps": 60.000001325966885,
+        "max_encoded_frame_gap_seconds": 0.033334,
+        "max_active_frame_gap_seconds": 0.033333999999999975,
+        "missed_draw_frames": 0,
+        "physics": {
+          "contacts": 19,
+          "pairTests": 0,
+          "budgetStops": 0,
+          "maxPenetration": 0
+        },
+        "outcome": "ALL RINGS CLEARED",
+        "limits": "1ms envelope bins; not a human listening test. Encoded-frame sampling quantizes collision visibility by up to one captured frame; target60fps, actual intervals measured."
+      }
+    },
+    {
+      "seed": 40,
+      "prompt_sha256": "41b451c5e7dff85534731c5ce754f4e7224584b48b82e15f89dae2adb8fe8dab",
+      "settings": {
+        "genre": "viral",
+        "templateId": "viral-escape",
+        "engineVersion": "quality-1",
+        "width": 720,
+        "duration": 15,
+        "sfx": true,
+        "bgm": "off",
+        "caption": true,
+        "qualitySettings": {
+          "rings": 3,
+          "balls": 1,
+          "phase": -1.65,
+          "gap": 1.05,
+          "rotation": 0.65,
+          "direction": "alternate",
+          "gravity": 165,
+          "restitution": 0.97,
+          "speed": 255,
+          "maxBalls": 32,
+          "multiplyWhen": "hit",
+          "eliminateWhen": "escape",
+          "obstacles": "chicane",
+          "ending": "winner"
+        },
+        "seed": 40
+      },
+      "video": "seed-40.mp4",
+      "video_sha256": "4f4a86a4571798a5913aef7ed58811f1175c9b7d0e3064846566125bf5a0713c",
+      "escape_times_seconds": [
+        1.992,
+        6.042,
+        10.783
+      ],
+      "metrics": {
+        "mode": "seed-40",
+        "alignment": {
+          "method": "lossless audio packet timestamp shift by measured residual; same algorithm for all seeds",
+          "audio_timestamp_shift_seconds": -0.010166666666666671
+        },
+        "pre_alignment_metrics": {
+          "mode": "seed-40",
+          "audio_envelope_correlation": 0.9844645381708257,
+          "audio_timing_envelope_correlation_1ms": 0.9735377143075348,
+          "audio_lead_measured_seconds": 0.10600000000000001,
+          "audio_stream_start_seconds": 0.057,
+          "expected_lead_seconds": 0.09583333333333334,
+          "audio_timeline_residual_seconds": 0.010166666666666671,
+          "encoded_audio_peak": 0.6877990365028381,
+          "video_frames": 906,
+          "native_video_frames": 906,
+          "frame_count_preserved": true,
+          "encoded_average_fps": 59.93377483443709,
+          "max_encoded_frame_gap_seconds": 0.033334,
+          "max_active_frame_gap_seconds": 0.0166670000000001,
+          "missed_draw_frames": 0,
+          "physics": {
+            "contacts": 19,
+            "pairTests": 0,
+            "budgetStops": 0,
+            "maxPenetration": 0
+          },
+          "outcome": "ALL RINGS CLEARED",
+          "limits": "1ms envelope bins; not a human listening test. Encoded-frame sampling quantizes collision visibility by up to one captured frame; target60fps, actual intervals measured."
+        },
+        "audio_envelope_correlation": 0.9844645381708257,
+        "audio_timing_envelope_correlation_1ms": 0.9735377143075348,
+        "audio_lead_measured_seconds": 0.095,
+        "audio_stream_start_seconds": 0.046,
+        "expected_lead_seconds": 0.09583333333333334,
+        "audio_timeline_residual_seconds": -0.0008333333333333387,
+        "encoded_audio_peak": 0.6877990365028381,
+        "video_frames": 906,
+        "native_video_frames": 906,
+        "frame_count_preserved": true,
+        "encoded_average_fps": 59.93377483443709,
+        "max_encoded_frame_gap_seconds": 0.033334,
+        "max_active_frame_gap_seconds": 0.0166670000000001,
+        "missed_draw_frames": 0,
+        "physics": {
+          "contacts": 19,
+          "pairTests": 0,
+          "budgetStops": 0,
+          "maxPenetration": 0
+        },
+        "outcome": "ALL RINGS CLEARED",
+        "limits": "1ms envelope bins; not a human listening test. Encoded-frame sampling quantizes collision visibility by up to one captured frame; target60fps, actual intervals measured."
+      }
+    },
+    {
+      "seed": 47,
+      "prompt_sha256": "41b451c5e7dff85534731c5ce754f4e7224584b48b82e15f89dae2adb8fe8dab",
+      "settings": {
+        "genre": "viral",
+        "templateId": "viral-escape",
+        "engineVersion": "quality-1",
+        "width": 720,
+        "duration": 15,
+        "sfx": true,
+        "bgm": "off",
+        "caption": true,
+        "qualitySettings": {
+          "rings": 3,
+          "balls": 1,
+          "phase": -1.65,
+          "gap": 1.05,
+          "rotation": 0.65,
+          "direction": "alternate",
+          "gravity": 165,
+          "restitution": 0.97,
+          "speed": 255,
+          "maxBalls": 32,
+          "multiplyWhen": "hit",
+          "eliminateWhen": "escape",
+          "obstacles": "chicane",
+          "ending": "winner"
+        },
+        "seed": 47
+      },
+      "video": "seed-47.mp4",
+      "video_sha256": "ad85b44990509341f2cb2c559b22c89149d2837aa31831d1cbcd9630e7f5d2ad",
+      "escape_times_seconds": [
+        1.842,
+        6.467,
+        11.333
+      ],
+      "metrics": {
+        "mode": "seed-47",
+        "alignment": {
+          "method": "lossless audio packet timestamp shift by measured residual; same algorithm for all seeds",
+          "audio_timestamp_shift_seconds": -0.01433333333333335
+        },
+        "pre_alignment_metrics": {
+          "mode": "seed-47",
+          "audio_envelope_correlation": 0.9898884964806505,
+          "audio_timing_envelope_correlation_1ms": 0.9745031894800142,
+          "audio_lead_measured_seconds": 0.10600000000000001,
+          "audio_stream_start_seconds": 0.057,
+          "expected_lead_seconds": 0.09166666666666666,
+          "audio_timeline_residual_seconds": 0.01433333333333335,
+          "encoded_audio_peak": 0.6254159808158875,
+          "video_frames": 906,
+          "native_video_frames": 906,
+          "frame_count_preserved": true,
+          "encoded_average_fps": 60.000001325966885,
+          "max_encoded_frame_gap_seconds": 0.033334,
+          "max_active_frame_gap_seconds": 0.033333999999999975,
+          "missed_draw_frames": 0,
+          "physics": {
+            "contacts": 16,
+            "pairTests": 0,
+            "budgetStops": 0,
+            "maxPenetration": 0
+          },
+          "outcome": "ALL RINGS CLEARED",
+          "limits": "1ms envelope bins; not a human listening test. Encoded-frame sampling quantizes collision visibility by up to one captured frame; target60fps, actual intervals measured."
+        },
+        "audio_envelope_correlation": 0.9898884964806505,
+        "audio_timing_envelope_correlation_1ms": 0.9745031894800142,
+        "audio_lead_measured_seconds": 0.091,
+        "audio_stream_start_seconds": 0.042,
+        "expected_lead_seconds": 0.09166666666666666,
+        "audio_timeline_residual_seconds": -0.0006666666666666626,
+        "encoded_audio_peak": 0.6254159808158875,
+        "video_frames": 906,
+        "native_video_frames": 906,
+        "frame_count_preserved": true,
+        "encoded_average_fps": 60.000001325966885,
+        "max_encoded_frame_gap_seconds": 0.033334,
+        "max_active_frame_gap_seconds": 0.033333999999999975,
+        "missed_draw_frames": 0,
+        "physics": {
+          "contacts": 16,
+          "pairTests": 0,
+          "budgetStops": 0,
+          "maxPenetration": 0
+        },
+        "outcome": "ALL RINGS CLEARED",
+        "limits": "1ms envelope bins; not a human listening test. Encoded-frame sampling quantizes collision visibility by up to one captured frame; target60fps, actual intervals measured."
+      }
+    }
+  ],
+  "iphone_safari": "UNTESTED",
+  "source_visual_analysis": "UNVERIFIED"
+}

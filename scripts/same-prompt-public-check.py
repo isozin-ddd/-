@@ -6,7 +6,7 @@ with sync_playwright() as p:
  b=p.chromium.launch(**({'executable_path':'/usr/bin/chromium'} if Path('/usr/bin/chromium').exists() else {'channel':'chrome'}));context=b.new_context(viewport={'width':390,'height':844},has_touch=True);page=context.new_page();last=None
  for attempt in range(8):
   try:
-   response=page.goto(url+'index.html?check='+str(int(time.time())));assert response.status==200
+   response=page.goto(url+'index.html?check='+str(int(time.time())));assert response.status==200,f"Public sample HTTP {response.status}: {page.title()}"
    manifest=context.request.get(url+'manifest.json').json();assert len(manifest['videos'])==3
    text=context.request.get(url+'common-prompt.txt').body();assert hashlib.sha256(text).hexdigest()==manifest['prompt_sha256']
    assert page.locator('video').count()==3;assert page.evaluate('document.documentElement.scrollWidth<=innerWidth');assert page.locator('.three').evaluate('e=>getComputedStyle(e).gridTemplateColumns.split(" ").length')==3

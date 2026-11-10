@@ -1,0 +1,18 @@
+name: Verify published static MP4 samples
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: contains(github.event.head_commit.message, '[static-samples]')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install playwright==1.56.0
+      - run: python scripts/same-prompt-public-check.py && python scripts/quality-public-check.py

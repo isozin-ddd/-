@@ -1,0 +1,42 @@
+{
+  "legacy_ring_removed_before_full_clearance": [
+    {
+      "time": 6.308333333333334,
+      "ring": 0,
+      "center_margin": 0.4449875044588367,
+      "required_full_disc_clearance": 12
+    },
+    {
+      "time": 8.5,
+      "ring": 1,
+      "center_margin": 1.6039483089384134,
+      "required_full_disc_clearance": 12
+    },
+    {
+      "time": 8.691666666666666,
+      "ring": 2,
+      "center_margin": 1.85686211818566,
+      "required_full_disc_clearance": 12
+    }
+  ],
+  "legacy_pair_positions": [
+    {
+      "x": 265,
+      "vx": 1500
+    },
+    {
+      "x": 235,
+      "vx": -1500
+    }
+  ],
+  "continuous_pair_positions": [
+    {
+      "x": 232.998,
+      "vx": -1500
+    },
+    {
+      "x": 267.002,
+      "vx": 1500
+    }
+  ]
+}
