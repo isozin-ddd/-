@@ -3,10 +3,11 @@
     {
       "mode": "escape",
       "audio_envelope_correlation": 0.9853049201045033,
-      "audio_lead_measured_seconds": 0.10700000000000001,
+      "audio_timing_envelope_correlation_1ms": 0.9663665709761319,
+      "audio_lead_measured_seconds": 0.10600000000000001,
       "audio_stream_start_seconds": 0.057,
-      "expected_lead_seconds": 0.1,
-      "audio_timeline_residual_seconds": 0.007000000000000006,
+      "expected_lead_seconds": 0.09583333333333334,
+      "audio_timeline_residual_seconds": 0.010166666666666671,
       "encoded_audio_peak": 0.7063615918159485,
       "before_encoded_audio_peak": 0.2822560966014862,
       "video_frames": 906,
@@ -23,15 +24,16 @@
         "maxPenetration": 0
       },
       "outcome": "ALL RINGS CLEARED",
-      "limits": "10ms envelope bins; not a human listening test. Encoded-frame sampling quantizes collision visibility by up to one captured frame; target60fps, actual intervals measured."
+      "limits": "1ms envelope bins; not a human listening test. Encoded-frame sampling quantizes collision visibility by up to one captured frame; target60fps, actual intervals measured."
     },
     {
       "mode": "multiply",
       "audio_envelope_correlation": 0.9868951578172345,
-      "audio_lead_measured_seconds": 0.10700000000000001,
+      "audio_timing_envelope_correlation_1ms": 0.9700598311042867,
+      "audio_lead_measured_seconds": 0.10600000000000001,
       "audio_stream_start_seconds": 0.057,
-      "expected_lead_seconds": 0.1,
-      "audio_timeline_residual_seconds": 0.007000000000000006,
+      "expected_lead_seconds": 0.09583333333333334,
+      "audio_timeline_residual_seconds": 0.010166666666666671,
       "encoded_audio_peak": 0.7952544689178467,
       "before_encoded_audio_peak": 0.21007873117923737,
       "video_frames": 907,
@@ -49,15 +51,16 @@
         "maxDiscOverlap": 0
       },
       "outcome": "POPULATION 32 REACHED",
-      "limits": "10ms envelope bins; not a human listening test. Encoded-frame sampling quantizes collision visibility by up to one captured frame; target60fps, actual intervals measured."
+      "limits": "1ms envelope bins; not a human listening test. Encoded-frame sampling quantizes collision visibility by up to one captured frame; target60fps, actual intervals measured."
     },
     {
       "mode": "last",
       "audio_envelope_correlation": 0.9798143484280415,
-      "audio_lead_measured_seconds": 0.10700000000000001,
+      "audio_timing_envelope_correlation_1ms": 0.9596260905867844,
+      "audio_lead_measured_seconds": 0.10600000000000001,
       "audio_stream_start_seconds": 0.057,
-      "expected_lead_seconds": 0.1,
-      "audio_timeline_residual_seconds": 0.007000000000000006,
+      "expected_lead_seconds": 0.09583333333333334,
+      "audio_timeline_residual_seconds": 0.010166666666666671,
       "encoded_audio_peak": 0.6375361680984497,
       "before_encoded_audio_peak": 0.2528284788131714,
       "video_frames": 907,
@@ -75,7 +78,7 @@
         "maxDiscOverlap": 0
       },
       "outcome": "BALL 10 SURVIVES",
-      "limits": "10ms envelope bins; not a human listening test. Encoded-frame sampling quantizes collision visibility by up to one captured frame; target60fps, actual intervals measured."
+      "limits": "1ms envelope bins; not a human listening test. Encoded-frame sampling quantizes collision visibility by up to one captured frame; target60fps, actual intervals measured."
     }
   ],
   "iphone_hardware": "UNTESTED"

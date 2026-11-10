@@ -1,62 +1,62 @@
 [
   {
     "mode": "escape",
-    "video_timeline_offset_seconds": 0.1,
-    "mse": 105.41014751441291,
+    "video_timeline_offset_seconds": 0.09583333333333334,
+    "mse": 105.4813357484312,
     "next_candidates": [
       {
+        "lag": 0.1,
+        "mse": 106.22281915782254
+      },
+      {
         "lag": 0.09166666666666666,
-        "mse": 106.37608115197824
+        "mse": 106.39278850991782
       },
       {
-        "lag": 0.10833333333333334,
-        "mse": 109.60396205013673
-      },
-      {
-        "lag": 0.08333333333333333,
-        "mse": 109.99961311538834
+        "lag": 0.0875,
+        "mse": 107.08291201012935
       }
     ],
-    "method": "7 actual encoded frames, geometry fit against independent deterministic renderer;8.33ms search bins"
+    "method": "21 actual encoded frames, geometry fit against independent deterministic renderer;4.17ms search bins"
   },
   {
     "mode": "multiply",
-    "video_timeline_offset_seconds": 0.1,
-    "mse": 94.62436142056995,
+    "video_timeline_offset_seconds": 0.09583333333333334,
+    "mse": 89.20750741773084,
     "next_candidates": [
       {
+        "lag": 0.1,
+        "mse": 95.17857216130743
+      },
+      {
         "lag": 0.09166666666666666,
-        "mse": 97.25955121385047
+        "mse": 99.69781283186835
       },
       {
-        "lag": 0.10833333333333334,
-        "mse": 118.70239047794904
-      },
-      {
-        "lag": 0.08333333333333333,
-        "mse": 124.48924343541812
+        "lag": 0.0875,
+        "mse": 104.72900100726777
       }
     ],
-    "method": "7 actual encoded frames, geometry fit against independent deterministic renderer;8.33ms search bins"
+    "method": "21 actual encoded frames, geometry fit against independent deterministic renderer;4.17ms search bins"
   },
   {
     "mode": "last",
-    "video_timeline_offset_seconds": 0.1,
-    "mse": 72.30977293976616,
+    "video_timeline_offset_seconds": 0.09583333333333334,
+    "mse": 71.46668737867112,
     "next_candidates": [
       {
+        "lag": 0.1,
+        "mse": 73.15018352594521
+      },
+      {
         "lag": 0.09166666666666666,
-        "mse": 74.35167518105906
+        "mse": 74.75573414774497
       },
       {
-        "lag": 0.10833333333333334,
-        "mse": 80.67796985230973
-      },
-      {
-        "lag": 0.08333333333333333,
-        "mse": 86.54512481425142
+        "lag": 0.0875,
+        "mse": 76.20498192096025
       }
     ],
-    "method": "7 actual encoded frames, geometry fit against independent deterministic renderer;8.33ms search bins"
+    "method": "21 actual encoded frames, geometry fit against independent deterministic renderer;4.17ms search bins"
   }
 ]
