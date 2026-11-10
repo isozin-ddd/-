@@ -35,13 +35,13 @@ jobs:
       - run: python tests/test-custom-regression.py
       - run: python scripts/quality-capture.py --version before
       - run: python scripts/quality-capture.py --version after --modes escape
-      - run: python scripts/quality-video-offset.py && python scripts/quality-metrics.py
+      - run: python scripts/quality-video-offset.py && python scripts/quality-metrics.py --measure-only && python scripts/quality-align-audio.py && python scripts/quality-metrics.py
       - run: python scripts/quality-capture.py --version after --modes multiply,last
-      - run: python scripts/quality-video-offset.py && python scripts/quality-metrics.py
+      - run: python scripts/quality-video-offset.py && python scripts/quality-metrics.py --measure-only && python scripts/quality-align-audio.py && python scripts/quality-metrics.py
       - run: python tests/test-quality-ui.py
       - run: python scripts/quality-publish.py
       - run: python scripts/same-prompt-capture.py
-      - run: python scripts/same-prompt-video-offset.py && python scripts/same-prompt-metrics.py
+      - run: python scripts/same-prompt-video-offset.py && python scripts/same-prompt-metrics.py --measure-only && python scripts/quality-align-audio.py --experiment && python scripts/same-prompt-metrics.py
       - run: python scripts/same-prompt-publish.py
       - uses: actions/upload-artifact@v4
         if: always()
