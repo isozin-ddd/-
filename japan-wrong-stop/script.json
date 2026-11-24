@@ -1,0 +1,77 @@
+{
+  "episode": 1,
+  "title": "Episode 1 – The Station That Doesn't Exist",
+  "slug": "ep01_kisaragi",
+  "source": "Kisaragi Station (Japanese urban legend)",
+  "fps": 30,
+  "ambient": true,
+  "bgm": null,
+  "scenes": [
+    {
+      "id": 1,
+      "duration": 5,
+      "protagonist": false,
+      "image_prompt": "Empty Japanese commuter train at night, swaying hand straps, flickering lights, black windows",
+      "narration": "It's 11:40 PM. I fell asleep on the last train.",
+      "telop": "Never get off at this station.",
+      "telop_position": "center",
+      "zoom": "in"
+    },
+    {
+      "id": 2,
+      "duration": 10,
+      "image_prompt": "protagonist waking up alone, staring at a pitch-black window",
+      "narration": "When I woke up, the train was empty. And the windows showed nothing.",
+      "telop": null,
+      "zoom": "in"
+    },
+    {
+      "id": 3,
+      "duration": 13,
+      "protagonist": false,
+      "image_prompt": "Abandoned rural station, blank wooden sign, single lamp, thick fog, dark forest",
+      "narration": "The train stopped at a station I'd never heard of.",
+      "telop": "KISARAGI",
+      "telop_position": "top",
+      "zoom": "in"
+    },
+    {
+      "id": 4,
+      "duration": 14,
+      "protagonist": false,
+      "image_prompt": "Tall figure in old station uniform at end of foggy platform, face in shadow, beckoning",
+      "narration": "Someone was waiting. And it was waving at me.",
+      "telop": null,
+      "zoom": "in",
+      "zoom_strength": 0.14
+    },
+    {
+      "id": 5,
+      "duration": 13,
+      "image_prompt": "protagonist at the open train door, hesitating, warm train light vs cold blue fog",
+      "narration": "The doors are open. What should I do?",
+      "telop": null,
+      "layout": "choice",
+      "choices": { "A": "Get off", "B": "Stay on" },
+      "zoom": "in"
+    },
+    {
+      "id": 6,
+      "duration": 5,
+      "image_from": 5,
+      "image_prompt": "same as scene 5",
+      "narration": "Comment A or B. Your choice decides what happens next.",
+      "telop": "Comment A or B",
+      "telop_position": "top",
+      "layout": "choice",
+      "choices": { "A": "Get off", "B": "Stay on" },
+      "zoom": "out"
+    }
+  ],
+  "caption": "I fell asleep on the last train and woke up at a station that isn't on any map.\nSomeone in an old uniform was waiting at the end of the platform. Waving.\nThe doors are open. Would you get off?\nComment A or B 👇",
+  "hashtags": ["#japanesehorror", "#urbanlegend", "#kisaragistation", "#creepystories", "#horrorshorts"],
+  "next_episode_hooks": {
+    "A": "XX% chose A. So I stepped off the train — and the doors slammed shut behind me.",
+    "B": "XX% chose B. I stayed on. Then the figure started walking toward my door."
+  }
+}
